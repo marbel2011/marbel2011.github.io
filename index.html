@@ -1,0 +1,437 @@
+index.html
+<click><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Quest IX - Guías Completas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2d4a7c;
+            --secondary: #f4d03f;
+            --accent: #e74c3c;
+            --bg-dark: #1a1a2e;
+            --bg-light: #eef2f7;
+            --text-dark: #2c3e50;
+            --text-light: #ecf0f1;
+            --card-bg: #ffffff;
+            --border: #c0c5ce;
+            --success: #27ae60;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--text-dark);
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,.03) 2px, rgba(0,0,0,.03) 4px),
+                repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,.03) 2px, rgba(0,0,0,.03) 4px);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        h1 {
+            font-family: 'Press Start 2P', cursive;
+            color: var(--secondary);
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            text-shadow: 
+                3px 3px 0 var(--primary),
+                6px 6px 0 rgba(0,0,0,0.2);
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-family: 'VT323', monospace;
+            font-size: 1.5rem;
+            color: var(--text-light);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 1rem;
+        }
+
+        .intro {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            animation: fadeIn 1s ease-out 0.3s both;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .guides-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            animation: fadeIn 1s ease-out 0.6s both;
+        }
+
+        .guide-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 
+                0 5px 15px rgba(0,0,0,0.1),
+                0 0 0 3px rgba(255,255,255,0.5);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .guide-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 
+                0 20px 40px rgba(0,0,0,0.2),
+                0 0 0 3px var(--secondary);
+        }
+
+        .card-header {
+            background: linear-gradient(135deg, var(--primary) 0%, #3d5a8c 100%);
+            padding: 2rem 1.5rem;
+            color: var(--text-light);
+            position: relative;
+            overflow: hidden;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            animation: shimmer 3s infinite;
+        }
+
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-title {
+            font-family: 'VT323', monospace;
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-description {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+        }
+
+        .card-features {
+            list-style: none;
+            padding: 0;
+        }
+
+        .card-features li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+
+        .card-features li:last-child {
+            border-bottom: none;
+        }
+
+        .card-features li::before {
+            content: '⚔️';
+            margin-right: 0.5rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--secondary);
+            color: var(--text-dark);
+            padding: 0.8rem 1.5rem;
+            border-radius: 8px;
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-top: 1rem;
+        }
+
+        .cta-button:hover {
+            background: var(--accent);
+            color: var(--text-light);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        footer p {
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            color: var(--text-dark);
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(200%); }
+        }
+
+        @media (max-width: 768px) {
+            .guides-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 1.2rem;
+            }
+
+            .card-header {
+                min-height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DRAGON QUEST IX</h1>
+            <p class="subtitle">~ Guías y Recursos Completos ~</p>
+        </header>
+
+        <div class="intro">
+            <p>Bienvenido a la colección completa de guías para <strong>Dragon Quest IX: Sentinels of the Starry Skies</strong>. 
+            Aquí encontrarás toda la información necesaria para dominar cada aspecto del juego, desde el bestiario completo 
+            hasta guías detalladas de objetos, alquimia y mucho más.</p>
+        </div>
+
+        <div class="guides-grid">
+            <!-- Bestiario Card -->
+            <a href="Bestiarioweb.html" class="guide-card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="card-icon">🐉</div>
+                        BESTIARIO
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">
+                        Base de datos completa con todos los monstruos del juego. Incluye estadísticas, resistencias, 
+                        debilidades y drops de objetos.
+                    </p>
+                    <ul class="card-features">
+                        <li>307 monstruos catalogados</li>
+                        <li>Filtros por familia y nombre</li>
+                        <li>Búsqueda por item drops</li>
+                        <li>Resistencias elementales y de estado</li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <span class="cta-button">Ver Bestiario →</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Alquimia Card -->
+            <div class="guide-card" style="opacity: 0.7; cursor: not-allowed;">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="card-icon">⚗️</div>
+                        ALQUIMIA
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">
+                        Guía completa de recetas de alquimia. Aprende a crear los mejores equipos y objetos del juego.
+                    </p>
+                    <ul class="card-features">
+                        <li>Todas las recetas disponibles</li>
+                        <li>Materiales necesarios</li>
+                        <li>Filtros por categoría</li>
+                        <li>Tips de optimización</li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <span class="cta-button" style="background: #95a5a6;">Próximamente</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Items Card -->
+            <div class="guide-card" style="opacity: 0.7; cursor: not-allowed;">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="card-icon">💎</div>
+                        OBJETOS
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">
+                        Catálogo completo de items, armas, armaduras y accesorios con sus estadísticas y ubicaciones.
+                    </p>
+                    <ul class="card-features">
+                        <li>Base de datos completa</li>
+                        <li>Estadísticas detalladas</li>
+                        <li>Ubicaciones y drops</li>
+                        <li>Comparativas de equipo</li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <span class="cta-button" style="background: #95a5a6;">Próximamente</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Misiones Card -->
+            <div class="guide-card" style="opacity: 0.7; cursor: not-allowed;">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="card-icon">📜</div>
+                        MISIONES
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">
+                        Guía completa de todas las misiones principales y secundarias con soluciones detalladas.
+                    </p>
+                    <ul class="card-features">
+                        <li>Misiones principales</li>
+                        <li>Misiones secundarias</li>
+                        <li>Recompensas y requisitos</li>
+                        <li>Guías paso a paso</li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <span class="cta-button" style="background: #95a5a6;">Próximamente</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mapas Card -->
+            <div class="guide-card" style="opacity: 0.7; cursor: not-allowed;">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="card-icon">🗺️</div>
+                        MAPAS
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">
+                        Mapas interactivos de todas las ubicaciones del juego con tesoros y puntos de interés.
+                    </p>
+                    <ul class="card-features">
+                        <li>Mapas de todas las zonas</li>
+                        <li>Ubicación de tesoros</li>
+                        <li>Puntos de interés</li>
+                        <li>Rutas recomendadas</li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <span class="cta-button" style="background: #95a5a6;">Próximamente</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clases Card -->
+            <div class="guide-card" style="opacity: 0.7; cursor: not-allowed;">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="card-icon">🎭</div>
+                        CLASES
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-description">
+                        Información detallada sobre todas las clases del juego y sus habilidades especiales.
+                    </p>
+                    <ul class="card-features">
+                        <li>Todas las vocaciones</li>
+                        <li>Árboles de habilidades</li>
+                        <li>Builds recomendadas</li>
+                        <li>Consejos por clase</li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <span class="cta-button" style="background: #95a5a6;">Próximamente</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>🎮 Dragon Quest IX - Guías creadas por fans para fans 🎮</p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem;">
+                Todas las marcas registradas pertenecen a sus respectivos dueños.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
