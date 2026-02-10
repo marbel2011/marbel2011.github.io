@@ -4,184 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dragon Quest IX - Guía de Alquimia</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-            color: #333;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            overflow: hidden;
-        }
-        .header {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            color: #fff;
-            padding: 40px 20px;
-            text-align: center;
-            border-bottom: 5px solid #667eea;
-        }
-        .header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-        .header p {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
-        .search-section {
-            padding: 30px;
-            background: #f8f9fa;
-            border-bottom: 2px solid #ddd;
-        }
-        .search-container {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-        }
-        input[type="text"], select {
-            padding: 12px 15px;
-            border: 2px solid #667eea;
-            border-radius: 8px;
-            font-size: 1em;
-            transition: all 0.3s;
-        }
-        input[type="text"] {
-            flex: 1;
-            min-width: 250px;
-        }
-        input[type="text"]:focus, select:focus {
-            outline: none;
-            border-color: #764ba2;
-            box-shadow: 0 0 10px rgba(118, 75, 162, 0.3);
-        }
-        button {
-            padding: 12px 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: all 0.3s;
-        }
-        button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
-        }
-        .filters-info {
-            color: #666;
-            font-size: 0.95em;
-        }
-        .recipes-section {
-            padding: 30px;
-            min-height: 400px;
-        }
-        .recipes-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 20px;
-        }
-        .recipe-card {
-            background: white;
-            border: 2px solid #e0e0e0;
-            border-radius: 10px;
-            padding: 20px;
-            transition: all 0.3s;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
-        .recipe-card:hover {
-            border-color: #667eea;
-            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
-            transform: translateY(-5px);
-        }
-        .recipe-title {
-            font-size: 1.3em;
-            font-weight: bold;
-            color: #1a1a2e;
-            margin-bottom: 10px;
-            padding-bottom: 10px;
-            border-bottom: 3px solid #667eea;
-        }
-        .recipe-category {
-            display: inline-block;
-            background: #667eea;
-            color: white;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.85em;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-        .recipe-ingredients {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 10px;
-        }
-        .ingredient-item {
-            padding: 8px 0;
-            border-bottom: 1px solid #e0e0e0;
-            font-size: 0.95em;
-        }
-        .ingredient-item:last-child {
-            border-bottom: none;
-        }
-        .ingredient-name {
-            font-weight: 600;
-            color: #333;
-        }
-        .ingredient-quantity {
-            color: #667eea;
-            font-weight: bold;
-        }
-        .no-results {
-            text-align: center;
-            padding: 60px 20px;
-            color: #999;
-            grid-column: 1 / -1;
-        }
-        .no-results h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            color: #666;
-        }
-        .stats {
-            background: #e8f0fe;
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 10px;
-            font-size: 0.95em;
-            color: #333;
-        }
-        @media (max-width: 768px) {
-            .recipes-grid {
-                grid-template-columns: 1fr;
-            }
-            .header h1 {
-                font-size: 1.8em;
-            }
-            .search-container {
-                flex-direction: column;
-            }
-            input[type="text"], select, button {
-                width: 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -229,60 +53,76 @@
         </div>
     </div>
     <script>
-        const recipes = [{"name": "Warrior's sword", "category": "Espadas", "ingredients": [{"name": "Soldier's Sword", "qty": 1}, {"name": "Raging ruby", "qty": 1}, {"name": "Warrior's helm", "qty": 1}]}, {"name": "Fizzle foil", "category": "Espadas", "ingredients": [{"name": "Rapier", "qty": 1}, {"name": "Narspicious", "qty": 3}, {"name": "Mithril ore", "qty": 1}]}, {"name": "Steel broadsword", "category": "Espadas", "ingredients": [{"name": "Iron broadsword", "qty": 1}, {"name": "Iron ore", "qty": 1}, {"name": "Lava lump", "qty": 1}]}, {"name": "Gigasteel broadsword", "category": "Espadas", "ingredients": [{"name": "Steel broadsword", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Aurora Blade", "category": "Espadas", "ingredients": [{"name": "Cautery sword", "qty": 1}, {"name": "Brighten rock", "qty": 3}, {"name": "Holy water", "qty": 1}]}, {"name": "Platinum sword", "category": "Espadas", "ingredients": [{"name": "Iron broadsword", "qty": 1}, {"name": "Platinum ore", "qty": 1}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Dragon slayer", "category": "Espadas", "ingredients": [{"name": "Dragonsbane", "qty": 1}, {"name": "Mighty armlet", "qty": 1}]}, {"name": "\u00dcber falcon blade", "category": "Espadas", "ingredients": [{"name": "Falcon blade", "qty": 1}, {"name": "Meteorite bracer", "qty": 1}]}, {"name": "\u00dcber miracle sword", "category": "Espadas", "ingredients": [{"name": "Miracle sword", "qty": 1}, {"name": "Life bracer", "qty": 2}]}, {"name": "Fire blade", "category": "Espadas", "ingredients": [{"name": "Valkyrie sword", "qty": 1}, {"name": "Lava lump", "qty": 3}, {"name": "Rockbomb shard", "qty": 1}]}, {"name": "Inferno blade", "category": "Espadas", "ingredients": [{"name": "Fire blade", "qty": 1}, {"name": "Sunstone", "qty": 1}, {"name": "Rockbomb shard", "qty": 3}]}, {"name": "Liquid metal sword", "category": "Espadas", "ingredients": [{"name": "Metal slime sword", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Slimedrop", "qty": 6}]}, {"name": "Metal king sword", "category": "Espadas", "ingredients": [{"name": "Liquid metal sword", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Slime crown", "qty": 1}]}, {"name": "Erdrick's sword", "category": "Espadas", "ingredients": [{"name": "Rusty sword", "qty": 1}, {"name": "Glass frit", "qty": 9}, {"name": "Orichalcum", "qty": 1}]}, {"name": "Stardust sword", "category": "Espadas", "ingredients": [{"name": "Supernova sword", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Nebula sword", "category": "Espadas", "ingredients": [{"name": "Stardust sword", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Silver orb", "qty": 1}]}, {"name": "Supernova sword", "category": "Espadas", "ingredients": [{"name": "Nebula sword", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Silver orb", "qty": 3}]}, {"name": "Hypernova sword", "category": "Espadas", "ingredients": [{"name": "Nebula sword", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Silver orb", "qty": 3}]}, {"name": "Steel lance", "category": "Lanzas", "ingredients": [{"name": "Iron lance", "qty": 1}, {"name": "Iron ore", "qty": 1}, {"name": "Lava lump", "qty": 1}]}, {"name": "Gigasteel lance", "category": "Lanzas", "ingredients": [{"name": "Steel lance", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Celestial spear", "category": "Lanzas", "ingredients": [{"name": "Long spear", "qty": 1}, {"name": "Holy talisman", "qty": 1}, {"name": "Platinum ore", "qty": 2}]}, {"name": "Holy lance", "category": "Lanzas", "ingredients": [{"name": "Iron Spear", "qty": 1}, {"name": "Gold rosary", "qty": 1}]}, {"name": "Trident", "category": "Lanzas", "ingredients": [{"name": "Battle fork", "qty": 1}, {"name": "Seashell", "qty": 2}, {"name": "Crimson coral", "qty": 2}]}, {"name": "Graco's trident", "category": "Lanzas", "ingredients": [{"name": "Trident", "qty": 1}, {"name": "Mighty armlet", "qty": 1}, {"name": "Densinium", "qty": 2}]}, {"name": "Sandstorm spear", "category": "Lanzas", "ingredients": [{"name": "Holy lance", "qty": 1}, {"name": "Kitty litter", "qty": 2}, {"name": "Glass frit", "qty": 2}]}, {"name": "Halberd", "category": "Lanzas", "ingredients": [{"name": "Partisan", "qty": 1}, {"name": "Battle-axe", "qty": 1}]}, {"name": "Lightning lance", "category": "Lanzas", "ingredients": [{"name": "Celestial spear", "qty": 1}, {"name": "Thunderball", "qty": 3}, {"name": "Mithril ore", "qty": 1}]}, {"name": "Storm spear", "category": "Lanzas", "ingredients": [{"name": "Lightning spear", "qty": 1}, {"name": "Thunderball", "qty": 5}, {"name": "Gold bar", "qty": 1}]}, {"name": "Demon spear", "category": "Lanzas", "ingredients": [{"name": "Celestial spear", "qty": 1}, {"name": "Terrible tattoo", "qty": 3}, {"name": "Malicite", "qty": 1}]}, {"name": "Liquid slime spear", "category": "Lanzas", "ingredients": [{"name": "Metal slime spear", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Slimedrop", "qty": 6}]}, {"name": "Metal king spear", "category": "Lanzas", "ingredients": [{"name": "Liquid slime spear", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Slime crown", "qty": 1}]}, {"name": "Poker", "category": "Lanzas", "ingredients": [{"name": "Split-pot poker", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Stud poker", "category": "Lanzas", "ingredients": [{"name": "Poker", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Red orb", "qty": 1}]}, {"name": "Split-pot poker", "category": "Lanzas", "ingredients": [{"name": "Stud poker", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Red orb", "qty": 3}]}, {"name": "Red-hot poker", "category": "Lanzas", "ingredients": [{"name": "Stud poker", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Red orb", "qty": 3}]}, {"name": "Divine dagger", "category": "Cuchillos", "ingredients": [{"name": "Bronze knife", "qty": 1}, {"name": "Holy water", "qty": 3}]}, {"name": "Poison moth knife", "category": "Cuchillos", "ingredients": [{"name": "Divine dagger", "qty": 1}, {"name": "Coagulant", "qty": 2}, {"name": "Manky mud", "qty": 1}]}, {"name": "Batterfly knife", "category": "Cuchillos", "ingredients": [{"name": "Poison moth knife", "qty": 1}, {"name": "Coagulant", "qty": 3}, {"name": "Butterfly wing", "qty": 3}]}, {"name": "Dread dagger", "category": "Cuchillos", "ingredients": [{"name": "Batterfly knife", "qty": 1}, {"name": "Disturbin' turban", "qty": 1}, {"name": "Butterfly wing", "qty": 5}]}, {"name": "Poison needle", "category": "Cuchillos", "ingredients": [{"name": "Magic beast horn", "qty": 1}, {"name": "Manky mud", "qty": 3}]}, {"name": "Falcon knife earring", "category": "Cuchillos", "ingredients": [{"name": "Deadly nightblade", "qty": 1}, {"name": "Slime earrings", "qty": 1}, {"name": "Agility ring", "qty": 3}]}, {"name": "Assassin's dagger", "category": "Cuchillos", "ingredients": [{"name": "Deadly nightblade", "qty": 1}, {"name": "Poison needle", "qty": 1}, {"name": "Evencloth", "qty": 2}]}, {"name": "Icicle dirk", "category": "Cuchillos", "ingredients": [{"name": "Divine dagger", "qty": 1}, {"name": "Ice crystal", "qty": 3}, {"name": "Edged boomerang", "qty": 1}]}, {"name": "Fenrir fang", "category": "Cuchillos", "ingredients": [{"name": "Icicle dirk", "qty": 1}, {"name": "Ice crystal", "qty": 5}, {"name": "Magic beast horn", "qty": 3}]}, {"name": "Soul breaker", "category": "Cuchillos", "ingredients": [{"name": "Sword breaker", "qty": 1}, {"name": "Life bracer", "qty": 1}, {"name": "Spirit bracer", "qty": 1}]}, {"name": "Gladius", "category": "Cuchillos", "ingredients": [{"name": "Flame tang", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Flame tang", "category": "Cuchillos", "ingredients": [{"name": "Gladius", "qty": 1}, {"name": "Sunstone", "qty": 1}, {"name": "Crimson coral", "qty": 3}]}, {"name": "Deft dagger", "category": "Cuchillos", "ingredients": [{"name": "Dashing dagger", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Darting dagger", "category": "Cuchillos", "ingredients": [{"name": "Deft dagger", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Purple orb", "qty": 1}]}, {"name": "Dashing dagger", "category": "Cuchillos", "ingredients": [{"name": "Darting dagger", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Purple orb", "qty": 3}]}, {"name": "Dynamo dagger", "category": "Cuchillos", "ingredients": [{"name": "Darting dagger", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Purple orb", "qty": 3}]}, {"name": "Staff of sentencing", "category": "Varas", "ingredients": [{"name": "Wizard's staff", "qty": 1}, {"name": "Flurry feather", "qty": 1}, {"name": "Magic water", "qty": 1}]}, {"name": "Staff of divine wrath", "category": "Varas", "ingredients": [{"name": "Staff of sentencing", "qty": 1}, {"name": "Flurry feather", "qty": 3}, {"name": "Sage's elixir", "qty": 1}]}, {"name": "Watermaul wand", "category": "Varas", "ingredients": [{"name": "Stolos' staff", "qty": 1}, {"name": "Seashell", "qty": 3}, {"name": "Crimson coral", "qty": 3}]}, {"name": "Tsunami staff", "category": "Varas", "ingredients": [{"name": "Watermaul wand", "qty": 1}, {"name": "Celestial skein", "qty": 1}, {"name": "Enchanted stone", "qty": 1}]}, {"name": "Lightning staff", "category": "Varas", "ingredients": [{"name": "Stolos' staff", "qty": 1}, {"name": "Thunderball", "qty": 3}, {"name": "Magic water", "qty": 1}]}, {"name": "Lightning conductor", "category": "Varas", "ingredients": [{"name": "Lightning staff", "qty": 1}, {"name": "Thunderball", "qty": 5}, {"name": "Sage's elixir", "qty": 1}]}, {"name": "Magma staff", "category": "Varas", "ingredients": [{"name": "Stolos' staff", "qty": 1}, {"name": "Rockbomb shard", "qty": 3}, {"name": "Brighten rock", "qty": 3}]}, {"name": "Rune staff", "category": "Varas", "ingredients": [{"name": "Stolos' staff", "qty": 1}, {"name": "Ruby of protection", "qty": 1}, {"name": "Magic water", "qty": 5}]}, {"name": "Hieroglyph staff", "category": "Varas", "ingredients": [{"name": "Rune staff", "qty": 1}, {"name": "Sorcerer's ring", "qty": 1}, {"name": "Sage's elixir", "qty": 3}]}, {"name": "Mega-magical mace", "category": "Varas", "ingredients": [{"name": "Magical mace", "qty": 1}, {"name": "Astral plume", "qty": 1}, {"name": "Mythril ore", "qty": 3}]}, {"name": "Savant's staff", "category": "Varas", "ingredients": [{"name": "Sage's staff", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Sage's elixir", "qty": 3}]}, {"name": "Bright staff", "category": "Varas", "ingredients": [{"name": "Brilliant staff", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Shining staff", "category": "Varas", "ingredients": [{"name": "Bright staff", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Blue orb", "qty": 1}]}, {"name": "Brillant staff", "category": "Varas", "ingredients": [{"name": "Shining staff", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Blue orb", "qty": 3}]}, {"name": "Aurora staff", "category": "Varas", "ingredients": [{"name": "Shining staff", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Blue orb", "qty": 3}]}, {"name": "Snakeskin whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Leather whip", "qty": 1}, {"name": "Snakeskin", "qty": 3}]}, {"name": "Serpentine whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Snakeskin whip", "qty": 1}, {"name": "Snakeskin", "qty": 5}, {"name": "Magic beast horn", "qty": 1}]}, {"name": "Sidewinder", "category": "L\u00e1tigos", "ingredients": [{"name": "Serpentine whip", "qty": 1}, {"name": "Snakeskin", "qty": 6}, {"name": "Tough guy tattoo", "qty": 1}]}, {"name": "Spiked steel whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Iron whip", "qty": 1}, {"name": "Iron ore", "qty": 1}, {"name": "Lava lump", "qty": 1}]}, {"name": "Gigaspike whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Spiked steel whip", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Dragontail whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Iron whip", "qty": 1}, {"name": "Dragon scale", "qty": 3}, {"name": "Aggressence", "qty": 1}]}, {"name": "Demon whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Iron whip", "qty": 1}, {"name": "Terrible tattoo", "qty": 1}, {"name": "Wing of bat", "qty": 3}]}, {"name": "Archdemon whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Demon whip", "qty": 1}, {"name": "Terrible tattoo", "qty": 2}, {"name": "Malicite", "qty": 1}]}, {"name": "Scourge whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Archdemon whip", "qty": 1}, {"name": "Saint's ashes", "qty": 1}]}, {"name": "Empress's whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Queen's whip", "qty": 1}, {"name": "Highness heels", "qty": 1}, {"name": "Monarchic mark", "qty": 1}]}, {"name": "Goddess whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Empress's whip", "qty": 1}, {"name": "Goddess ring", "qty": 1}, {"name": "Agate of evolution", "qty": 1}]}, {"name": "Gringham whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Giga Gringham whip", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Mega Gringham whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Gringham whip", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Green orb", "qty": 1}]}, {"name": "Giga Gringham whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Mega Gringham whip", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Green orb", "qty": 3}]}, {"name": "\u00dcber Gringham whip", "category": "L\u00e1tigos", "ingredients": [{"name": "Mega Gringham whip", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Green orb", "qty": 3}]}, {"name": "Steel bar", "category": "Bastones", "ingredients": [{"name": "Iron bar", "qty": 1}, {"name": "Iron ore", "qty": 1}, {"name": "Lava lump", "qty": 1}]}, {"name": "Gigasteel bar", "category": "Bastones", "ingredients": [{"name": "Steel bar", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Pillar of strength", "category": "Bastones", "ingredients": [{"name": "Oaken pole", "qty": 3}, {"name": "Utility belt", "qty": 1}]}, {"name": "Killer pillar", "category": "Bastones", "ingredients": [{"name": "Driller pillar", "qty": 1}, {"name": "Mighty armlet", "qty": 1}]}, {"name": "Slumber stick", "category": "Bastones", "ingredients": [{"name": "Sleepy stick", "qty": 1}, {"name": "Sleeping hibiscus", "qty": 3}, {"name": "Narspicious", "qty": 1}]}, {"name": "Mistick", "category": "Bastones", "ingredients": [{"name": "Driller pillar", "qty": 1}, {"name": "Fresh water", "qty": 3}, {"name": "Flurry feather", "qty": 3}]}, {"name": "Optimistick", "category": "Bastones", "ingredients": [{"name": "Mistick", "qty": 1}, {"name": "Celestial skein", "qty": 2}, {"name": "Agility ring", "qty": 1}]}, {"name": "Ballistick", "category": "Bastones", "ingredients": [{"name": "Optimistick", "qty": 1}, {"name": "Technicolour dreamcloth", "qty": 1}, {"name": "Mercurys bandana", "qty": 1}]}, {"name": "Xenlon rod", "category": "Bastones", "ingredients": [{"name": "Dragon rod", "qty": 1}, {"name": "Dragon scale", "qty": 3}, {"name": "Sainted soma", "qty": 3}]}, {"name": "Orichalcudgel", "category": "Bastones", "ingredients": [{"name": "Orichalcum", "qty": 3}, {"name": "Hephaestus' flame", "qty": 3}]}, {"name": "Knockout rod", "category": "Bastones", "ingredients": [{"name": "Catatonic cosh", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Senseless stick", "category": "Bastones", "ingredients": [{"name": "Knockout rod", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Blue orb", "qty": 1}]}, {"name": "Catatonic cosh", "category": "Bastones", "ingredients": [{"name": "Senseless stick", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Blue orb", "qty": 3}]}, {"name": "Coma cudgel", "category": "Bastones", "ingredients": [{"name": "Senseless stick", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Blue orb", "qty": 3}]}, {"name": "Steel claws", "category": "Garras", "ingredients": [{"name": "Iron claws", "qty": 1}, {"name": "Iron ore", "qty": 1}, {"name": "Lava lump", "qty": 1}]}, {"name": "Gigasteel claws", "category": "Garras", "ingredients": [{"name": "Steel claws", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Sacred claws", "category": "Garras", "ingredients": [{"name": "Iron claws", "qty": 1}, {"name": "Holy talisman", "qty": 1}]}, {"name": "Kestrel claws", "category": "Garras", "ingredients": [{"name": "Crow's claws", "qty": 1}, {"name": "Agility ring", "qty": 1}]}, {"name": "Kite claws", "category": "Garras", "ingredients": [{"name": "Krestrel claws", "qty": 1}, {"name": "Enchanted stone", "qty": 2}]}, {"name": "Hammer handrills", "category": "Garras", "ingredients": [{"name": "Handrills", "qty": 1}, {"name": "Iron nails", "qty": 5}, {"name": "Iron ore", "qty": 1}]}, {"name": "Fire claws", "category": "Garras", "ingredients": [{"name": "Dragon claws", "qty": 1}, {"name": "Lava lump", "qty": 3}, {"name": "Rockbomb shard", "qty": 1}]}, {"name": "Combusticlaws", "category": "Garras", "ingredients": [{"name": "Fire claws", "qty": 1}, {"name": "Sunstone", "qty": 1}, {"name": "Rockbomb shard", "qty": 3}]}, {"name": "King cobra claws", "category": "Garras", "ingredients": [{"name": "Cobra claws", "qty": 1}, {"name": "Terrible tattoo", "qty": 4}, {"name": "Wing of bat", "qty": 4}]}, {"name": "Beastmaster claws", "category": "Garras", "ingredients": [{"name": "Beast claws", "qty": 1}, {"name": "Monarchic mark", "qty": 1}, {"name": "Magic beast horn", "qty": 9}]}, {"name": "Orichalcum claws", "category": "Garras", "ingredients": [{"name": "Combusticlaws", "qty": 1}, {"name": "Orichalcum", "qty": 2}, {"name": "Hephaestus' flame", "qty": 2}]}, {"name": "Dragonlord claws", "category": "Garras", "ingredients": [{"name": "Dragovian lord claws", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Dragovian claws", "category": "Garras", "ingredients": [{"name": "Dragonlord claws", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Red orb", "qty": 1}]}, {"name": "Dragovian lord claws", "category": "Garras", "ingredients": [{"name": "Dragovian claws", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Red orb", "qty": 3}]}, {"name": "Xenlon claws", "category": "Garras", "ingredients": [{"name": "Dragovian claws", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Red orb", "qty": 3}]}, {"name": "Steel fan", "category": "Abanicos", "ingredients": [{"name": "Iron fan", "qty": 1}, {"name": "Iron ore", "qty": 1}, {"name": "Lava lump", "qty": 1}]}, {"name": "Gigasteel fan", "category": "Abanicos", "ingredients": [{"name": "Steel fan", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Foehn fan", "category": "Abanicos", "ingredients": [{"name": "Feather fan", "qty": 1}, {"name": "Flurry feather", "qty": 1}, {"name": "Agility ring", "qty": 1}]}, {"name": "Gale force fan", "category": "Abanicos", "ingredients": [{"name": "Foehn fan", "qty": 1}, {"name": "Enchanted stone", "qty": 1}, {"name": "Agility ring", "qty": 1}]}, {"name": "Cobra fan", "category": "Abanicos", "ingredients": [{"name": "War fan", "qty": 1}, {"name": "Snakeskin", "qty": 2}, {"name": "Dragon scale", "qty": 1}]}, {"name": "Azure Dragon fan", "category": "Abanicos", "ingredients": [{"name": "Cobra fan", "qty": 1}, {"name": "Thunderball", "qty": 3}, {"name": "Dragon scale", "qty": 2}]}, {"name": "Fowl fan", "category": "Abanicos", "ingredients": [{"name": "War fan", "qty": 1}, {"name": "Flurry feather", "qty": 2}, {"name": "Crimson coral", "qty": 2}]}, {"name": "Vermillion Bird fan", "category": "Abanicos", "ingredients": [{"name": "Fowl fan", "qty": 1}, {"name": "Lava lump", "qty": 3}, {"name": "Razor-wing boomerang", "qty": 1}]}, {"name": "Feline fan", "category": "Abanicos", "ingredients": [{"name": "War fan", "qty": 1}, {"name": "Kitty litter", "qty": 2}, {"name": "Seashell", "qty": 2}]}, {"name": "White Tiger fan", "category": "Abanicos", "ingredients": [{"name": "Feline fan", "qty": 1}, {"name": "Ice crystal", "qty": 3}, {"name": "Kitty shield", "qty": 1}]}, {"name": "Tortoiseshell fan", "category": "Abanicos", "ingredients": [{"name": "War fan", "qty": 1}, {"name": "Tortoiseshell", "qty": 2}, {"name": "Evencloth", "qty": 1}]}, {"name": "Black Tortoise fan", "category": "Abanicos", "ingredients": [{"name": "Tortoiseshell fan", "qty": 1}, {"name": "Royal soil", "qty": 3}, {"name": "Tortoise shell", "qty": 1}]}, {"name": "Lunar fan", "category": "Abanicos", "ingredients": [{"name": "Stellar fan", "qty": 1}, {"name": "Full moon ring", "qty": 1}, {"name": "Lucida shard", "qty": 1}]}, {"name": "Solar fan", "category": "Abanicos", "ingredients": [{"name": "Lunar fan", "qty": 1}, {"name": "Sunstone", "qty": 1}, {"name": "Crimson coral", "qty": 3}]}, {"name": "Friendly fan", "category": "Abanicos", "ingredients": [{"name": "Solar fan", "qty": 1}, {"name": "Life bracer", "qty": 1}, {"name": "Horse manure", "qty": 9}]}, {"name": "Critical fan", "category": "Abanicos", "ingredients": [{"name": "Hypercritical fan", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Overcritical fan", "category": "Abanicos", "ingredients": [{"name": "Critical fan", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Green orb", "qty": 1}]}, {"name": "Hypercritical fan", "category": "Abanicos", "ingredients": [{"name": "Overcritical fan", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Green orb", "qty": 3}]}, {"name": "Dire critical fan", "category": "Abanicos", "ingredients": [{"name": "Overcritical fan", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Green orb", "qty": 3}]}, {"name": "Steel axe", "category": "Hachas", "ingredients": [{"name": "Iron axe", "qty": 1}, {"name": "Iron ore", "qty": 1}, {"name": "Lava lump", "qty": 1}]}, {"name": "Gigasteel axe", "category": "Hachas", "ingredients": [{"name": "Steel axe", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Golden axe", "category": "Hachas", "ingredients": [{"name": "Iron axe", "qty": 1}, {"name": "Gold bar", "qty": 1}]}, {"name": "Moon axe", "category": "Hachas", "ingredients": [{"name": "Battle-axe", "qty": 1}, {"name": "Lunaria", "qty": 1}, {"name": "Mystifying mixture", "qty": 1}]}, {"name": "Full moon axe", "category": "Hachas", "ingredients": [{"name": "Moon axe", "qty": 1}, {"name": "Full moon ring", "qty": 1}, {"name": "Mystifying mixture", "qty": 3}]}, {"name": "King axe", "category": "Hachas", "ingredients": [{"name": "Golden axe", "qty": 1}, {"name": "Slime crown", "qty": 1}]}, {"name": "Kaiser axe", "category": "Hachas", "ingredients": [{"name": "King axe", "qty": 1}, {"name": "Slime crown", "qty": 1}, {"name": "Monarchic mark", "qty": 1}]}, {"name": "Executioner's axe", "category": "Hachas", "ingredients": [{"name": "Headsman's axe", "qty": 1}, {"name": "Ethereal stone", "qty": 2}, {"name": "Raging ruby", "qty": 1}]}, {"name": "Ice axe", "category": "Hachas", "ingredients": [{"name": "Kaiser axe", "qty": 1}, {"name": "Ice crystal", "qty": 3}, {"name": "Icicle dirk", "qty": 3}]}, {"name": "Avalanche axe", "category": "Hachas", "ingredients": [{"name": "Ice axe", "qty": 1}, {"name": "Ice crystal", "qty": 6}, {"name": "Agate of evolution", "qty": 1}]}, {"name": "Bad axe", "category": "Hachas", "ingredients": [{"name": "Climaxe", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Maxi axe", "category": "Hachas", "ingredients": [{"name": "Bad axe", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Purple orb", "qty": 1}]}, {"name": "Climaxe", "category": "Hachas", "ingredients": [{"name": "Maxi axe", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Purple orb", "qty": 3}]}, {"name": "Galaxy axe", "category": "Hachas", "ingredients": [{"name": "Maxi axe", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Purple orb", "qty": 3}]}, {"name": "Ace of clubs", "category": "Martillos", "ingredients": [{"name": "Oaken club", "qty": 1}, {"name": "Belle cap", "qty": 3}]}, {"name": "\u00dcber war hammer", "category": "Martillos", "ingredients": [{"name": "War hammer", "qty": 1}, {"name": "Mighty armlet", "qty": 1}]}, {"name": "Terra tamper", "category": "Martillos", "ingredients": [{"name": "\u00dcber war hammer", "qty": 1}, {"name": "Royal soil", "qty": 3}, {"name": "Flintstone", "qty": 1}]}, {"name": "Terra firmer", "category": "Martillos", "ingredients": [{"name": "Terra tamper", "qty": 1}, {"name": "Royal soil", "qty": 5}, {"name": "Densinium", "qty": 2}]}, {"name": "Terra hammer", "category": "Martillos", "ingredients": [{"name": "Terra firmer", "qty": 1}, {"name": "Royal soil", "qty": 7}, {"name": "Ethereal stone", "qty": 3}]}, {"name": "Titan's hammer", "category": "Martillos", "ingredients": [{"name": "Giant's hammer", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Tough guy tattoo", "qty": 1}]}, {"name": "Megaton hammer", "category": "Martillos", "ingredients": [{"name": "Hela's hammer", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Densinium", "qty": 3}]}, {"name": "Warlord's hammer", "category": "Martillos", "ingredients": [{"name": "Megaton hammer", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Mighty armlet", "qty": 1}]}, {"name": "Groundbreaker", "category": "Martillos", "ingredients": [{"name": "Warlord's hammer", "qty": 1}, {"name": "Densinium", "qty": 4}, {"name": "Ethereal stone", "qty": 2}]}, {"name": "Starsmasher", "category": "Martillos", "ingredients": [{"name": "Meteorite bracer", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Meteorite crusher", "category": "Martillos", "ingredients": [{"name": "Starsmasher", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Purple orb", "qty": 1}]}, {"name": "Meteorite breaker", "category": "Martillos", "ingredients": [{"name": "Meteorite crusher", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Purple orb", "qty": 3}]}, {"name": "Wooden boomerang", "category": "Bumeranes", "ingredients": [{"name": "Timber", "qty": 2}, {"name": "Cloth", "qty": 1}]}, {"name": "Razor-wing boomerang", "category": "Bumeranes", "ingredients": [{"name": "Wooden boomerang", "qty": 1}, {"name": "Feather", "qty": 5}, {"name": "Iron ore", "qty": 1}]}, {"name": "Edged boomerang", "category": "Bumeranes", "ingredients": [{"name": "Razor-wing boomerang", "qty": 1}, {"name": "Mithril ore", "qty": 2}, {"name": "Magic water", "qty": 1}]}, {"name": "Demon boomerang", "category": "Bumeranes", "ingredients": [{"name": "Edged boomerang", "qty": 1}, {"name": "Malicite", "qty": 2}, {"name": "Terrible tattoo", "qty": 3}]}, {"name": "Oaken bow", "category": "Arcos", "ingredients": [{"name": "Short bow", "qty": 1}, {"name": "Timber", "qty": 3}, {"name": "Dowel branch", "qty": 1}]}, {"name": "Spruce bow", "category": "Arcos", "ingredients": [{"name": "Oaken bow", "qty": 1}, {"name": "Timber", "qty": 5}, {"name": "Magic water", "qty": 1}]}, {"name": "Heavy hitter bow", "category": "Arcos", "ingredients": [{"name": "Spruce bow", "qty": 1}, {"name": "Densinium", "qty": 2}, {"name": "Mithril ore", "qty": 1}]}, {"name": "Killer bow", "category": "Arcos", "ingredients": [{"name": "Heavy hitter bow", "qty": 1}, {"name": "Malicite", "qty": 2}, {"name": "Terrible tattoo", "qty": 3}]}, {"name": "Scale shield", "category": "Escudos", "ingredients": [{"name": "Leather shield", "qty": 1}, {"name": "Scale", "qty": 3}]}, {"name": "Iron shield", "category": "Escudos", "ingredients": [{"name": "Scale shield", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Lava lump", "qty": 1}]}, {"name": "Steel shield", "category": "Escudos", "ingredients": [{"name": "Iron shield", "qty": 1}, {"name": "Iron ore", "qty": 3}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Holy shield", "category": "Escudos", "ingredients": [{"name": "Steel shield", "qty": 1}, {"name": "Holy water", "qty": 3}, {"name": "Platinum ore", "qty": 1}]}, {"name": "Leather hat", "category": "Cabeza", "ingredients": [{"name": "Cloth", "qty": 1}, {"name": "Leather", "qty": 1}]}, {"name": "Iron helmet", "category": "Cabeza", "ingredients": [{"name": "Leather hat", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Lava lump", "qty": 1}]}, {"name": "Platinum helmet", "category": "Cabeza", "ingredients": [{"name": "Iron helmet", "qty": 1}, {"name": "Platinum ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Ear cosy", "category": "Cabeza", "ingredients": [{"name": "Fur hood", "qty": 1}, {"name": "Bunny tail", "qty": 1}, {"name": "Lambswool", "qty": 1}]}, {"name": "Leather armour", "category": "Torso", "ingredients": [{"name": "Cloth", "qty": 3}, {"name": "Leather", "qty": 2}]}, {"name": "Iron armour", "category": "Torso", "ingredients": [{"name": "Leather armour", "qty": 1}, {"name": "Iron ore", "qty": 3}, {"name": "Lava lump", "qty": 1}]}, {"name": "Steel armour", "category": "Torso", "ingredients": [{"name": "Iron armour", "qty": 1}, {"name": "Iron ore", "qty": 4}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Gold mail", "category": "Torso", "ingredients": [{"name": "Silver mail", "qty": 1}, {"name": "Gold ring", "qty": 1}, {"name": "Gold bracer", "qty": 1}]}, {"name": "Steel gauntlets", "category": "Brazos", "ingredients": [{"name": "Iron gauntlets", "qty": 1}, {"name": "Iron ore", "qty": 1}, {"name": "Royal soil", "qty": 1}]}, {"name": "Gigasteel gauntlets", "category": "Brazos", "ingredients": [{"name": "Steel gauntlets", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Enchanted gloves", "category": "Brazos", "ingredients": [{"name": "Magic mittens", "qty": 1}, {"name": "Enchanted stone", "qty": 1}]}, {"name": "Ethereal gloves", "category": "Brazos", "ingredients": [{"name": "Enchanted gloves", "qty": 1}, {"name": "Ethereal stone", "qty": 1}]}, {"name": "Sturdy gauntlets", "category": "Brazos", "ingredients": [{"name": "Light gauntlets", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Aggressence", "qty": 1}]}, {"name": "Heavy gauntlets", "category": "Brazos", "ingredients": [{"name": "Sturdy gauntlets", "qty": 1}, {"name": "Densinium", "qty": 2}, {"name": "Aggressence", "qty": 1}]}, {"name": "Blessed bindings", "category": "Brazos", "ingredients": [{"name": "Bruiser's bracers", "qty": 1}, {"name": "Thinkincense", "qty": 3}, {"name": "Sage's elixir", "qty": 2}]}, {"name": "Liquid metal slime gloves", "category": "Brazos", "ingredients": [{"name": "Metal slime gauntlets", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Slimedrop", "qty": 6}]}, {"name": "Metal king slime gloves", "category": "Brazos", "ingredients": [{"name": "Liquid metal slime gloves", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Slime crown", "qty": 1}]}, {"name": "Erdrick's gauntlets", "category": "Brazos", "ingredients": [{"name": "Rusty gauntlets", "qty": 1}, {"name": "Glass frit", "qty": 9}, {"name": "Orichalcum", "qty": 1}]}, {"name": "Vesta gauntlets", "category": "Brazos", "ingredients": [{"name": "Tempestes gauntlets", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Diana gauntlets", "category": "Brazos", "ingredients": [{"name": "Vesta gauntlets", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Red orb", "qty": 1}]}, {"name": "Tempestes gauntlets", "category": "Brazos", "ingredients": [{"name": "Diana gauntlets", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Red orb", "qty": 3}]}, {"name": "Sol Invictus gauntlets", "category": "Brazos", "ingredients": [{"name": "Diana gauntlets", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Red orb", "qty": 3}]}, {"name": "Leather gloves", "category": "Brazos", "ingredients": [{"name": "Cotton gloves", "qty": 1}, {"name": "Magic beast hide", "qty": 1}]}, {"name": "Marquess's mittens", "category": "Brazos", "ingredients": [{"name": "Mayoress's mittens", "qty": 1}, {"name": "Monarchic mark", "qty": 1}]}, {"name": "Monarch's mittens", "category": "Brazos", "ingredients": [{"name": "Marquess's mittens", "qty": 1}, {"name": "Highness heels", "qty": 1}]}, {"name": "Guru's gloves", "category": "Brazos", "ingredients": [{"name": "Heavy handwear", "qty": 1}, {"name": "Thinkincense", "qty": 3}, {"name": "Sage's elixir", "qty": 2}]}, {"name": "Gloomy gloves", "category": "Brazos", "ingredients": [{"name": "Heavy handwear", "qty": 1}, {"name": "Evencloth", "qty": 3}]}, {"name": "Murky mittens", "category": "Brazos", "ingredients": [{"name": "Gloomy gloves", "qty": 1}, {"name": "Malicite", "qty": 1}, {"name": "Evencloth", "qty": 3}]}, {"name": "Matador's gloves", "category": "Brazos", "ingredients": [{"name": "Mental mittens", "qty": 1}, {"name": "Slipweed", "qty": 4}, {"name": "Mercury's bandana", "qty": 1}]}, {"name": "Apprentice's gloves", "category": "Brazos", "ingredients": [{"name": "Grandmaster's gloves", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Master's gloves", "category": "Brazos", "ingredients": [{"name": "Apprentice's gloves", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Silver orb", "qty": 1}]}, {"name": "Grandmaster's gloves", "category": "Brazos", "ingredients": [{"name": "Master's glove", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Silver orb", "qty": 3}]}, {"name": "Godly gloves", "category": "Brazos", "ingredients": [{"name": "Master's glove", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Silver orb", "qty": 3}]}, {"name": "Leather kilt", "category": "Piernas", "ingredients": [{"name": "Boxer shorts", "qty": 1}, {"name": "Magic beast hide", "qty": 1}]}, {"name": "Tracky bottoms", "category": "Piernas", "ingredients": [{"name": "Training trousers", "qty": 1}, {"name": "Finessence", "qty": 1}]}, {"name": "Boomer briefs", "category": "Piernas", "ingredients": [{"name": "Boxer shorts", "qty": 1}, {"name": "Boomerang", "qty": 1}]}, {"name": "Wonder pants", "category": "Piernas", "ingredients": [{"name": "Boomer briefs", "qty": 1}, {"name": "Aggressence", "qty": 1}]}, {"name": "Hobnail boots", "category": "Pies", "ingredients": [{"name": "Leather boots", "qty": 1}, {"name": "Magic beast hide", "qty": 1}]}, {"name": "Steel sabatons", "category": "Pies", "ingredients": [{"name": "Iron sabatons", "qty": 1}, {"name": "Iron ore", "qty": 1}, {"name": "Royal soil", "qty": 1}]}, {"name": "Gigasteel sabatons", "category": "Pies", "ingredients": [{"name": "Steel sabatons", "qty": 1}, {"name": "Iron ore", "qty": 2}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Payback pumps", "category": "Pies", "ingredients": [{"name": "Steel sabatons", "qty": 1}, {"name": "Magic beast horn", "qty": 2}, {"name": "Iron nails", "qty": 2}]}, {"name": "Brahman boots", "category": "Pies", "ingredients": [{"name": "Clever clogs", "qty": 1}, {"name": "Thinkincense", "qty": 3}, {"name": "Sage's elixir", "qty": 2}]}, {"name": "Liquid metal slime boots", "category": "Pies", "ingredients": [{"name": "Metal slime sollerets", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Slimedrop", "qty": 6}]}, {"name": "Metal king slime boots", "category": "Pies", "ingredients": [{"name": "Liquid metal slime boots", "qty": 1}, {"name": "Orichalcum", "qty": 1}, {"name": "Slime crown", "qty": 1}]}, {"name": "Hero's boots", "category": "Pies", "ingredients": [{"name": "Emperor's boots", "qty": 1}, {"name": "Reset stone", "qty": 1}]}, {"name": "Basilic boots", "category": "Pies", "ingredients": [{"name": "Hero's boots", "qty": 1}, {"name": "Agate of evolution", "qty": 1}, {"name": "Yellow orb", "qty": 1}]}, {"name": "Emperor's boots", "category": "Pies", "ingredients": [{"name": "Basilic boots", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Yellow orb", "qty": 3}]}, {"name": "Boots of beatitude", "category": "Pies", "ingredients": [{"name": "Basilic boots", "qty": 1}, {"name": "Agate of evolution", "qty": 3}, {"name": "Yellow orb", "qty": 3}]}, {"name": "Classy clogs", "category": "Pies", "ingredients": [{"name": "Clogs", "qty": 1}, {"name": "Belle cap", "qty": 2}]}, {"name": "Stiletto heels", "category": "Pies", "ingredients": [{"name": "High heels", "qty": 1}, {"name": "Fishnet stockings", "qty": 1}]}, {"name": "Highness heels", "category": "Pies", "ingredients": [{"name": "Stiletto heels", "qty": 1}, {"name": "Monarchic mark", "qty": 1}]}, {"name": "Sorceress sandals", "category": "Pies", "ingredients": [{"name": "Siren sandals", "qty": 1}, {"name": "Sleeping hibiscus", "qty": 3}, {"name": "Belle cap", "qty": 2}]}, {"name": "Wu shoes", "category": "Pies", "ingredients": [{"name": "Kung fu shoes", "qty": 1}, {"name": "Finessence", "qty": 2}]}, {"name": "Safer shoes", "category": "Pies", "ingredients": [{"name": "Safety shoes", "qty": 1}, {"name": "Ruby of protection", "qty": 1}, {"name": "Mythril ore", "qty": 1}]}, {"name": "Sentient sandals", "category": "Pies", "ingredients": [{"name": "Siren sandals", "qty": 1}, {"name": "Thinkincense", "qty": 3}, {"name": "Sage's elixir", "qty": 2}]}, {"name": "Strength ring", "category": "Accesorios", "ingredients": [{"name": "Gold ring", "qty": 1}, {"name": "Aggressence", "qty": 1}]}, {"name": "Tough guy tattoo", "category": "Accesorios", "ingredients": [{"name": "Terrible tattoo", "qty": 1}, {"name": "Aggressence", "qty": 1}]}, {"name": "Raging ruby", "category": "Accesorios", "ingredients": [{"name": "Strength ring", "qty": 1}, {"name": "Corundum", "qty": 1}]}, {"name": "Might armlet", "category": "Accesorios", "ingredients": [{"name": "Gold bracer", "qty": 1}, {"name": "Strength ring", "qty": 1}, {"name": "Tough guy tattoo", "qty": 1}]}, {"name": "Slime earrings", "category": "Accesorios", "ingredients": [{"name": "Slimedrop", "qty": 1}, {"name": "Gold ring", "qty": 1}]}, {"name": "Ruby of protection", "category": "Accesorios", "ingredients": [{"name": "Dragon scale", "qty": 1}, {"name": "Corundum", "qty": 1}]}, {"name": "Bow tie", "category": "Accesorios", "ingredients": [{"name": "Butterfly wing", "qty": 2}, {"name": "Grubby bandage", "qty": 1}]}, {"name": "Utility belt", "category": "Accesorios", "ingredients": [{"name": "Leather kilt", "qty": 1}, {"name": "Ultramarine mittens", "qty": 1}, {"name": "Grubby bandage", "qty": 1}]}, {"name": "Agility ring", "category": "Accesorios", "ingredients": [{"name": "Prayer ring", "qty": 1}, {"name": "Flurry feather", "qty": 2}]}, {"name": "Meteorite bracer", "category": "Accesorios", "ingredients": [{"name": "Gold bar", "qty": 1}, {"name": "Agility ring", "qty": 2}, {"name": "Lucida shard", "qty": 3}]}, {"name": "Sorcerer's ring", "category": "Accesorios", "ingredients": [{"name": "Skull ring", "qty": 1}, {"name": "Saint's ashes", "qty": 1}]}, {"name": "Rosary", "category": "Accesorios", "ingredients": [{"name": "Pink pearl", "qty": 1}, {"name": "Fresh water", "qty": 3}, {"name": "Thinkincense", "qty": 3}]}, {"name": "Brainy bracer", "category": "Accesorios", "ingredients": [{"name": "Gold bracer", "qty": 1}, {"name": "Sorcerer's stone", "qty": 2}]}, {"name": "Life bracer", "category": "Accesorios", "ingredients": [{"name": "Gold bracer", "qty": 1}, {"name": "Life ring", "qty": 2}]}, {"name": "Spirit bracer", "category": "Accesorios", "ingredients": [{"name": "Gold bracer", "qty": 1}, {"name": "Prayer ring", "qty": 1}, {"name": "Elfin charm", "qty": 1}]}, {"name": "Monarchic mark", "category": "Accesorios", "ingredients": [{"name": "Lucky pendant", "qty": 1}, {"name": "Raging ruby", "qty": 1}, {"name": "Ruby of protection", "qty": 1}]}, {"name": "Prayer ring", "category": "Accesorios", "ingredients": [{"name": "Gold ring", "qty": 1}, {"name": "Sage's elixir", "qty": 2}]}, {"name": "Holy talisman", "category": "Accesorios", "ingredients": [{"name": "Gold rosary", "qty": 1}, {"name": "Holy water", "qty": 5}, {"name": "Resurrock", "qty": 1}]}, {"name": "Sober ring", "category": "Accesorios", "ingredients": [{"name": "Gold ring", "qty": 1}, {"name": "Sandstorm spear", "qty": 1}, {"name": "Panacea", "qty": 1}]}, {"name": "Contra band", "category": "Accesorios", "ingredients": [{"name": "Gold ring", "qty": 1}, {"name": "Poison needle", "qty": 1}, {"name": "Special antidote", "qty": 1}]}, {"name": "Full moon ring", "category": "Accesorios", "ingredients": [{"name": "Gold ring", "qty": 1}, {"name": "Poison moth knife", "qty": 1}, {"name": "Lunaria", "qty": 1}]}, {"name": "Rousing ring", "category": "Accesorios", "ingredients": [{"name": "Gold ring", "qty": 1}, {"name": "Sleepy stick", "qty": 1}, {"name": "Wakerobin", "qty": 3}]}, {"name": "Ring of clarity", "category": "Accesorios", "ingredients": [{"name": "Gold ring", "qty": 1}, {"name": "Moon axe", "qty": 1}, {"name": "Angel bell", "qty": 3}]}, {"name": "Catholicon ring", "category": "Accesorios", "ingredients": [{"name": "Rousing ring", "qty": 1}, {"name": "Sober ring", "qty": 1}, {"name": "Contra band", "qty": 1}]}, {"name": "Sull ring", "category": "Accesorios", "ingredients": [{"name": "Sorcerer's ring", "qty": 1}, {"name": "Malicite", "qty": 1}]}, {"name": "Elfin charm", "category": "Accesorios", "ingredients": [{"name": "Holy talisman", "qty": 1}, {"name": "Elfin elixir", "qty": 1}, {"name": "Emerald moss", "qty": 3}]}, {"name": "Life ring", "category": "Accesorios", "ingredients": [{"name": "Prayer ring", "qty": 1}, {"name": "Resurrock", "qty": 3}]}, {"name": "Goddess ring", "category": "Accesorios", "ingredients": [{"name": "Life ring", "qty": 1}, {"name": "Sainted soma", "qty": 1}, {"name": "Gold bar", "qty": 1}]}, {"name": "Reckless necklace", "category": "Accesorios", "ingredients": [{"name": "Lucky pendant", "qty": 1}, {"name": "Malicite", "qty": 1}]}, {"name": "Lucky pendant", "category": "Accesorios", "ingredients": [{"name": "Reckless necklace", "qty": 1}, {"name": "Saint's ashes", "qty": 1}]}, {"name": "Strong medicine", "category": "Objetos", "ingredients": [{"name": "Medicinal herb", "qty": 2}]}, {"name": "Special medicine", "category": "Objetos", "ingredients": [{"name": "Strong medicine", "qty": 2}]}, {"name": "Superior medicine", "category": "Objetos", "ingredients": [{"name": "Medicinal herb", "qty": 1}, {"name": "Strong medicine", "qty": 1}]}, {"name": "Strong antidote", "category": "Objetos", "ingredients": [{"name": "Antidotal herb", "qty": 1}, {"name": "Medicinal herb", "qty": 1}]}, {"name": "Special antidote", "category": "Objetos", "ingredients": [{"name": "Strong antidote", "qty": 2}]}, {"name": "Softwort", "category": "Objetos", "ingredients": [{"name": "Strong medicine", "qty": 1}, {"name": "Moonwort bulb", "qty": 1}]}, {"name": "Lunaria", "category": "Objetos", "ingredients": [{"name": "Moonwort bulb", "qty": 3}]}, {"name": "Birdsong nectar", "category": "Objetos", "ingredients": [{"name": "Nectar", "qty": 3}, {"name": "Fresh water", "qty": 1}, {"name": "Sleeping hibiscus", "qty": 5}]}, {"name": "Panacea", "category": "Objetos", "ingredients": [{"name": "Special medicine", "qty": 1}, {"name": "Superior medicine", "qty": 1}, {"name": "Moonwort bulb", "qty": 1}]}, {"name": "Perfect panacea", "category": "Objetos", "ingredients": [{"name": "Panacea", "qty": 1}, {"name": "Angel bell", "qty": 1}, {"name": "Wakerobin", "qty": 1}]}, {"name": "Yggdrasil dew", "category": "Objetos", "ingredients": [{"name": "Yggdrasil leaf", "qty": 1}, {"name": "Elfin elixir", "qty": 1}]}, {"name": "Magic water", "category": "Objetos", "ingredients": [{"name": "Holy water", "qty": 1}, {"name": "Royal soil", "qty": 1}, {"name": "Nectar", "qty": 1}]}, {"name": "Sage's elixir", "category": "Objetos", "ingredients": [{"name": "Magic water", "qty": 1}, {"name": "Royal soil", "qty": 1}, {"name": "Nectar", "qty": 3}]}, {"name": "Elfin elixir", "category": "Objetos", "ingredients": [{"name": "Yggdrasil leaf", "qty": 1}, {"name": "Royal soil", "qty": 3}, {"name": "Nectar", "qty": 5}]}, {"name": "Mystifying mixture", "category": "Objetos", "ingredients": [{"name": "Belle cap", "qty": 1}, {"name": "Manky mud", "qty": 1}, {"name": "Cowpat", "qty": 3}]}, {"name": "Sage's stone", "category": "Objetos", "ingredients": [{"name": "Orichalcum", "qty": 1}, {"name": "Birdsong nectar", "qty": 3}, {"name": "Silver orb", "qty": 1}]}, {"name": "Densinium", "category": "Objetos", "ingredients": [{"name": "Flintstone", "qty": 3}, {"name": "Iron ore", "qty": 3}]}, {"name": "Gold bar", "category": "Objetos", "ingredients": [{"name": "Sainted soma", "qty": 3}, {"name": "Ethereal stone", "qty": 2}, {"name": "Birdsong nectar", "qty": 5}]}, {"name": "Hephaestus' flame", "category": "Objetos", "ingredients": [{"name": "Lava lump", "qty": 1}, {"name": "Royal soil", "qty": 1}, {"name": "Toad oil", "qty": 1}]}, {"name": "Enchanted stone", "category": "Objetos", "ingredients": [{"name": "Thunderball", "qty": 2}, {"name": "Ice crystal", "qty": 2}, {"name": "Mystifying mixture", "qty": 1}]}, {"name": "Ethereal stone", "category": "Objetos", "ingredients": [{"name": "Enchanted stone", "qty": 1}, {"name": "Perfect panacea", "qty": 1}, {"name": "Narspicious", "qty": 2}]}, {"name": "Astral plume", "category": "Objetos", "ingredients": [{"name": "Flurry feather", "qty": 3}, {"name": "Fresh water", "qty": 2}, {"name": "Angel bell", "qty": 1}]}, {"name": "Celestial skein", "category": "Objetos", "ingredients": [{"name": "Fresh water", "qty": 3}, {"name": "Tangleweb", "qty": 5}]}, {"name": "Technicolour dreamcloth", "category": "Objetos", "ingredients": [{"name": "Grubby bandage", "qty": 3}, {"name": "Brighten rock", "qty": 1}, {"name": "Celestial skein", "qty": 1}]}, {"name": "Sainted soma", "category": "Objetos", "ingredients": [{"name": "Lucida shard", "qty": 2}, {"name": "Sage's elixir", "qty": 2}, {"name": "Astral plume", "qty": 2}]}, {"name": "Lucida shard", "category": "Objetos", "ingredients": [{"name": "Brighten rock", "qty": 3}, {"name": "Evencloth", "qty": 3}]}, {"name": "Agate of evolution", "category": "Objetos", "ingredients": [{"name": "Sainted soma", "qty": 2}, {"name": "Ethereal stone", "qty": 2}, {"name": "Chronocrystal", "qty": 1}]}, {"name": "Sunstone", "category": "Objetos", "ingredients": [{"name": "Lucida shard", "qty": 2}, {"name": "Mirrorstone", "qty": 3}, {"name": "Hephaestus' flame", "qty": 1}]}, {"name": "Malicite", "category": "Objetos", "ingredients": [{"name": "Pink pearl", "qty": 1}, {"name": "Terrible tattoo", "qty": 2}, {"name": "Narspicious", "qty": 3}]}, {"name": "Finessence", "category": "Objetos", "ingredients": [{"name": "Fisticup", "qty": 2}, {"name": "Slipweed", "qty": 1}, {"name": "Superior medicine", "qty": 1}]}, {"name": "Aggressence", "category": "Objetos", "ingredients": [{"name": "Fisticup", "qty": 2}, {"name": "Wakerobin", "qty": 1}, {"name": "Softwort", "qty": 1}]}];
-        
+        let recipes = [];
+
+        // Load recipes from external JSON file
+        async function loadRecipes() {
+            try {
+                const response = await fetch('recipes.json');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                recipes = await response.json();
+                displayRecipes(recipes);
+            } catch (error) {
+                console.error('Error loading recipes:', error);
+                document.getElementById('recipesContainer').innerHTML =
+                    '<div class="no-results"><h2>Error</h2><p>No se pudieron cargar las recetas. Por favor, recarga la página.</p></div>';
+            }
+        }
+
         function displayRecipes(recipesToDisplay) {
             const container = document.getElementById('recipesContainer');
             const resultsCount = document.getElementById('resultsCount');
-            
+
             if (recipesToDisplay.length === 0) {
                 container.innerHTML = '<div class="no-results"><h2>Sin resultados</h2><p>No se encontraron recetas que coincidan con tu búsqueda.</p></div>';
                 resultsCount.textContent = 'No se encontraron recetas';
                 return;
             }
-            
+
             container.innerHTML = recipesToDisplay.map(recipe => `
-                <div class="recipe-card">
-                    <div class="recipe-title">${recipe.name}</div>
-                    <span class="recipe-category">${recipe.category}</span>
-                    <div class="recipe-ingredients">
-                        <strong>Ingredientes:</strong>
-                        ${recipe.ingredients.map(i => `<div class="ingredient-item"><span class="ingredient-name">${i.name}</span> x <span class="ingredient-quantity">${i.qty}</span></div>`).join('')}
+                    <div class="recipe-card">
+                        <div class="recipe-title">${recipe.name}</div>
+                        <span class="recipe-category">${recipe.category}</span>
+                        <div class="recipe-ingredients">
+                            <strong>Ingredientes:</strong>
+                            ${recipe.ingredients.map(i => `<div class="ingredient-item"><span class="ingredient-name">${i.name}</span> x <span class="ingredient-quantity">${i.qty}</span></div>`).join('')}
+                        </div>
+                        <div class="stats"><strong>${recipe.ingredients.length}</strong> ingredientes necesarios</div>
                     </div>
-                    <div class="stats"><strong>${recipe.ingredients.length}</strong> ingredientes necesarios</div>
-                </div>
-            `).join('');
-            
+                `).join('');
+
             resultsCount.textContent = `Mostrando ${recipesToDisplay.length} receta${recipesToDisplay.length !== 1 ? 's' : ''} de ${recipes.length} totales`;
         }
-        
+
         function filterRecipes() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const categoryFilter = document.getElementById('categoryFilter').value;
-            
+
             const filtered = recipes.filter(recipe => {
-                const matchesSearch = !searchTerm || 
+                const matchesSearch = !searchTerm ||
                     recipe.name.toLowerCase().includes(searchTerm) ||
                     recipe.ingredients.some(ing => ing.name.toLowerCase().includes(searchTerm));
                 const matchesCategory = !categoryFilter || recipe.category === categoryFilter;
                 return matchesSearch && matchesCategory;
             });
-            
+
             displayRecipes(filtered);
         }
-        
+
         function resetFilters() {
             document.getElementById('searchInput').value = '';
             document.getElementById('categoryFilter').value = '';
             displayRecipes(recipes);
         }
-        
+
         document.getElementById('searchInput').addEventListener('keyup', filterRecipes);
         document.getElementById('searchInput').addEventListener('input', filterRecipes);
         document.getElementById('categoryFilter').addEventListener('change', filterRecipes);
-        
-        window.addEventListener('load', () => { displayRecipes(recipes); });
+
+        // Initialize the page
+        window.addEventListener('load', loadRecipes);
     </script>
 </body>
 </html>
-
