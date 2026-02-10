@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Quest IX - Quest Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DRAGON QUEST IX</h1>
+            <p class="subtitle">~ Complete Quest Guide ~</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search quests by name...">
+                <input type="text" id="locationSearch" placeholder="Search by location...">
+                <select id="repeatableFilter">
+                    <option value="">All Quests</option>
+                    <option value="Yes">Repeatable</option>
+                    <option value="No">One-time Only</option>
+                </select>
+                <select id="sortBy">
+                    <option value="number">Sort by Number</option>
+                    <option value="name">Sort by Name</option>
+                    <option value="location">Sort by Location</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="quest-grid" id="questGrid"></div>
+        <div class="no-results" id="noResults" style="display: none;">
+            No quests found! Try a different search.
+        </div>
+    </div>
+
+    <script>
+        let quests = [];
+
+        // Load quests from JSON file
+        async function loadQuests() {
+            try {
+                const response = await fetch('quests.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                quests = await response.json();
+                console.log(`Loaded ${quests.length} quests successfully`);
+                displayQuests(quests);
+            } catch (error) {
+                console.error('Error loading quests:', error);
+                document.getElementById('questGrid').innerHTML =
+                    '<div class="no-results">Error loading quests. Please check the console for details.</div>';
+            }
+        }
+
+        function displayQuests(questsToDisplay) {
+            const container = document.getElementById('questGrid');
+            const noResults = document.getElementById('noResults');
+
+            if (questsToDisplay.length === 0) {
+                container.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            container.style.display = 'grid';
+            noResults.style.display = 'none';
+
+            container.innerHTML = questsToDisplay.map(quest => `
+                    <div class="quest-card">
+                        <div class="quest-header">
+                            <span class="quest-number">#${quest.number}</span>
+                            <span class="quest-repeatable ${quest.repeat === 'Yes' ? 'repeatable' : 'one-time'}">
+                                ${quest.repeat === 'Yes' ? 'Repeatable' : 'One-time'}
+                            </span>
+                        </div>
+                        <h3 class="quest-title">${quest.name}</h3>
+                        <div class="quest-location">📍 ${quest.location || 'Unknown Location'}</div>
+
+                        <div class="quest-details">
+                            ${quest.request ? `<div class="quest-section">
+                                <strong>Request:</strong>
+                                <p>${quest.request}</p>
+                            </div>` : ''}
+
+                            ${quest.solution ? `<div class="quest-section">
+                                <strong>Solution:</strong>
+                                <p>${quest.solution}</p>
+                            </div>` : ''}
+
+                            ${quest.reward ? `<div class="quest-section">
+                                <strong>Reward:</strong>
+                                <p class="quest-reward">🎁 ${quest.reward}</p>
+                            </div>` : ''}
+
+                            ${quest.preReq && quest.preReq !== 'None' ? `<div class="quest-section">
+                                <strong>Prerequisites:</strong>
+                                <p class="quest-prereq">⚠️ ${quest.preReq}</p>
+                            </div>` : ''}
+
+                            ${quest.notes && quest.notes !== 'None' ? `<div class="quest-section">
+                                <strong>Notes:</strong>
+                                <p class="quest-notes">💡 ${quest.notes}</p>
+                            </div>` : ''}
+                        </div>
+                    </div>
+                `).join('');
+
+            // Update stats
+            updateStats(questsToDisplay.length, quests.length);
+        }
+
+        function updateStats(shown, total) {
+            const statsEl = document.getElementById('questStats');
+            if (statsEl) {
+                statsEl.textContent = `Showing ${shown} of ${total} quests`;
+            }
+        }
+
+        function filterQuests() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const locationTerm = document.getElementById('locationSearch').value.toLowerCase();
+            const repeatableFilter = document.getElementById('repeatableFilter').value;
+            const sortBy = document.getElementById('sortBy').value;
+
+            let filtered = quests.filter(quest => {
+                const matchesSearch = !searchTerm ||
+                    quest.name.toLowerCase().includes(searchTerm) ||
+                    (quest.request && quest.request.toLowerCase().includes(searchTerm)) ||
+                    (quest.solution && quest.solution.toLowerCase().includes(searchTerm)) ||
+                    (quest.reward && quest.reward.toLowerCase().includes(searchTerm));
+
+                const matchesLocation = !locationTerm ||
+                    (quest.location && quest.location.toLowerCase().includes(locationTerm));
+
+                const matchesRepeatable = !repeatableFilter || quest.repeat === repeatableFilter;
+
+                return matchesSearch && matchesLocation && matchesRepeatable;
+            });
+
+            // Sort the filtered results
+            filtered.sort((a, b) => {
+                switch (sortBy) {
+                    case 'number':
+                        return a.number - b.number;
+                    case 'name':
+                        return a.name.localeCompare(b.name);
+                    case 'location':
+                        return (a.location || '').localeCompare(b.location || '');
+                    default:
+                        return a.number - b.number;
+                }
+            });
+
+            displayQuests(filtered);
+        }
+
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('locationSearch').value = '';
+            document.getElementById('repeatableFilter').value = '';
+            document.getElementById('sortBy').value = 'number';
+            displayQuests(quests);
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', filterQuests);
+        document.getElementById('locationSearch').addEventListener('input', filterQuests);
+        document.getElementById('repeatableFilter').addEventListener('change', filterQuests);
+        document.getElementById('sortBy').addEventListener('change', filterQuests);
+
+        // Initialize the page
+        window.addEventListener('load', loadQuests);
+    </script>
+
+    <style>
+        .quest-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .quest-card {
+            background: linear-gradient(145deg, #2a2a3a, #1a1a2a);
+            border-radius: 12px;
+            padding: 20px;
+            border: 2px solid #444;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+            .quest-card:hover {
+                transform: translateY(-3px);
+                border-color: #007acc;
+                box-shadow: 0 6px 20px rgba(0,122,204,0.3);
+            }
+
+        .quest-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .quest-number {
+            background: linear-gradient(135deg, #007acc, #005c99);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            font-family: 'Press Start 2P', monospace;
+        }
+
+        .quest-repeatable {
+            padding: 4px 8px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+            .quest-repeatable.repeatable {
+                background: #28a745;
+                color: white;
+            }
+
+            .quest-repeatable.one-time {
+                background: #ffc107;
+                color: #000;
+            }
+
+        .quest-title {
+            color: #fff;
+            margin: 0 0 10px 0;
+            font-size: 1.3em;
+            font-family: 'Press Start 2P', monospace;
+            line-height: 1.4;
+        }
+
+        .quest-location {
+            color: #b8b8d1;
+            font-size: 0.95em;
+            margin-bottom: 15px;
+            padding: 8px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            font-family: 'VT323', monospace;
+        }
+
+        .quest-details {
+            font-family: 'Merriweather', serif;
+        }
+
+        .quest-section {
+            margin-bottom: 12px;
+        }
+
+            .quest-section strong {
+                color: #fff;
+                font-size: 0.9em;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+
+            .quest-section p {
+                margin: 4px 0 0 0;
+                color: #d0d0e0;
+                font-size: 0.9em;
+                line-height: 1.4;
+            }
+
+        .quest-reward {
+            color: #ffd700 !important;
+            font-weight: bold;
+        }
+
+        .quest-prereq {
+            color: #ff6b6b !important;
+        }
+
+        .quest-notes {
+            color: #87ceeb !important;
+            font-style: italic;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+            .search-box input,
+            .search-box select {
+                padding: 12px;
+                border-radius: 8px;
+                border: 2px solid #444;
+                background: #2a2a3a;
+                color: #fff;
+                font-size: 14px;
+                min-width: 200px;
+            }
+
+                .search-box input:focus,
+                .search-box select:focus {
+                    outline: none;
+                    border-color: #007acc;
+                    box-shadow: 0 0 10px rgba(0,122,204,0.3);
+                }
+
+        .no-results {
+            text-align: center;
+            color: #888;
+            font-size: 1.2em;
+            padding: 40px;
+            background: #2a2a3a;
+            border-radius: 12px;
+            margin: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .quest-grid {
+                grid-template-columns: 1fr;
+                padding: 10px;
+            }
+
+            .search-box {
+                flex-direction: column;
+            }
+
+                .search-box input,
+                .search-box select {
+                    width: 100%;
+                    min-width: unset;
+                }
+        }
+    </style>
+</body>
+</html>

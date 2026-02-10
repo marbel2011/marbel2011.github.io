@@ -1,0 +1,2042 @@
+Table of Contents
+
+1. Introduction
+
+2. Quest List
+
+3. Grotto Info
+
+4. Contact Info
+
+5. Copyright
+
+
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~Introduction-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+
+The list provided here contains data on the quests that are available to be
+undertaken in Dragon Quest IX.  The list goes in order of quest number, which
+is rarely the order in which you actually encounter the quest in-game.
+
+The list contains the following data:
+
+ Quest #: This is the number of the quest related to the in-game sequence.
+          Next to the quest number is the quest name.
+Location: The city in which you will find the quest starting place, and the
+          specific NPC or object that you receive the quest from.
+ Request: The task required to complete the quest.
+Solution: Advice, suggestions and help on how to complete the various quests.
+  Reward: Reward that is received for completing the quest.
+ Pre-req: If the quest has any pre-requisites that need to be met before you
+          are able to receive this quest.
+  Repeat: Yes means that this quest is repeatable, and no means that it is
+          not repeatable.
+   Notes: Any additional notes regarding the quest.
+
+
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-Quest List~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+
+
+Quest #001 - One Good Turn
+Location: Angel Falls; Girl in front of the church
+ Request: Bring her a Tangleweb.
+Solution: Get it from the other side of the river near Angel Falls.
+  Reward: Sleeping Hibiscus; same for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: Can be also be bought from Batsureg.
+
+Quest #002 - Pleased As Punch
+Location: Stornway; Girl in church
+ Request: Do the Air Punch Party Trick
+Solution: Assign Air Punch as your Party Trick and perform it in front of the
+          girl by holding B and selecting the assigned button.
+  Reward: Pirouette Party Trick
+ Pre-req: None
+  Repeat: No
+   Notes: None
+
+Quest #003 - We Like To Party
+Location: Stornway; Girl in church
+ Request: Do the Pirouette, Clap, Jump and Air Punch consecutively.
+Solution: Assign these Party Tricks and map them to the Down button. Hold B
+          and press down to perform them in front of the girl.
+  Reward: Pray Party Trick
+ Pre-req: Finish Quest 2.
+  Repeat: No
+   Notes: None
+
+Quest #004 - Pick Me Up a Panacea
+Location: Stornway; Man near the billboard
+ Request: Bring him a Panacea.
+Solution: Use the Alchemy Pot.
+  Reward: Gleeban Guinea, recipes
+ Pre-req: None
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide.
+
+Quest #005 - Herb'list
+Location: Stornway; Soldier inside the NW tower
+ Request: Bring him an Medicinal Herb, Antidotal Herb, and a Moonwort Bulb.
+Solution: Common items in most item shops.
+  Reward: Gleeban Groat
+ Pre-req: None
+  Repeat: No
+   Notes: None
+
+Quest #006 - Get Well Water
+Location: Stornway; Soldier inside the NW tower
+ Request: Bring him an Angel's Tear.
+Solution: Get Fresh Water by the waterfall north of Slurry Quay and talk to
+          the man on the bridge in Angel Falls twice for the Angel's Tear.
+  Reward: Seed of Life
+ Pre-req: Finish Quest 5.
+  Repeat: No
+   Notes: None
+
+Quest #007 - Curious Crevice
+Location: Stornway; Man inside the Stornway Castle's well
+ Request: Bring him a Slimedrop.
+Solution: Most Slimes drop this item.
+  Reward: Seed of Strength.
+ Pre-req: None
+  Repeat: No
+   Notes: None
+
+Quest #008 - Don't Cry Over Spilt Ink
+Location: Stornway; Old Man inside Stornway Castle's library
+ Request: Bring him Magic Water.
+Solution: Buy in Porth Llaffan's item shop or later shops.
+  Reward: Seed of Magic
+ Pre-req: None
+  Repeat: No
+   Notes: Alternate: Refer to Bestiary for item drop.
+
+Quest #009 - Labour Of Love
+Location: Stornway; Woman inside armour shop
+ Request: Bring her an Evencloth.
+Solution: Steal from Ragged Reaper (#020).
+  Reward: Pretty Betsy
+ Pre-req: None
+  Repeat: No
+   Notes: Alternate: Refer to Materials Map for spawn points.
+
+Quest #010 - Wings of Love
+Location: Stornway Checkpoint; Soldier inside the house
+ Request: Bring him a Wing of Bat.
+Solution: Item drop from Drackmage (#020).
+  Reward: 200 gold
+ Pre-req: None
+  Repeat: No
+   Notes: None
+
+Quest #011 - The Not-So-Great Escape
+Location: Coffinwell; Man inside the well
+ Request: Bring him Hammer Handrills.
+Solution: Use the Alchemy Pot.
+  Reward: Unhappy hat
+ Pre-req: Ultimate Key
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide.
+
+Quest #012 - Putting on the Glitz
+Location: Porth Llafan; Bunny Girl inside the inn
+ Request: Equip yourself with fancy attire.
+Solution: Equip Platinum gear (Sword, Shield, Headgear, Mail), Silver
+          Bracelets, Red Tights, Acroboots and Bow Tie.
+  Reward: Majestic Mantle
+ Pre-req: Defeat Lleviathan.
+  Repeat: No
+   Notes: Many combinations possible to complete this quest.
+
+Quest #013 - All Fired Up
+Location: Dourbridge; Old man near bonfire
+ Request: Bring him something to burn.
+Solution: Give him any item.
+  Reward: 1 gold; same for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: He will not burn a rare item.
+
+Quest #014 - Snug as a Thug
+Location: Dourbridge; Man in northern house
+ Request: Bring him something fluffy.
+Solution: Give him Lambswool which can be bought in Batsureg's item shop.
+  Reward: Utility Belt
+ Pre-req: Access to Zere Rocks
+  Repeat: No
+   Notes: Alternate: Refer to Bestiary for item drop.
+
+Quest #015 - Collapsus's Call
+Location: Zere Rocks; Man on broken stairs before you enter the stone village
+ Request: Bring him a Special Medicine.
+Solution: Use the Alchemy Pot.
+  Reward: Granite Tunnel of Woe Lv. 1 Treasure Map
+ Pre-req: None
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide.
+
+Quest #016 - Help Meowt Here!
+Location: Bloomingdale; Cat on the 2F of the inn
+ Request: Meow?
+Solution: Buy Cat Ears in Bloomingdale, equip them and talk to the cat.
+  Reward: Kitty Shield
+ Pre-req: None
+  Repeat: No
+   Notes: None
+
+Quest #017 - You Shouldn't Have... Really
+Location: Angel Falls; Girl inside house near the entrance
+ Request: Bring her 5 Belle Caps and 5 Fisticups.
+Solution: Find the mushrooms at their respective spawn points and bring them
+          to the girl to receive the Packed Lunch. Bring the Packed Lunch to
+	  her father who is near the entrance of Hexagon and then report back
+	  to the girl in Angel Falls.
+  Reward: Prayer Ring
+ Pre-req: None
+  Repeat: No
+   Notes: Refer to the Materials Map for the spawn points.
+
+Quest #018 - Our Precious Precious
+Location: Mountain Pass; Woman at the north
+ Request: Find the family's pet slime.
+Solution: Use the Alchemy Pot to create a Slood and Gooey Gear. Only have the
+          hero in your party and only equip those two items on him or her.
+	  Defeat a Slime (#001) in battle and once it joins you report back to
+	  the woman.
+  Reward: Seed of Skill
+ Pre-req: None
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide.
+
+Quest #019 - Moving House
+Location: Stornway; Old man at west of the town
+ Request: Bring him a Raging Ruby.
+Solution: He gives you a Strength Ring and all you need is a Corundum to
+          alchemize a Raging Ruby.
+  Reward: Life Ring
+ Pre-req: None
+  Repeat: No
+   Notes: Refer to Materials Map for spawn point for the Corundum.
+
+Quest #020 - A Masky Task
+Location: Stornway; Slim woman inside a house in the western part of town
+ Request: Make a Papillon Mask.
+Solution: Use the Alchemy Pot.
+  Reward: Stiletto heels for showing her the mask and a Jaguarment if you
+          decide to give her the mask.
+ Pre-req: None
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide.
+
+Quest #021 - Spud-She-Like
+Location: Stornway; Heavy woman inside a house in the west of town
+ Request: Bring her a Sunstone.
+Solution: Use the Alchemy Pot.
+  Reward: Saint's Ashes
+ Pre-req: None
+  Repeat: No
+   Notes: Refer to the Materials Map for the spawn points and the Alchemy
+   Recipe Guide.
+
+Quest #022 - Mantle a la Mode
+Location: Stornway; Man inside the armour shop
+ Request: Bring him a Macabre Mantle.
+Solution: Use the Alchemy Pot.
+  Reward: Seed of Deftness for showing him the robe and a Lunar Fan if you
+          decide to give him the robe.
+ Pre-req: None
+  Repeat: No
+   Notes: Refer to the Alchemy Recipe Guide.
+
+Quest #023 - Research Assistant
+Location: Stornway; Old Man inside Stornway Castle's library
+ Request: Find information about Brigadoom inside the castle.
+Solution: Obtain three Magic Waters and check the opened red chest in the
+          middle of Stornway Castle's treasure room for a Crumpled Note.
+  Reward: 3 Seeds of Sorcery
+ Pre-req: Finish Quest 8.
+  Repeat: No
+   Notes: Buy Magic Waters in Porth Llaffan.
+
+Quest #024 - Battering Batterflies
+Location: Zere; Man outside of the church
+ Request: Scare 10 Batterflies.
+Solution: Have someone at a high enough level to make the Batterflies flee
+          from you in battle. Level 25 is sufficient.
+  Reward: Seed of Defence; Toad Oil for repeat
+ Pre-req: Need a character that has a high enough level to scare a Batterfly.
+  Repeat: Yes
+   Notes: None
+
+Quest #025 - Warbling Wellard
+Location: Zere; Thug outside church
+ Request: Bring him a Birdsong Nectar.
+Solution: Use the Alchemy Pot.
+  Reward: Gleeban Gold; same for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: Refer to Alchemy Recipe Guide.
+
+Quest #026 - Doug and the Sluggers
+Location: Coffinwell; Old man near the northern house
+ Request: Defeat 10 Sluggers (#035).
+Solution: Sluggers are found near Coffinwell.
+  Reward: Mini-Medal; Snakeskin for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: None
+
+Quest #027 - Big headed bard
+Location: Coffinwell; Bard on the east of town
+ Request: Bring a Technicolour Dreamcloth to the nun in the church and report
+          back to the bard.
+Solution: Use the Alchemy Pot.
+  Reward: Elfin Charm
+ Pre-req: None
+  Repeat: No
+   Notes: None
+
+Quest #028 - Desert Foxes
+Location: Gleeba; Read the sign SW of Gleeba in the desert. Check it from
+          behind to accept the quest.
+ Request: Defeat Parched Peckerels (#094) until you obtain 10 Duneberries.
+Solution: Defeat them around Gleeba and once you are done report to one of the
+          dancers in the dancehall.
+  Reward: Platinum Ore; Silver Platter for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #029 - Fool's Gold
+Location: Gleeba; Soldier in SW House in Gleeba
+ Request: Defeat a fake Gold Golem.
+Solution: Defeat Gold Golems (#096) in the southern pit of the Djust Desert
+          until the fake Gold Golem reveals himself.
+  Reward: 1000 gold; 500 gold for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: None
+
+Quest #030 - Wrapper's Delight
+Location: Gleeba; Soldier in SW House in Gleeba
+ Request: Bring him 5 Grubby Bandages.
+Solution: They can be stolen from Mummy Boys (#044) in the Plumbed Depths in
+          Gleeba.
+  Reward: Ruby of Protection; Corundum for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: Refer to the Beastiary for other monsters than can drop this item.
+
+Quest #031 - Feather for a Fan
+Location: Gleeba; Man inside the dancehall
+ Request: Bring him 3 Hocus Chimera Feathers.
+Solution: Defeat Hocus Chimera (#076) until they drop the items. They are
+          common encounters in Zere Rocks.
+  Reward: Magical Skirt
+ Pre-req: None
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #032 - Oil Get It
+Location: Gleeba; Merchant in center of town
+ Request: Bring him Turbo Toad Oil.
+Solution: Defeat Expload (#097) with a Critical Hit. They can be found near
+          the oasis in the Djust Desert. Thunder Thrust and Hatchet Man usable.
+  Reward: 2000 gold; 1000 gold for repeat
+ Pre-req: Post-game; Sterling's Whistle
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #033 - Lady of the Dance
+Location: Gleeba; Book in the NW room of the castle
+ Request: Find the Lady of the Dance.
+Solution: Defeat Goodybag (#151) around Batsureg until she teaches you the
+          dance.
+  Reward: Belly Dance Party Trick
+ Pre-req: None
+  Repeat: No
+   Notes: None
+
+Quest #034 - A Simple Task
+Location: Batsureg; Girl in the center of the village
+ Request: Get the 'Simple Simon' or 'Simple Simone' Accolade.
+Solution: If your Hero Is Female, as a Ranger equip: Headsman's Axe,
+          Minotaur Helm, Jaguarment, Gloomy Gloves, Steppe Steppers,
+          and Agiliboots. If your Hero is a male, then as a Priest equip:
+	  Sadistick, Dragon Shield, Hermetic Hat, Dark Robe, Heavy Handwear,
+	  Blue Jeans, Classy Clogs, and Utility Belt.  Check your Battle Records
+          to make sure you get the accolade and assign it in your profile.
+  Reward: Veteran's Helm
+ Pre-req: Post-game access to Stornway's upgraded shop may be necessary.
+  Repeat: No
+   Notes: Refer to a shop list and the Alchemy Recipe Guide. Other
+          combinations are possible.
+
+Quest #035 - All Dolled Up
+Location: Batsureg; Man in the SW tent
+ Request: Retrieve the Ragdoll from the Brainy Badboon (#117).
+Solution: Brainy Badboon must be put to sleep with either Snooze or Kasnooze
+          before you use Half-Inch to steal from him.
+  Reward: Einhander
+ Pre-req: None
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #036 - Little Miss Bossy Boots
+Location: Swinedimples Academy; Girl inside the school, near the church
+ Request: Bring her Holy Water and 2 Royal Soils.
+Solution: Buy the Holy Water and get the Royal Soil from the spawn points.
+  Reward: Salute Party Trick; Thunderball for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: Refer to the Materials Map for the spawn point locations.
+
+Quest #037 - Funghi for a Fun Guy
+Location: Pluvi Island; small island southeast of Gleeba, Man inside a well
+ Request: Bring him 3 Belle Caps.
+Solution: Find them at spawn points.
+  Reward: Finessence; Magic Beast Horn for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: Refer to the Materials Map for the spawn points.
+
+Quest #038 - Muffled Admiration
+Location: Wormwood Creek; Man inside weapons shop
+ Request: Give a scarf to 3 types of Sanguini.
+Solution: Defeat each Sanguini until they accept the scarf. Teeny Sanguini
+          (#003) is by Angel Falls, Pink Sanguini (#080) is by Bloomingdale
+	  and the Genie Sanguini (#189)  is on a small island north of the
+	  lake by Stornway.
+  Reward: Elfin Elixir; Mystifying Mixture for repeat
+ Pre-req: None
+  Repeat: Yes
+   Notes: None
+
+Quest #039 - Follow That Fish
+Location: Porth Llaffan; Jona's House in the SE of the village
+ Request: Summon Lleviathan and defeat him.
+Solution: Talk to the ghost in Porth Llaffan at night. Buy or alchemize a
+          Watermaul Wand, Flowing Dress and Silver Shield. Talk to Jonah once
+	  you have them and go to the summit of Tywll Cave and equip the gear.
+	  Talk to Jonah again, defeat Lleviathan and eat the Fygg.
+  Reward: Sterling's Whistle which can summon the Starflight Express
+ Pre-req: Post-game
+  Repeat: No
+   Notes: Story, Check shop list or Alchemy Recipe Guide for the required
+          equipment.
+
+Quest #040 - Man Eating Vegetables
+Location: Angel Falls; Woman inside the item shop
+ Request: Get The 'Herbalist' Accolade.
+Solution: Use herb items 100 times to earn the accolade. Check your Battle
+          Records to make sure you get it and assign it in your profile.
+  Reward: 3 Yggdrasil Dew
+ Pre-req: Post-game
+  Repeat: No
+   Notes: None
+
+Quest #041 - Style Gooru
+Location: Angel Falls; Professor by the well
+ Request: Bring him a Goododendron which is dropped by Slime (#001).
+Solution: Defeat Slimes until you get the flower
+  Reward: Seed of Agility; Nectar for repeat
+ Pre-req: Post-game
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #042 - Letter Getter
+Location: Stornway; Man lying down near the church
+ Request: Bring him a Crumpled Letter which is dropped by Bling Badger (#251)
+Solution: Bling Badgers can be found in high level Water grottos. Keep
+          defeating them until you receive the letter.
+  Reward: Glombolero
+ Pre-req: Post-game; Access to high level Water grottos
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #043 - Maid To Wait
+Location: Stornway; Old man inside southern house
+ Request: He wants to talk to his maid.
+Solution: Buy a Maid's Mop and Maid's Outfit and equip your character with
+          both item and talk to the man. The maid equipment can be bought from
+	  the secret shop in Dourbridge.
+  Reward: Halo
+ Pre-req: Post-game; Ultimate Key
+  Repeat: No
+   Notes: Both genders can equip the maid equipment.
+
+Quest #044 - A Climber for a Climber
+Location: Coffinwell; Woman near the northern house
+ Request: Obtain a 100 cm Beardy Weirdy from a Treevil.
+Solution: Defeat Treevils (#110) in Urdus Marshland with the Fisticuff Stone's
+          Throw ability. You will automatically keep throwing away the Beardy
+	  Weirdies you win if it is lower than 100 cm.
+  Reward: Mini Medal; same for repeat
+ Pre-req: Post-game; Fisticuff Stone's Throw ability
+  Repeat: Yes
+   Notes: None
+
+Quest #045 - Tale of the Paper Trail
+Location: Coffinwell; Woman near the SE house
+ Request: Retrieve 3 pieces of the Torn Exam Paper.
+Solution: Fight random monsters around Coffinwell until you obtain all three
+          pieces.
+  Reward: Brainy Bracer
+ Pre-req: Post-game
+  Repeat: No
+   Notes: None
+
+Quest #046 - Puttin'em In Platinum
+Location: Coffinwell; Woman inside western house
+ Request: Give her all of the Platinum gear (Sword, Shield, Headgear, Armour).
+Solution: Buy the sword and headgear in Gleeba, buy the shield in Bloomingdale
+          and alchemize the armour.
+  Reward: Divine Dress
+ Pre-req: Post-game
+  Repeat: No
+   Notes: Story, Refer to the Alchemy Recipe Guide
+
+Quest #047 - Dozy Mayor
+Location: Porth Llafan; The man inside the mayor's house
+ Request: Wake up the mayor.
+Solution: Obtain some Freshwater from spawn point at Slurry Quay and return to
+          Angel Falls and speak to the man by the bridge so he can give you
+	  the Angel's Tear. Report back to the man in the mayor's house.
+  Reward: Seed of Magic
+ Pre-req: Post-game
+  Repeat: No
+   Notes: Alternate: Refer to Materials Map for other spawn points.
+
+Quest #048 - A Task for a Cask
+Location: Slurry Quay; Barrel at the dock
+ Request: Bring it Holy Water, Freshwater and Magic Water.
+Solution: Buy the Holy Water and Magic Water from item shops and get Fresh
+          Water from the spawn points.
+  Reward: Seed of Defence
+ Pre-req: Post-game
+  Repeat: Yes
+   Notes: Refer to Materials Map and shop list for location of the items.
+          Gleeban Guinea is the reward for repeating this request.
+
+Quest #049 - Rock On!
+Location: Zere Rocks; Boy near the church
+ Request: Show him a Resurrock, an Enchanted Stone and an Agate of Evolution.
+Solution: Resurrock appears at spawn points. Use the Alchemy Pot to creat an
+          Enchanted Stone and an Agate of Evolution.
+  Reward: Rusty Shield
+ Pre-req: Post-game
+  Repeat: No
+   Notes: Refer to the Materials Map and Alchemy Recipe Guide.
+
+Quest #050 - Confession of Cin'
+Location: Bloomingdale; Nun in the church
+ Request: Bring her a Dead Man's Dagger from the Bloody Mummy (#146) in
+          Bowhole.
+Solution: Keep killing Bloody Mummies until the item drops.
+  Reward: Seed of Therapeusis
+ Pre-req: Post-game
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #051 - A Martyr to His Ma
+Location: Gleeba; Soldier in SW house in Gleeba
+ Request: Bring him a Sainted Soma and take it to his mother in Wormwood
+          Creeks item shop. She'll give you a Package from Ma to return to him.
+Solution: Use the Alchemy Pot.
+  Reward: Ethereal Stone; same for repeat
+ Pre-req: Post-game
+  Repeat: No
+   Notes: Refer to the Alchemy Recipe Guide.
+
+Quest #052 - Tall Order Cook
+Location: Gleeba; Cook inside the castle
+ Request: Bring him vegetables from Zere.
+Solution: Talk to the farmer outside the church in Zere and he'll ask for Horse
+          Manure x3 and Cowpat x7. Obtain them from their respective spawn
+	  points and give them to the farmer. Report to the chef in Gleeba.
+  Reward: Gleeban Gold Piece
+ Pre-req: Post-game
+  Repeat: Yes
+   Notes: Refer to Materials Map for spawn points.
+
+Quest #053 - Magmalice Mania
+Location: Wormwood creek; Boy in item shop
+ Request: Get a Magmalice Handprint.
+Solution: Defeat Magmalice (#168) in Magmaroo until they drop the item.
+  Reward: Prince's Pea Coat; Bow Tie for repeat
+ Pre-req: Post-game
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #054 - Moai Memorabilia
+Location: Wormwood creek; Girl inside the inn
+ Request: Get a Mega Moai Headprint.
+Solution: Defeat mega moai (#167) in Magmaroo until they drop the item.
+  Reward: Princess's Robe; Pink Pearl for repeat
+ Pre-req: Post-game
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #055 - Mummy's Little Hero
+Location: Pool of Spirits Cave (NE of Angel Falls); Boy in cave
+ Request: Bring him a Wakerobin.
+Solution: Buy it in Bloomingdale.
+  Reward: Rockbomb Shard
+ Pre-req: Post-game; Sterling's Whistle
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #056 - Nicholas's Necklace
+Location: Island at eastern Stornway; Man in southern house
+ Request: Retrieve the Memento Necklace.
+Solution: After accepting the request, speak the man in the northern house at
+          night to discover that the necklace was stolen by an Abyss Diver
+	  (#170). Keep fighting this monster near the four corners of the sea
+	  until it drops the item.
+  Reward: Seed of Defence; Strength Ring for repeat
+ Pre-req: Post-game; Sterling's Whistle, Finish Quest 57 to repeat this quest
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #057 - Not Nicholas's Necklace
+Location: Island at eastern Stornway; Man in northern house
+ Request: Retrieve the Memento Necklace.
+Solution: At night speak to the man in the southern house to find out that a
+          Pink Sanguini (#080) stole the necklace. Defeat them in Bloomingdale
+	  until the item drops.
+  Reward: Seed of Agility; Agility Ring for repeat
+ Pre-req: Post-game; Finish Quest 56
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #058 - Fixing the Sicklops
+Location: Newid Isle (Tree on cliff near Alltrades Abbey); Boy on the cliff
+ Request: Steal a Titanic Tincture from Atlas when his life is below 700 HP.
+Solution: Atlas (#289) is a mid to high level grotto boss depending on how
+          many times your Hero has revocated. Do 6000 damage to him and then
+	  begin to use Half-Inch to steal the Titanic Tincture.
+  Reward: Random Grotto Treasure Map
+ Pre-req: Post-game, Sterling's Whistle, Half-Inch, mid to high level grottos
+  Repeat: No
+   Notes: None
+
+Quest #059 - Runny Bunny
+Location: Hill east of Wormwood Creek; Bunny Girl inside northern well
+ Request: Bring her Metal Slime Sollerets.
+Solution: You have a 1% chance to find these in a Rank A blue treasure chest
+          which are found in high level grottos.
+  Reward: Venus's Tear; same for repeat
+ Pre-req: Post-game; Sterling's Whistle, access to high level grottos
+  Repeat: Yes
+   Notes: None
+
+Quest #060 - That Makes Scents
+Location: Mountains east of Wormwood creek; Girl inside southern well
+ Request: Give her ingredients for her incense.
+Solution: She requires Nectar, Narspicious, and Thinkincense. You can get them
+          from their spawn points.
+  Reward: Enchanted Stone; same for repeat
+ Pre-req: Post-game; Sterling's Whistle
+  Repeat: Yes
+   Notes: Refer to the Materials Map for spawn point locations.
+
+Quest #061 - Mager Migraine
+Location: Well on a hill, north of Upover; Man inside the well
+ Request: Bring him Hexite from Shogum.
+Solution: Fight Shogum (#285) who is a boss in the low level grottos until he
+          drops the item.
+  Reward: Lucida Shard; same for repeat
+ Pre-req: Post-game; Sterling's Whistle
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #062 - Brian's Dyin' Wish
+Location: Cringle Coast, most NE island; Skeleton in cave
+ Request: Get the Larrrst Letter.
+Solution: Defeat Salamarauder (#060) in Tywll Cave until they drop the item
+          and report back to the skeleton.
+  Reward: Baramos Map
+ Pre-req: Post-game; Sterling's Whistle
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #063 - Keep Your Eyes Peeled
+Location: Swinedimples Academy; Man inside the church
+ Request: Find the red postsign.
+Solution: On the island east of the Bowhole, read the red sign from the back
+          and report back to the man.
+  Reward: Warrior's Sword
+ Pre-req: Sword Skill at level 30
+  Repeat: No
+   Notes: None
+
+Quest #064 - Turn In Your Badges
+Location: Swinedimples Academy; Man inside the church
+ Request: Obtain the 5 badges.
+Solution: Fight the enemies outside the following locations in this order:
+          Bloomingdale, Gleeba, Angel Falls, Coffinwell and Swinedimples
+	  Academy. Once you get a badge from an area, move on to the next one.
+  Reward: "Swordcraft in Summary": Gigagash ability
+ Pre-req: Finish Quest 63, Sword Skill at 100
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #065 - Operation Mercury
+Location: Swinedimples Academy; Man in the western hallway in the school
+ Request: Defeat 3 Metal Medleys (#089) with Pressure Point.
+Solution: Fight them in bad cave with this skill. Equiping Demon Spear will
+          incrase your chances of getting an instant kill.
+  Reward: Halberd
+ Pre-req: Spear Skill at 30
+  Repeat: No
+   Notes: None
+
+Quest #066 - Operation Multithrust
+Location: Swinedimples Academy; Man in the western hallway in the school
+ Request: Defeat 2 Gloomy Gastropogs (#172) at the same time with Multithrust.
+          Do this 5 times.
+Solution: They can be found around the Gittish Empire. Oomph and Egg On your
+          Spear user.
+  Reward: "Clear Spear Theory": Lightning Storm ability
+ Pre-req: Finish Quest 65, Spear Skill at 100
+  Repeat: No
+   Notes: None
+
+Quest #067 - Nab the Knife-Nicker
+Location: Swinedimples Academy; Woman in the 1F of the dormitory
+ Request: Defeat Shivery Shrubbery (Monster 125) with Toxic Dagger while it is
+          asleep until it drops the Broken Blade.
+Solution: Fight near Swinedimples and put them to sleep with Snooze or Kasnooze
+          then use Toxic Dagger to kill them until the item is dropped.
+  Reward: Icicle Dirk
+ Pre-req: Knife Skill 30
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #068 - Spice up Your Knife
+Location: Swinedimples Academy; Woman in the 1F of the dormitory
+ Request: Defeat 10 poisoned Bad Karmours (#186) with Victimiser.
+Solution: Defeat them in this manner in Oubliette.
+  Reward: "Knifing Know-How": Peresecutter ability
+ Pre-req: Finish Quest 67, Knife Skill 100
+  Repeat: No
+   Notes: None
+
+Quest #069 - You Scratch My Back...
+Location: Swinedimples Academy; Old man on the western part of campus
+ Request: Retrieve his Backstratcher.
+Solution: Talk to the heavy man by the item shop in Slurry Quay. Defeat
+          Salamarauders (#060) in Tywll cave until they drop the item.
+  Reward: Brouhaha Boomstick
+ Pre-req: Wand Skill 30
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #070 - Look, Back in Anger
+Location: Swinedimples Academy; Old man on the western part of campus
+ Request: Get medicine for his shoulders.
+Solution: Speak with the woman on the 2F of the school. Get Molten Magma by
+          defeating Live Lavas (#165) from Magmaroo and Toad Oil by defeating
+	  Gloomy Gastropogs (#172) in the Gittish Empire. Bring them back to
+	  the old man.
+  Reward: "Wands and Beyond": Zing Stick ability
+ Pre-req: Finish Quest 69, Wand Skill 100, Quests 77 or 78 NOT in progress
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #071 - Staunch the Stench
+Location: Swinedimples Academy; Blond man in western hallway in the school
+ Request: Defeat Stenchurion (#171) found in the sea north of Gleeba with
+          Deliverance until you receive the Mirror of Reflection.
+Solution: The Stenchurion you defeat must be found in the sea north of Gleeba.
+          Other Stenchurions will not drop the item.
+  Reward: Killer Pillar
+ Pre-req: Staff Skill 30
+  Repeat: No
+   Notes: None
+
+Quest #072 - Jump for Joy
+Location: Swinedimples Academy; Blond man in western hallway in the school
+ Request: Defeat Nemean with a normal attack while equipped with a Laundry
+          Pole to receive the Staff Scroll.
+Solution: Buy the weapon in Stornway and Nemean (#284) is a low level grotto
+          boss. Do about 2500 damage to him until you start hitting him with
+	  the Laundry Pole.
+  Reward: "Staff Studies": Counter Wait ability
+ Pre-req: Finish Quest 71, Staff Skill 100, Access to low level grottos
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.  Must be night time to receive the quest.
+
+Quest #073 - Whipping Boy's Wish
+Location: Swinedimples Academy; Boy on 2F of school
+ Request: Get Mr. Whippy a new whip.
+Solution: Talk to the Bunny Girl outside the Lighthouse and bring her a Hammer
+          Fang. Power Hammers (#095) drop them near Gleeba. Bring it back to
+	  the Bunny Girl then report back to the boy.
+  Reward: Spiked Steel Whip
+ Pre-req: Whip Skill 30
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #074 - Mr Whippy Wish
+Location: Swinedimples Academy; Man on 1F of dormitory
+ Request: Run an errand for Mr. Whippy.
+Solution: Talk to the Bunny Girl outside the Lighthouse and defeat Dreadful
+          Drackal (Monster 175) which can be found around the Gittish Empire
+	  and Drastic Drackal (Monster 155) which can be found around Wyrmtail
+	  with the Leather Whip. Buy the Leather Whip from Stornway. Report
+	  back to the girl to receive Catwright's Parcel and give the Parcel
+	  to the man in the dormitory.
+  Reward: "Working with Whips": Serpent's Bite ability
+ Pre-req: Finish Quest 73, Whip Skill 100
+  Repeat: No
+   Notes: None
+
+Quest #075 - Rake a Tail Feather
+Location: Swinedimples Academy; Man in the eastern room on the 1F of the school
+ Request: Get 10 Tinny Tail Feathers by defeating Robo-robin (#112) with Can
+          Opener.
+Solution: Defeat them around Batsureg until you get 10 feathers. They are 100%
+          drops if you defeat them with Can Opener.
+  Reward: Kestrel Claws
+ Pre-req: Claw Skill 30
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #076 - The Talonted Trio
+Location: Swinedimples Academy; Man in eastern room on the 1F of the school
+ Request: Defeat his three apprentices with Claws equipped.
+Solution: Defeat Tearwolf (#126) at the south of Swinedimples Academy; report
+          back and go to the Gittish Empire and within Oubliette B3, defeat
+	  Claws (#183); report back and defeat King Crab (# 188) at the four
+	  corners of the ocean. He must be defeated there in order to get the
+	  scene.
+  Reward: "The Core of the Claw": Hand of God ability
+ Pre-req: Finish Quest 75, Claw Skill 100
+  Repeat: No
+   Notes: None
+
+Quest #077 - Cool-Fanned Kook
+Location: Swinedimples Academy; Woman in the eastern hallway on the 2F of the
+          school
+ Request: Bring her a Freezing Feather.
+Solution: Defeat Apeckalypse (#128) outside of Swinedimples until they drop it.
+  Reward: White Tiger Fan
+ Pre-req: Fan Skill 30
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #078 - Oh The Indignity
+Location: Swinedimples Academy; Woman in the eastern hallway on the 2F of the
+          school
+ Request: Defeat a Liquid Metal Slime (#153) with Fandango while wearing the
+          Bunny Ears and the Bunny Tail.
+Solution: Buy the Bunny Tail in Zere and either buy the Bunny Ears in the
+          secret shop in Dourbridge or use the Alchemy Pot to create them.
+	  Liquid Metal Slimes can be encountered in the Bowhole or Slime Hill.
+  Reward: "Further Fanmanship": Hustle Dance ability
+ Pre-req: Finish Quest 77, Fan Skill 100
+  Repeat: No
+   Notes: Talk to the woman who gave you the quest once more with the bunny
+          ears and bunny tail equipped before you set out or the kill won't
+          count.
+
+Quest #079 - Bring Oi Back Me Axe
+Location: Swinedimples Academy; Man near the fountain
+ Request: Bring him back his axe back from the Treevil that took it (#110).
+Solution: Defeat Treevils in Urdus Marshland until the drop Max's axe.
+  Reward: Pro's Axe
+ Pre-req: Axe Skill 30
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #080 - 'Atchet Job
+Location: Swinedimples Academy; Man near the fountain
+ Request: Defeat 3 Magmalices (#168), 3 Stone Guardians (#178) and 3 Bad
+ Karmours (#186) with Hatchet Man.
+Solution: Magmalice are found in Magmaroo and both the Stone Guardians and Bad
+          Karmours can be found in Oubliette.
+  Reward: "Advanced Axecraft": Whopper Chop ability
+ Pre-req: Finish Quest 79, Axe Skill 100
+  Repeat: No
+   Notes: None
+
+Quest #081 - Mallet's Mallet
+Location: Swinedimples Academy; Female student in the middle room on the 2F of
+          the school
+ Request: Repair her hammer.
+Solution: Go to the library on the 1F and read Mallet Monthly. Go to the
+          Plumbed Depths of Gleeba and defeat Admirer (#099) until you get the
+	  Wobbly Jelly.
+  Reward: Terra Firmer
+ Pre-req: Hammer Skill 30
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #082 - To Shell and Back
+Location: Swinedimples Academy; Woman in the west room near the entrance of
+          the school
+ Request: Defeat a Liquid Metal Slime (#153) with Bagsy Last while equipped
+          with a Tortoise Shell.
+Solution: Buy the Tortoise Shell at Porth Llaffan. Knock off 5 to 6 HP on the
+          Liquid Metal Slime before you use Bagsy Last.
+  Reward: "Hardcore Hammering": Big Banga ability
+ Pre-req: Finish Quest 81, Hammer Skill 100
+  Repeat: No
+   Notes: None
+
+Quest #083 - Beautiful Bowginnings
+Location: Swinedimples Academy; Thug inside the theatre
+ Request: Defeat 10 Peckerels (Monster 114) with Flutter Disaster.
+Solution: Fight them around Batsureg.
+  Reward: Billowing Bow
+ Pre-req: Bow Skill 30
+  Repeat: No
+   Notes: None
+
+Quest #084 - Beauty and Beyond
+Location: Swinedimples Academy; Thug inside the theatre
+ Request: Defeat 10 Boss Trolls (Monster 179) with Rain of Pain.
+Solution: Before you fight the Boss Trolls in Oubliette, create the Wonder
+          Pants with the Alchemy Pot. Once you are done defeating 10 Boss
+	  Trolls with Rain of Pain, report back to the thug.
+  Reward: "Archery for the Adept": Shining Shot ability
+ Pre-req: Finish Quest 83, Bow Skill 100
+  Repeat: No
+   Notes: None
+
+Quest #085 - Comeback Kid
+Location: Swinedimples Academy; Boy outside of theatre
+ Request: Defeat a Metal Slime (#046) with Power Throw.
+Solution: Fight them in Quarantomb or Slime Hill near Angel Falls if you have
+          Sterling's Whistle. Report back to the boy once you have done this,
+	  then walk over to the bridge that is to the west of Swinedimples to
+	  see a scene. Report back to the boy in Swinedimples after the scene
+	  is over.
+  Reward: Eaglewing
+ Pre-req: Boomerang Skill 30
+  Repeat: No
+   Notes: None
+
+Quest #086 - Brave the Caves
+Location: Swinedimples Academy; Girl outside of the dormitory
+ Request: Complete the Boomerang Master Exam.
+Solution: Go to the art room on the 2F of the school and check the glowing
+          spot. Defeat the following monsters with the Boomerang until they
+	  each drop an item: Mortoad (#062) in Tywll Cave, Hunter Mech (#087)
+	  in the Bad Cave, Living Statue (#150) in the Bowhole. You should
+	  receive "Basic Boomeranging", "Better Boomeranging", and "Bonzer
+	  Boomeranging".
+  Reward: "The Boomerang Bible": Gigathrow ability
+ Pre-req: Finish Quest 85, Boomerang Skill 100
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.
+
+Quest #087 - Sucking Up to Buckler
+Location: Swinedimples Academy; Man in the west room near the school entrance
+ Request: Block 10 attacks with your shield.
+Solution: Go into battle and the blocking will happen automatically. If you
+          have more skill points in your Shield Skill and a better shield then
+	  your chance to block a hit increases.
+  Reward: White Shield
+ Pre-req: Shield Skill 30
+  Repeat: No
+   Notes: None
+
+Quest #088 - Buckler's Buckler
+Location: Swinedimples Academy; Man in the west room near the school entrance
+ Request: Defeat 10 Killing Machines (#174) using Blockenspiel.
+Solution: They can be found around the Gittish Empire.
+  Reward: "Secrets of the Shield": Prevents critical attacks
+ Pre-req: Finish Quest 87, Shield Skill 100
+  Repeat: No
+   Notes: None
+
+Quest #089 - Way of the Fitht
+Location: Swinedimples Academy; Martial artist inside the theatre
+ Request: Defeat 10 Wyrtles (#106) with Knuckle Sandwich.
+Solution: Fight them around Urdus Marshland or Hermany.
+  Reward: Tough Guy Tattoo
+ Pre-req: Fisticuff Skill 30
+  Repeat: No
+   Notes: None
+
+Quest #090 - One Latht Tehth
+Location: Swinedimples Academy; Martial artist inside the theatre
+ Request: Defeat 50 enemies on the 10F or deeper of any grotto while wearing
+          no equipment.
+Solution: This requires a high level grotto in order to complete. Your level
+          for your character should also be high. You may also want a Paladin
+	  or Warrior to always protect your unequipped character if their
+	  level is too low.
+  Reward: "Fearsome Fisticuffing": Miracle Moon ability
+ Pre-req: Finish Quest 89, Fisticuff Skill 100, Access to a high level grotto
+  Repeat: No
+   Notes: None
+
+Quest #091 - Critical Appraisal
+Location: Wormwood Creek; Farmer to the south of the village
+ Request: Defeat 2 enraged enemies with normal critical hits. Thunder Thrust
+          and Hatchet Man don't count.
+Solution: Use the Warrior's Whistle ability to enrage the monsters and keep
+          trying until you defeat two enraged monsters with critical hits.
+  Reward: Warrior's Armour
+ Pre-req: Lv 15 Warrior
+  Repeat: No
+   Notes: None
+
+Quest #092 - Warriors Three
+Location: Wormwood creek; Farmer to the south of the village
+ Request: Defeat 10 enraged Mandrake Marauders (#166).
+Solution: Fight them in Magamaroo and use Whistle to enrage them.
+  Reward: "Warrior's Workbook": Counterattack ability, 5000 G
+ Pre-req: Finish Quest 91, Lv 40 Warrior
+  Repeat: No
+   Notes: None
+
+Quest #093 - Eggclesiastic
+Location: Wormwood Creek; Old man inside well
+ Request: Defend against enemy attacks 30 times. If you run away from battle,
+          the times you defended will not count.
+Solution: You can defend with everyone, not just the Priest. Must battle in
+          area outside of Wormwood Creek.
+  Reward: Ascetic Robe and Priestess Pinafore
+ Pre-req: Lv 15 Priest
+  Repeat: No
+   Notes: None
+
+Quest #094 - Nurtural Selection
+Location: Wormwood Creek; Old man inside well
+ Request: Heal a character with critical HP (red) with Moreheal 20 times.
+Solution: Must be done in battle. Damage floors can help you lower your HP.
+  Reward: "Priest's Primer": Wave of Relief ability
+ Pre-req: Finish Quest 93, Lv 40 Priest
+  Repeat: No
+   Notes: None
+
+Quest #095 - Free the Faerie Two
+Location: Alltrades Abbey; Sleep at the inn with a Lv 15 Mage in your party
+ Request: Defeat 10 enemies with Frizz while equipped with the Faerie Staff.
+Solution: Any enemies will do.
+  Reward: Fizzle-Retardant Suit and Fizzle-Retardant Blouse
+ Pre-req: Lv 15 Mage
+  Repeat: No
+   Notes: None
+
+Quest #096 - Faerie Nearly There
+Location: Alltrades Abbey; Sleep at the inn with a Lv 40 Mage in your party
+ Request: Defeat 10 Wight Priests (#135) with normal attacks while equipped
+          with the Faerie Staff.
+Solution: Fight them in the Old School at Swinedimples. You can use Oomph and
+          raise the tension of your mage to attack the Wight Priests.
+  Reward: "Mage's Manual": Weakening Wave ability
+ Pre-req: Finish Quest 95, Lv 40 Mage
+  Repeat: No
+   Notes: None
+
+Quest #097 - Cry Wolf
+Location: Alltrades Abbey; Martial Artist at the entrance
+ Request: Defeat 5 Scarewolves (#081) while they are scared with the Martial
+          Artist's War Cry skill.
+Solution: Fight them around Bloomingdale. They must be defeated in the same
+          round they are stricken with fear.
+  Reward: Slick Slacks
+ Pre-req: Lv 15 Martial Artist
+  Repeat: No
+   Notes: None
+
+Quest #098 - Slowly, Slowly, Critty Golem
+Location: Alltrades Abbey; Old man at the entrance
+ Request: Defeat three Golems (#161) with normal critical hits. Thunder Thrust
+          and Hatchet Man do not count.
+Solution: Fight them around the Lonely Coast or near Upover.
+  Reward: "Martial Artist's Manual": Tension Saver ability
+ Pre-req: Finish Quest 97, Lv 40 Martial Artist
+  Repeat: No
+   Notes: None
+
+Quest #099 - B-Coming one of the B-Team
+Location: Dourbridge; Thief inside the bar
+ Request: Steal a Tycoon's Trove from Hunter Mech (#087).
+Solution: You can find them inside the Bad Cave. Use the Half-Inch ability to
+          steal the item from them.
+  Reward: Rogue Robe, Roguess Robe and 1000 gold
+ Pre-req: Lv 15 Thief
+  Repeat: No
+   Notes: You must accept this quest in order to steal this special item.
+
+Quest #100 - Busted
+Location: Dourbridge; Thief inside the bar
+ Request: Steal a Lunar Diamond from a Sorcerer (#120).
+Solution: Find the monster in Gerzuun's basement. You must steal from the one
+          in the basement.
+  Reward: "Thief's Theory": ability to steal after battle, 10,000 gold
+ Pre-req: Finish Quest 99, Lv 40 Thief
+  Repeat: No
+   Notes: You must accept this quest in order to steal this special item.
+
+Quest #101 - Eggstreme Sport
+Location: Alltrades Abbey; Ghost in the bar
+ Request: Use the Hero's ability Egg On to reach a state of super tension
+          (100) 5 times.
+Solution: You don't need to defeat any enemies with super high tension.
+  Reward: Flamenco Shirt and Dancer Dress
+ Pre-req: Lv 15 Minstrel
+  Repeat: No
+   Notes: None
+
+Quest #102 - Prat's the way to do it!
+Location: Alltrades Abbey; Ghost in the bar
+ Request: Do a critical Pratfall twice.
+Solution: You will receive a message in battle when you have done a critical
+          Pratfall. Use the skill Pratfall until you get a critical strike.
+          You can do a single critical pratfall to two monsters at the same
+          time. This will meet the quota. Revisit the ghost and then talk to
+          the prisoner in the jail in Stornway Castle. He is located in the
+          2nd cell on the top of the screen.
+  Reward: "Minstrel's Manual": Gritty Ditty ability
+ Pre-req: Finish Quest 101, Lv 40 Minstrel
+  Repeat: No
+   Notes: None
+
+Quest #103 - Gladiator Graduator
+Location: Alltrades Abbey; Priest near the inn
+ Request: Defeat 3 Slimes (#001) with Dragon Slash while in a state of super
+          high tension (100).
+Solution: Slimes near Alltrades Abbey don't escape but they do fuse.
+  Reward: Gladiator Vocation Unlocked
+ Pre-req: Dragon Slash
+  Repeat: No
+   Notes: None
+
+Quest #104 - Glad to be of service
+Location: Island east of Hermany; Man on the island
+ Request: Defeat 10 Drackals (#118) while under the effect of Double Up.
+Solution: You can find them outside of Gerzuun.
+  Reward: Tactical Vest and Brawling Brynie
+ Pre-req: Lv 15 Gladiator
+  Repeat: No
+   Notes: None
+
+Quest #105 - Challengus Maximus
+Location: Island east of Hermany; Man on the island
+ Request: Defeat 3 Green Dragons with Double-Edged Slash while envenomated and
+          under the effect of Double Up.
+Solution: If your levels are too high, take off some armour so you have a
+          better chance of getting poisoned. You can also use the Warrior's
+	  ability Whipping Boy to protect another person so that you can
+	  increase your chances of getting poisoned.
+  Reward: "Gladiator's Guide": Occasionally attack twice
+ Pre-req: Finish Quest 104, Lv 40 Gladiator
+  Repeat: No
+   Notes: None
+
+Quest #106 - Taking Soul Control
+Location: Gleeba; Paladin on Gleeba's roof
+ Request: Use the Warrior's ability Whipping Boy 10 times.
+Solution: Multiple people can use the skill if they have learned it.
+  Reward: Paladin Vocation Unlocked
+ Pre-req: Whipping Boy
+  Repeat: No
+   Notes: None
+
+Quest #107 - Off the Record
+Location: Gleeba; Paladin on Gleeba's roof
+ Request: Defeat 3 Infernal Armours (#123) with Pincushion.
+Solution: Fight them in Gerzuun. Knock off about 100 HP and then start using
+          Pincushion. It would be better if your whole party knew this
+	  ability. If you levels are too high and you aren't doing any damage
+	  to the Infernal Armours, then unequip all your equipment except for
+	  a weak weapon, use the Gladiator ability Double Up and change to a
+          very low levelled vocation.
+  Reward: Holy Mail and Holy Femail
+ Pre-req: Lv 15 Paladin
+  Repeat: No
+   Notes: None
+
+Quest #108 - Top-Flight Knight Fight
+Location: Gleeba; Paladin on Gleeba's roof
+ Request: Use H-Pathy on a character with only 1 HP 5 times in battle.
+Solution: Have two people who know H-Pathy in your party. Have one character
+          keep giving HP to another character until his HP drops to 1. Then
+	  have the other character who knows H-Pathy use the skill on him. You
+	  can only do this once per battle so finish that battle and do it
+	  four more times.
+          Alternatively, you can go to a dungeon area that has damaging tiles
+          (like poison, electricity, lava, etc) and walk until you have a
+          a character at 1 HP.  Then go into a battle and use H-Pathy.
+  Reward: "Paladin's Primer": Solar Flair
+ Pre-req: Finish Quest 107, Lv 40 Paladin
+  Repeat: No
+   Notes: None
+
+Quest #109 - Elementary Training
+Location: Alltrades Abbey; Man in red inside Alltrades Abbey
+ Request: Defeat 2 Metal Slimes (#046) while under the effect of the Mage's
+          ability, Wizard Ward.
+Solution: The person who cast Wizard Ward must deal the finishing blow. Knock
+          of 2 to 3 HP and have the other Wizard Ward character defeat the
+	  Metal Slime. You can fight them in Quarantomb.
+  Reward: Armamentalist Vocation Unlocked
+ Pre-req: Wizard Ward
+  Repeat: No
+   Notes: None
+
+Quest #110 - Force in the Field
+Location: Alltrades Abbey; Man in red inside Alltrades Abbey
+ Request: Defeat 10 White Tigertaurs (#130) by successfully casting the
+          Armamentalist's Sap spell on them twice and by defeating them while
+	  under the effect of Fire Fource.
+Solution: You can find them north of Swinedimples.
+  Reward: Fencing Jacket and Fencing Frock
+ Pre-req: Lv 15 Armamentalist
+  Repeat: No
+   Notes: None
+
+Quest #111 - The Fource...Forever
+Location: Alltrades Abbey; Man in red inside Alltrades Abbey
+ Request: Defeat various monsters with each Fource effect.
+Solution: In Magmaroo use the technique Fire Fource to defeat Magmalice
+          (#168), around Swinedimples use Ice Fource to defeat Great Gruffon
+	  (#129), around Upover use Gale Fource to defeat Cumulus Rex, around
+	  Bloomingdale let 8 Slimes combine into King Slime (#080) and use
+	  Life Fource to defeat it. Finally use Funereal Fource to defeat
+	  Raving Reaper (#134) in the Old School in Swinedimples. Report back
+	  to the man in the Abbey.
+  Reward: "Armamentalist Album": Fource abilities can effect the whole party
+ Pre-req: Finish Quest 110, Lv 40 Armamentalist
+  Repeat: No
+   Notes: None
+
+Quest #112 - Ranger Changer
+Location: Heights of Loneliness Entrance; The man at the entrance
+ Request: Defeat 3 Hocus Chimaerae with Knife Skill, Toxic Dagger. They must
+          die with poison damage.
+Solution: Poison the enemy as soon as you can. Attack with a weak character
+          and do about 50 damage to them. They will use Midheal so you may
+	  have to wait until they run out of MP before they finally die from
+	  poison damage.
+  Reward: Ranger Vocation Unlocked
+ Pre-req: Toxic Dagger
+  Repeat: No
+   Notes: None
+
+Quest #113 - Hoarse Whisperer
+Location: Heights of Lonlieness Entrance; The man at the entrance
+ Request: Use Soothe Sayer 20 times on an enraged enemy.
+Solution: Enrage an enemy with the Warrior's Whistle ability and then use theb
+          Ranger's Soothe Sayer ability to calm them down. You can do this
+	  multiple times in a battle.
+  Reward: Nomadic Deel
+ Pre-req: Lv 15 Ranger
+  Repeat: No
+   Notes: None
+
+Quest #114 - One-Turn Wonder
+Location: Heights of Loneliness Entrance; The man at the entrance
+ Request: Defeat Drakularge (#152) in one turn 5 times.
+Solution: Find them in the Bowhole.
+  Reward: "Ranger's Revelations": Chance for critical increases when HP is low
+ Pre-req: Finish Quest 113, Lv 40 Ranger
+  Repeat: No
+   Notes: None
+
+Quest #115 - Sages in the Pages
+Location: Gittingham Palace ; Bookshelf on 2F
+ Request: Defeat 5 Great Trolls (#196) with the Mage's spell, Frizz.
+Solution: You can find them in the Realm of the Mighty. Do about 700 damage to
+          them before you start using Frizz.
+  Reward: Sage Vocation Unlocked
+ Pre-req: Frizz
+  Repeat: No
+   Notes: None
+
+Quest #116 - Sagier and Pagier
+Location: Gittingham Palace ; Bookshelf on 2F
+ Request: Defeat Equinox (#283) with the Mage's or Sage's Bang spell.
+Solution: Equinox is the first grotto boss and he can also be found in other
+          low level grottos. Do about 1600 damage to it before you start
+	  attacking with Bang.
+  Reward: Sage's Robe
+ Pre-req: Lv 15 Sage, Access to a low level grotto
+  Repeat: No
+   Notes: None
+
+Quest #117 - Engaging the Sage
+Location: Gittingham Palace ; Bookshelf on 2F
+ Request: Defeat Atlas (#289) with the Sage's Zam spell.
+Solution: Atlas is a mid to high level grotto boss depending on how many
+          revocations you have done. Do about 6300 damage to him before you
+	  start using Zam. Increase the power of Zam with the Mage's Channel
+	  Anger ability.
+  Reward: "Sage's Scripture": Twocus Pocus ability
+ Pre-req: Finish Quest 116, Lv 40 Sage, Access to a mid to high level grotto
+  Repeat: No
+   Notes: None
+
+Quest #118 - A Star is Born
+Location: Gleeba; Pink haired girl inside dancehall
+ Request: Defeat a Moai Minstrel (#248) with the Minstrel ability, Hot Lick.
+Solution: Moai Ministrels can be found in mid to high level Water and Nature
+          grottos. Be careful when fighting it as it can use Kamikaze when its
+	  HP gets low. Knock off 500 HP before you start using Hot Lick.
+  Reward: Luminary Vocation Unlocked
+ Pre-req: Post-game, Access to mid to high level Water or Nature grottos
+  Repeat: No
+   Notes: None
+
+Quest #119 - Sign for Your Supper
+Location: Gleeba; Pink haired girl inside dancehall
+ Request: Defeat an enemy with the Luminary's Autograph ability. It must be a
+          critical hit.
+Solution: You will receive a message in battle when you have done a critical
+          Autograph.
+  Reward: Star Suit
+ Pre-req: Lv 15 Luminary
+  Repeat: No
+   Notes: None
+
+Quest #120 - Your Time to Shine
+Location: Gleeba; Pink haired girl inside dancehall
+ Request: Defeat 10 Moai Minstrels (#248). You must do the Luminary's Extreme
+          Makeover and then enrage it with Eyes on Me. Whoever used these
+	  skills must deal the deathblow.
+Solution: Maoi Ministrels can be found in mid to high level Water and Nature
+          grottos. Knock off a chunk of its HP before you do your Extreme
+	  Makeover and Eyes on Me combo. Disco Stew is a good skill for your
+	  Luminary to use to kill it if your other skills are too weak.
+  Reward: "Luminary's Lore": Gold Rush ability
+ Pre-req: Finish Quest 119, Lv 40 Luminary, Access to mid to high level Water
+          or Nature grottos
+  Repeat: No
+   Notes: None
+
+Quest #121 - A Cloudless Skye
+Location: Upover; Girl on the stairs
+ Request: Bring her a Clump of Cloud.
+Solution: Defeat Cumulus Rex (#158) around Upover with the Miracle Sword (32
+          mini medals or buy from WiFi shop) equipped until it drops the item.
+  Reward: Astral Plume; same for repeat
+ Pre-req: DLC, Escape from Goretress
+  Repeat: Yes
+   Notes: Available for download on Jul 16, 2010.
+
+Quest #122 - Bert's Berfday
+Location: Bloomingdale; Thug on 2F of Inn
+ Request: Bring him a Birthday Cake and Party Popper.
+Solution: Both can be bought in the WiFi shop. Or received from special
+          guests in the inn on your birthday.
+  Reward: Fingerless Gloves
+ Pre-req: DLC
+  Repeat: No
+   Notes: Available for download on Jul 23, 2010.
+
+Quest #123 - A Present From the Past
+Location: Stornway; Talk to Erinn from behind the counter in the inn
+ Request: Retrieve a gift.
+Solution: Go to a grotto that has "of Doulour" in its title and defeat the
+          boss in that grotto to receive a scene with Erinn.
+  Reward: Yggdrasil Dew and Yggdrasil Leaf
+ Pre-req: DLC, Access to a Dolour grotto
+  Repeat: No
+   Notes: Story; Available for download on Jul 23, 2010.
+
+Quest #124 - Risque Respects
+Location: Stornway; Granny to the east of the town
+ Request: Bring her a Dangerous Bustier.
+Solution: You can find one in a rank 5 Blue Treasure Chest in the grottos or
+          use the Alchemy Pot if you have a Silk or Divine Buster.
+  Reward: Gloomy Gloves, recipes
+ Pre-req: DLC, Access to mid to high level grottos
+  Repeat: No
+   Notes: Available for download on Jul 30, 2010.
+
+Quest #125 - Perk Up, Patty!
+Location: Stornway; Talk to Erinn from behind the counter in the inn
+ Request: Cheer Patty up.
+Solution: Talk to Patty from behind the counter then Zoom to Batsureg and talk
+          to the chief's father, Batkhaan. Afterwards, go back to Stornway and
+	  talk to Patty again. At night, talk to the ghost in Batsureg and
+	  sail to Khalaag coast which is north of Batsureg. If you use the
+	  Starflight Express to get there then you will not get the scene.
+	  Examine the gravestone to the east to receive the Friendant. Report
+	  back to Patty.
+  Reward: Patty joins your party
+ Pre-req: DLC, Finish Quest 123
+  Repeat: No
+   Notes: Story; Available for download on Jul 30, 2010.
+
+Quest #126 - Puff-Puff Performance
+Location: Hunter's Yurts; Girl to the west
+ Request: Bring her a Cheer-me-up herb.
+Solution: Use Half-Inch to steal from Boss Troll (#179) in Oubliette until you
+          get the item.
+  Reward: Lambswool; same for repeat
+ Pre-req: DLC
+  Repeat: Yes
+   Notes: You must accept this quest in order to steal this special item.
+          Available for download on Aug 6, 2010.
+
+Quest #127 - A Right Royal Nightmare
+Location: Stornway; Talk to the king
+ Request: Cure him of his nightmares.
+Solution: Talk to the woman in the east side of Wormwood Creek's church.
+          Gather Malicitie, Manky Mud, and a Sage's Elixer for her. Bring her
+	  the ingredients and she will give you the Nightmare Nurse. Report
+	  back to the king.
+  Reward: Minister's Mittens and Blessed Boots
+ Pre-req: DLC, Finish Quest 6
+  Repeat: No
+   Notes: Story, Refer to the Materials Map for the Manky Mud and the Alchemy
+          Recipe Guide for the rest.  Available for download on Aug 6, 2010.
+
+Quest #128 - P-P-Pick Up a Pickaxe
+Location: Stornway; Thug inside Stornway Castle's well
+ Request: Bring him a Platinum Pick.
+Solution: Defeat a Darkonium Slime in a mid to high level Ruins grotto until
+          it drops the item.
+  Reward: Mighty Armlet
+ Pre-req: DLC, Finish Quest 7, Access to mid to high level Ruins grottos
+  Repeat: No
+   Notes: Story; Available for download on Aug 13, 2010.
+
+Quest #129 - A Spot of Book-Keyping
+Location: Stornway; Talk to the princess
+ Request: Help her unlock the book.
+Solution: Talk to the old man in Stornway's item shop. Clear a grotto with
+          "Silver" in its title for the Little Key. Report back to the
+	  princess who is now in her room.
+  Reward: Royal Regards Party Trick
+ Pre-req: DLC, Finish Quests 23 and 127, Access to a Silver grotto
+  Repeat: No
+   Notes: Story; Available for download on Aug 13, 2010.
+
+Quest #130 - Exhume the Heirloom
+Location: Djust Desert; Talk to the ghost in the poison swamp at night, the
+          swamp is to the west of Gleeba
+ Request: Retrieve the Old Ring.
+Solution: Find the Old Ring by clearing a Water grotto.
+  Reward: Full Moon Ring
+ Pre-req: DLC, Sterling's Whistle, Access to a Water grotto
+  Repeat: No
+   Notes: Available for download on Aug 20, 2010.
+
+Quest #131 - Making Room in Brigadoom
+Location: Stornway; Woman outside the church
+ Request: Attend a meeting in Brigadoom.
+Solution: Go to the Brigadoom throne room and defeat 2 Scarlet Fevers (#242),
+          afterwards go down the stairs for a scene and defeat the last one.
+  Reward: Enchantress Gloves
+ Pre-req: DLC, Finish Quest 129
+  Repeat: No
+   Notes: Story; Available for download on Aug 20, 2010.
+
+Quest #132 - Tree-Hugging Titan
+Location: Newid Isle (Tree on cliff near Alltrades Abbey); Talk to the Cyclops
+ Request: Scare off a Gigantes (#193) in the Tower of Nod.
+Solution: Do about 500 damage to the Gigantes and use the Ranger skill, Mercy
+          to scare him away.
+  Reward: Seed of Life; Ace of Clubs for repeat
+ Pre-req: DLC, Sterling's Whistle
+  Repeat: Yes
+   Notes: Available for download on Aug 27, 2010.
+
+Quest #133 - Recruitment Drive
+Location: Stornway; Man by the church
+ Request: Convince the maid to join the brigade.
+Solution: Use the Alchemy Pot to create a Full Moon Axe and talk to the Maid
+          on the 1F of Stornway castle. Report back to the man.
+  Reward: Combat Boots
+ Pre-req: DLC, Finish Quest 131
+  Repeat: No
+   Notes: Story; Available for download on Aug 27, 2010.
+
+Quest #134 - When Tax Attacks
+Location: Hermany; Man inside the house on the hill
+ Request: Meet the tax collector.
+Solution: At night, defeat a Hunter Mech (#087) outside of the house.
+  Reward: Wizard's Hat
+ Pre-req: DLC, Sterling's Whistle
+  Repeat: No
+   Notes: Available for download on Sep 3, 2010.
+
+Quest #135 - To Brigadoom!
+Location: Stornway; Talk to woman outside of church
+ Request: Attend an inauguration at Brigadoom.
+Solution: Go to the Bridgadoom throne room and defeat Scarlet Fever (#242).
+  Reward: Witch's Hat
+ Pre-req: DLC, Finish Quest 133
+  Repeat: No
+   Notes: Story; Available for download on Sep 3, 2010.
+
+Quest #136 - EXTERMINATE!
+Location: Hermany; Bookshelf in the house on the hill
+ Request: Defeat 3 Metal Slimes (#046) in the same battle. Do this 3 times.
+Solution: Battle them on Slime Hill which is north of Angel Falls.
+  Reward: Metal Slime Shield; Mini Medal for repeat
+ Pre-req: DLC, Sterling's Whistle
+  Repeat: Yes
+   Notes: Available for download on Sep 10, 2010.
+
+Quest #137 - Yore For It now!
+Location: Stornway; Talk to the king
+ Request: Examine the coffin at the end of the tunnel inside the well in
+ Stornway castle.
+Solution: Defeat Yore (#278).
+  Reward: Wyrmwand, recipes
+ Pre-req: DLC, Finish Quests 128 and 135
+  Repeat: No
+   Notes: Story; Available for download on Sep 10, 2010.
+
+Quest #138 - Shaman You!
+Location: Small Island by lake near Stornway; Talk to the shaman
+ Request: Equip 3 pieces of cursed equipment.
+Solution: If all of your cursed equipment is no longer cursed, you can use
+Malicites to curse them again.
+  Reward: Mitre
+ Pre-req: DLC
+  Repeat: No
+   Notes: Can be done anytime after acquiring the ship.	Available for download
+          on Sep 17, 2010.
+
+Quest #139 - Has Sellma Sold Out?
+Location: Stornway; Talk to Erinn from behind the counter in the inn
+ Request: Help Sellma.
+Solution: Talk to Sellma, then the banker from behind the counter. You should
+          get the Guestbook. Now talk to Erinn and Sellma and leave for
+	  Gleeba. At Gleeba go into the Plumbed Depths and go through the
+	  magic door. Make your way to the graveyard and access the secret
+	  stairs to B3 to fight Rover (#279). Report back to Erinn.
+  Reward: Sellma joins your part
+ Pre-req: DLC, Finish Quest 125
+  Repeat: No
+   Notes: Story; Available for download on Sep 17, 2010.
+
+Quest #140 - Apt Pupil
+Location: Swinedimples Academy; Talk to Swindimple's ghost in the Old School
+          at night
+ Request: Use the Salute Party Trick to talk to him then accept the quest.
+Solution: Dress everyone in the Swinedimple Blazers (he gives them to you) and
+          defeat Sir Sanguinus (#288) in a mid to high level grotto. Report
+	  back to Swinedimples and use the Salute again.
+  Reward: Blessed Bindings, Tantric Trousers and Brahman Boots; Brainy Bracer
+          for repeat
+ Pre-req: DLC, Finish Quest 36, Access to mid to high level grottos
+  Repeat: Yes
+   Notes: Available for download on Sep 24, 2010.
+
+Quest #141 - Coffinwell Conundrum
+Location: Coffinwell; Talk to Dr. Phlegming in his lab at night
+ Request: Bring him the Encylopaedia Gittanica.
+Solution: It can be found on B3F in Oubliette.
+  Reward: Professor Pose Party Trick
+ Pre-req: DLC, Finish Quest 46
+  Repeat: No
+   Notes: Story; Available for download on Sep 24, 2010.
+
+Quest #142 - Prayermongering
+Location: Pool of Spirits Cave (NE of Angel Falls); Ghost in cave
+ Request: Fill a Gratite.
+Solution: Complete 5 more quests. You can redo the repeatable quests too.
+  Reward: Metal Slime Helmet; Brighten Rock for repeat
+ Pre-req: DLC, Finish Quest 55
+  Repeat: Yes
+   Notes: Available for download on Oct 1, 2010.
+
+Quest #143 - Thingy, King of, er…
+Location: Quarantomb; Ghost in B1F
+ Request: Retrieve the Royal Seal.
+Solution: Use Half-Inch to steal the item from Trauminator (#286). He is a
+          boss that can be found in low to mid level grottos.
+  Reward: Catholicon Ring
+ Pre-req: DLC, Finish Quest 141
+  Repeat: No
+   Notes: Story; Available for download on Oct 1, 2010.
+
+Quest #144 - Claws for Thought
+Location: Stornway; Ghost in weapon shop at night
+ Request: Show him some Beastmaster Claws.
+Solution: Use the Alchemy Pot.
+  Reward: Orichalcum, recipes
+ Pre-req: DLC
+  Repeat: No
+   Notes: Refer to the Alchemy Recipe Guide.  Available for download on
+          Oct 8, 2010.
+
+Quest #145 - Mysterious Monarch
+Location: Gittingham Palace; Talk to ghost of Goresby-Purrvis near the entrance
+ Request: Defeat King Godfrey (#280).
+Solution: Find him on the 4F of Gittingham Palace and report back to
+          Goresby-Purrvis once he is defeated.
+  Reward: Pallium Regale, recipes
+ Pre-req: DLC, Finish Quest 143
+  Repeat: No
+   Notes: Story; Available for download on Oct 8, 2010.
+
+Quest #146 - Hail to the Queen
+Location: Inside the Starflight Express; Talk to Stella
+ Request: Make her a new outfit.
+Solution: Bring her a Butterfly Wing, Technicolour Tutu, Sleeping Hibiscus and
+          Mythril Ore.
+  Reward: Stellar Suit
+ Pre-req: DLC, Sterling's Whistle
+  Repeat: No
+   Notes: Story, Refer to Materials Map and Alchemy Recipe Guide. Available for
+          download on Oct 15, 2010.
+
+Quest #147 - Licensed to Drive
+Location: Inside the Starflight Express; Talk to Sterling
+ Request: Collect 9 Goretress Guerilla Stamps. Restrictions are that you can
+          only land the Starflight Express 6 times & you can't use Zoom or Evac
+Solution: Sterling will give you the first stamp. Fly to Batsureg and talk to
+          Conner behind a tent to get your next stamp. Fly to the Heights of
+	  Lonlieness and talk to Victor at the entrance. Walk to Bloomingdale
+	  and go to the church's rooftop to find Dusty. Fly to Angel Falls and
+	  to the west of the waterfall you will find Godfrey. Walk to
+	  Coffinwell and to the north west you will find Dodger. Fly to
+	  Alltrades Abbey and Cribber will be by the 1F stairs. Fly to
+	  Wormwood Creek to find Forger inside the weapon shop. Fly to the
+	  Goretress and the last member, Digby, will be at the top of the
+	  tower. Board the Starflight and use the inside view to talk to
+	  Sterling. Go to the locked door at the very back.
+  Reward: Driver's Licence
+ Pre-req: DLC, Finish Quest 146
+  Repeat: No
+   Notes: Story; Available for download on Oct 22, 2010.
+
+Quest #148 - Flaptricide
+Location: Inside the Starflight Express; Talk to Stella
+ Request: Help a girl in the inn at Dourbridge by giving her Stellar Medicine.
+Solution: Talk to the girl in the inn after accepting the quest. Bring Stella
+          an Elfin Elixer, Perfect Panacea, Special Medicine and a
+          Yggdrasil Bud. Fly to the Yggrdrasil spawn point to receive the Bud
+	  and use the Alchemy Pot to get the rest. Talk to Stella in the
+	  Starflight when you have everything. Bring the Stellar Medicine to
+	  the girl and report back to Stella in the Starflight.
+  Reward: Stellar Stockings and Blahnolo Maniks
+ Pre-req: DLC, Finish Quest 147
+  Repeat: No
+   Notes: Story, Refer to Materials Map and Alchemy Recipe Guide.
+          Available for download on Oct 29, 2010.
+
+Quest #149 - Intreeguing Mystery
+Location: Bloomingdale; Scholar in the center of town
+ Request: Find proof of the Phantom Tree.
+Solution: Go to the tree on Pluvi Isle and check the shining spot. Go to
+          Gleeba and talk to the priest in the church and then talk to the
+	  scholar in Bloomingdale. Head for the Ondor Cliffs to the west of
+	  Batsureg and read the three shining graves and report back to the
+	  scholar.
+  Reward: Supernatural Specs
+ Pre-req: DLC, Finish Quest 148
+  Repeat: No
+   Notes: Story; Available for download on Nov 5, 2010.
+
+Quest #150 - Annihilimobliteration!?
+Location: Inside the Starflight Express; Talk to Stella by the back
+ Request: Defeat Tyrannosaura Wrecks (#281) in the locked room.
+Solution: After defeating the enemy, enter the portal for a scene and report to
+          Stella afterwards.
+  Reward: Stellar Starflower
+ Pre-req: DLC, Finish Quest 149
+  Repeat: No
+   Notes: Story; Available for download on Nov 12, 2010.
+
+Quest #151 - Pushy Peddler
+Location: Lonley Coast, east of Zere Rocks; Man in cave
+ Request: Bring him an Ethereal Stone.
+Solution: Use the Alchemy Pot.
+  Reward: Malroth Map; Mythril Ore for repeat
+ Pre-req: DLC, Sterling's Whistle
+  Repeat: Yes
+   Notes: Refer to Alchemy Recipe Guide. Available for download on
+          Nov 19, 2010.
+
+Quest #152 - Marey Questmas
+Location: Cringle Coast, most NE island; Talk to Chris Cringle in the house
+ Request: Bring him 8 Heavenly Horseshoes.
+Solution: Defeat Tantamount (#239) in a mid to high level Volcano grotto in 5
+          turns to get a Heavenly Horseshoe. Do this 8 times and report back
+	  to Cringle.
+  Reward: Estark Map; Technicolour Dreamcloth for repeat
+ Pre-req: DLC, access to a mid or high level Volcano grotto
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.  Available for download on Nov 26, 2010.
+
+Quest #153 - Not-So-Jolly Roger
+Location: Wyrmtail; Skeleton in cave
+ Request: Defeat Fowleye (#291) within 15 turns.
+Solution: He is a grotto boss that can be found in a mid to high level grotto.
+  Reward: Silver Orb
+ Pre-req: DLC, Access to mid to high level grottos
+  Repeat: No
+   Notes: Available for download on Dec 3, 2010.
+
+Quest #154 - Nightmarey Questmas
+Location: Cringle Coast, most NE island; Bookshelf in the house
+ Request: Defeat Night Knight (#199) with a Holy Water.
+Solution: You can fight them in the Realm of the Mighty. They have 256 HP.
+          Remember to put a few Holy Waters in your item inventory.
+  Reward: Cape of Good Karma; Mercury's Bandana for repeat
+ Pre-req: DLC
+  Repeat: Yes
+   Notes: Available for download on Dec 10, 2010.
+
+Quest #155 - Christinamas Cake
+Location: Bloomingdale; Girl by the item shop
+ Request: Give a Christmas Cake to Santa.
+Solution: Buy the Christmas Cake from the Wi-Fi shop and give it to Chris
+          Cringle at Cringle Coast and report back to the girl.
+  Reward: Spirit Bracer and Party Popper
+ Pre-req: DLC, Cancel or Finish Quest #152 if active
+  Repeat: No
+   Notes: You will need to either cancel or finish Quest 152 if you have
+          accepted it. Available for download on Dec 17, 2010.
+
+Quest #156 - Inn Search of an Inny
+Location: Stornway; Talk to Patty from behind the counter in the inn
+ Request: Give her Birdsong Nectar, Astral Plume, Technicolour Dreamcloth and a
+          Brilliant Biscuit.
+Solution: Brilliant Biscuit is dropped by Gem Jamboree (#207) which can be found
+          in mid to high level Ruins grottoes. Use the Alchemy Pot for the
+          rest of the items. Talk to Patty, then Erinn, then Patty once more.
+  Reward: Veteran's Armour
+ Pre-req: DLC, Finish Quest 137 and 139
+  Repeat: No
+   Notes: Story, Refer to Alchemy Recipe Guide. Brilliant Biscuit is a special
+          item drop so you must accept this quest in order for it to drop.
+          Available for download on Dec 26, 2010.
+
+Quest #157 - Inn for a Penny, Inn for an Inny
+Location: Stornway; Talk to Erinn from behind the counter in the inn
+ Request: Defeat Octagoon (#219) 20 times.
+Solution: Talk to the king after initating quest. Fight Octagoon in
+          mid to high level Ruin grottos. Report to the king once
+          complete and then to Erinn.
+  Reward: Erinn joins your party
+ Pre-req: DLC, Finish Quest 156, access to mid to high level Ruin grottos
+  Repeat: No
+   Notes: Story, Talk to the Special Guests in the Inn for their last piece of
+          equipment.  Available for download on Jan 1, 2011.
+
+Quest #158 - Battle Buff
+Location: Heights of Lonlieness Entrance; Talk to the man on the left
+ Request: Defeat Trauminator (#286) without anything equipped.
+Solution: He is a grotto boss that can be found in mid level grottos.
+  Reward: Mortamor Map; Raging Ruby for repeat
+ Pre-req: DLC, Access to mid level grottos
+  Repeat: Yes
+   Notes: Available for download on Jan 7, 2011.
+
+Quest #159 - Have You Seen Charlene?
+Location: Wormwood Creek; Mayor in his house
+ Request: Bring 5 Sleeping Hibiscus and 2 Celestial Skeins to the girl in the
+          cave north of Wormwood Creek.
+Solution: Buy the Sleeping Hibiscus in Bloomingdale & use the Alchemy Pot for
+          the Yggdrasil Dew. Bring these to the girl and report to the mayor.
+  Reward: 3 Mini Medals
+ Pre-req: DLC
+  Repeat: No
+   Notes: Story, Refer to the Alchemy Recipe Guide.  Available for download
+          on Jan 14, 2011.
+
+Quest #160 - Chronic Delay
+Location: Wormwood Creek; Mayor in his house
+ Request: Bring the dragon chronicler to Wormwood Creek.
+Solution: Talk to the man in Upover's Inn. Bring him a Lunaria, Aggressence
+          and Trailblazing Bandana. Use the Alchemy Pot to make them. Then
+	  meet him on the summit of Magmaroo and report back to the mayor in
+	  Wormwood Creek.
+  Reward: Yggdrasil Leaf
+ Pre-req: DLC, Finish Quest 159
+  Repeat: No
+   Notes: Story; Available for download on Jan 21, 2011.
+
+Quest #161 - Here With Nod's Tear
+Location: Bloomingdale; Mayoress in her house (not the mansion)
+ Request: Bring a Dragon's Tear to the mayoress of Bloomingdale.
+Solution: Talk to the man by the item shop and he'll tell you that he will
+          trade you his Dragon's Tear for a Crown Jewel. You can find a Crown
+	  Jewel by clearing a grotto that has more than 8 floors and also has
+	  "of Fear" in its title. After you make the trade report back to the
+	  mayoress in Bloomingdale.
+  Reward: Gold Bar
+ Pre-req: DLC, Finish Quest 160
+  Repeat: No
+   Notes: Story; Available for download on Jan 28, 2011.
+
+Quest #162 - Do Nod Disturb
+Location: Tower of Nod, north of Coffinwell; Slime by the entrance
+ Request: Recover Nod's Tear.
+Solution: Go to the top of the tower and examine Nodoph. Then go to B4 of
+          Oubliette and examine the shiny spot for Nod's tear. Battle Nodoph
+	  at the top of the Tower of Nod.
+  Reward: Orichalcum
+ Pre-req: DLC, Finish Quest 161
+  Repeat: No
+   Notes: Story; Available for download on Feb 4, 2011.
+
+Quest #163 - When a Star Wishes Upon You
+Location: Stornway; Talk to Pavo from behind the counter at the inn
+ Request: Defeat Excalipurr (#292) for the Prayer Pearl.
+Solution: He is a grotto boss that can be found in a high level grotto and
+          report back to Pavo once completed. Then go to the Realm of the
+          Almighty and speak with Celestria. Talk to Pavo again and go to Angel
+          Falls and talk to Aquila. Go back and talk to Pavo one last time.
+  Reward: Aquila joins your party
+ Pre-req: DLC, Finish Quest 157, access to high level grotto
+  Repeat: No
+   Notes: Story; Available for download on Feb 11, 2011.
+
+Quest #164 - Fixing Fickser's Fix
+Location: Well on a hill, north of Upover; Man with the turban in the well
+ Request: Bring him a Lucky Pendant.
+Solution: Use the Alchemy Pot.
+  Reward: Crown of Clarity; Sorcerer's Ring for repeat
+ Pre-req: DLC, Finish Quest 61
+  Repeat: Yes
+   Notes: Refer to Alchemy Recipe Guide. Available for download on
+          Feb 18, 2011.
+
+Quest #165 - Shame on Goo
+Location: Angel Falls; Slime in the well
+ Request: Defeat 8 different slimes.
+Solution: Defeat Metal Slime Knight (#75), Metal Medley (#89), Liquid Metal
+          Slime (#153), Gem Jamboree (#207), Metal King Slime (#214),
+	  Slionheart (#215), Platinum King Jewel (#229) and Prime Slime (#252).
+  Reward: Metal Slime Sword; Slime Crown for repeat
+ Pre-req: DLC, access to many different grottos
+  Repeat: Yes
+   Notes: Refer to the Beastiary as there are many locations for these enemies.
+          Available for download on Feb 25, 2011.
+
+Quest #166 - Research and Destroy
+Location: Well on a hill, west of Batsureg; Man in the well
+ Request: Defeat Elusid (#287) very quickly.
+Solution: He is a low level grotto boss. Beating him in 8 turns is good enough.
+  Reward: Red Orb; Sorcerer's Stone for repeat
+ Pre-req: DLC, access to low level grottos
+  Repeat: Yes
+   Notes: Available for download on Mar 4, 2011.
+
+Quest #167 - Who's a Pretty Boy?
+Location: Cringle Coast, most NE island; Bird near the house
+ Request: Defeat Bird Of Terrordise (#241) for the Jewellery Box and Terrodise
+          Tail Feather.
+Solution: You can find it in high level Volcano grottos.
+  Reward: Zoma Map
+ Pre-req: DLC, access to high level Volcano grottos
+  Repeat: No
+   Notes: Available for download on Mar 11, 2011.
+
+Quest #168 - Potty About Pots
+Location: Zere; Talk to the old man in the well
+ Request: Get him some good earth from a Nature grotto.
+Solution: Complete a Nature grotto that is 12 or more floors deep to fill the
+          Dirtbag. Report back to the old man.
+  Reward: Hela's Hammer; Hephaestus's Flame for repeat
+ Pre-req: DLC, access to a Nature grotto
+  Repeat: Yes
+   Notes: Available for download on Mar 18, 2011.
+
+Quest #169 - Competition Commission
+Location: Stornway; Man to the north of the castle on 1F
+ Request: Bring him a Sage's Stone.
+Solution: Use the Alchemy Pot.
+  Reward: Green Orb
+ Pre-req: DLC
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide. Available for download on
+          Mar 25, 2011.
+
+Quest #170 - Maiding and Abetting
+Location: Stornway; Maid in castle's kitchen
+ Request: Bring her a Heavy Hatchet.
+Solution: It's a rare drop from AU-1000 (#227), a high level Ruins grotto
+          monster. Also be found in rank B treasure chests in grottoes.
+  Reward: Maid's Outfit and Maid's Mop
+ Pre-req: DLC, access to high level Ruins grotto
+  Repeat: No
+   Notes: Available for download on Apr 1, 2011.
+
+Quest #171 - I Would Do Anyfang for Love
+Location: Hunter's Yurts; Man at the northwest of the settlement
+ Request: Bring him a Drakulord's Tooth.
+Solution: Defeat a Drakulord within 3 turns in a high level Water
+          grotto.
+  Reward: Riotous Wristbands
+ Pre-req: DLC
+  Repeat: No
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop.  Available for download on Apr 8, 2011.
+
+Quest #172 - Namesake Maker
+Location: Hill northeast of Stornway (Loch Storn)
+ Request: Bring the man a Flame Tang knife.
+Solution: Use the Alchemy Pot.
+  Reward: Trinity Tights
+ Pre-req: DLC
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide. Available for download on
+          Apr 15, 2011.
+
+Quest #173 - Plum Duffer
+Location: Gleeba; Man by the armour shop
+ Request: Bring him 10 Plum Stones.
+Solution: Defeat Seaverns (#256) in a high level Water grotto until you meet
+          the quota.
+  Reward: Chronocrystal; Reset stone for repeat
+ Pre-req: DLC, access to high level Water grottos
+  Repeat: Yes
+   Notes: This is a special item drop so the quest must be accepted in order
+          for this item to drop. Plum Stone is also a 100% drop. Available
+          for download on Apr 22, 2011.
+
+Quest #174 - Agates Ain't Great…Are They?
+Location: Stornway; Talk to the ghost on the 3F of the castle
+ Request: Bring it an Agate of Evolution.
+Solution: Use the Salute Party Trick to greet him before you show him the item.
+          The item can be made with the Alchemy Pot.
+  Reward: Hero Spear
+ Pre-req: DLC
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide. Available for download on
+          Apr 29, 2011.
+
+Quest #175 - If I'Ad an 'Ammer
+Location: Hill southwest of Stornway
+ Request: Bring him a Megaton Hammer.
+Solution: Use the Alchemy Pot.
+  Reward: Yellow Orb
+ Pre-req: DLC
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide. Available for download on
+          May 6, 2011.
+
+Quest #176 -  Well Forgetful
+Location: Well on a hill, south of Batsureg; Man in the well
+ Request: Bring him some Cannibelle rage.
+Solution: Fight Cannibelle (#230) in mid to high level Ice grotto. Use the
+          Warrior's skill, Whistle to enrage her 10 times.  You can also fight
+          Cannibelles on the island east of Stornway that has two cabins, and
+          they are found as an uncommon spawn.
+  Reward: Orgodemir Map; Resurrock for repeat
+ Pre-req: DLC, access to mid to high level Ice grottos
+  Repeat: Yes
+   Notes: Available for download on May 13, 2011.
+
+Quest #177 - Tones of the Bones
+Location: Wyrmtail; Skeleton in cave
+ Request: Bring him a Bone Chimer.
+Solution: Defeat Blight Knight (#237) in a high level Ice grotto with a the
+          Hammer skill, Heart Breaker until he drops the item.
+  Reward: Rusty Armour; Saint's Ashes for repeat
+ Pre-req: DLC, access to a high level Ice grotto
+  Repeat: Yes
+   Notes: Available for download on May 20, 2011.
+
+Quest #178 - From Rust to Riches
+Location: Brigadoom; Grave to the northeast once you enter
+ Request: Equip all of the Erdrick equipment (Sword, Shield, Helmet, Armour and
+          Gauntlets).
+Solution: Use the Alchemy Pot to make them, equip them and examine the grave
+          again.
+  Reward: Agate of Evolution, recipes
+ Pre-req: DLC, Finish Quest 169
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide. Available for download on May 27, 2011.
+
+Quest #179 - Pants Macabre
+Location: Wyrmtail; Skeleton in cave
+ Request: Bring him some Grundies.
+Solution: The item can be stolen from Cumulus Hex (#212) and he can be found
+          in a high level Nature grotto. You must use the Minstrel's Pratfall
+	  skill to make him laugh and then use Half-Inch to steal from him on
+          the same turn.
+  Reward: Rhapthorne Map; Wonder Pants for repeat
+ Pre-req: DLC, access to a high level Nature grotto
+  Repeat: Yes
+   Notes: Available for download on Jun 3, 2011.
+
+Quest #180 - Wrecking Wrecks
+Location: Gittingham Palace ; Bookshelf on 2F
+ Request: Defeat Tyrannosaurus Wrecks (#293).
+Solution: He is a grotto boss that can be found in high level grottos. Once he
+          is defeated report back to the book.
+  Reward: Blue Orb
+ Pre-req: DLC, Finish Quest 117, Lv 70+ Sage must be in your party to intiate
+          quest, access to high level grottos
+  Repeat: No
+   Notes: Available for download on Jun 10, 2011.
+
+Quest #181 - Can We Borya for a Second?
+Location: Tower of Nod, north of Coffinwell; Man south of the tower
+ Request: Equip Borya's Bouffant, Borya's Robe and Borya's Boots.
+Solution: Talk to Borya, make your birthday the same date as today and talk to
+          him again, and make you hero a mage and talk to him one more time
+	  for the last piece of equipment.
+  Reward: Depressing Shoes
+ Pre-req: DLC
+  Repeat: No
+   Notes: Available for download on Jun 17, 2011.
+
+Quest #182 - An Immaculate Conception
+Location: Stornway; Man to the north of the castle on 1F
+ Request: Bring him a Goddess Shield.
+Solution: Use the Alchemy Pot.
+  Reward: Purple Orb
+ Pre-req: DLC, Finish Quest 169
+  Repeat: No
+   Notes: Refer to Alchemy Recipe Guide.  Available for download on
+          Jun 24, 2011.
+
+Quest #183 - Poison Needle 1 Ow 1
+Location: Swinedimples Academy; Female ghost in the Old School at night
+ Request: Bring Master Moosifer's (#245) HP down to 1 and defeat him with the
+          Poison Needle.
+Solution: He can be fought in high level Volcano grottos. Do about 900 damage
+          and then attack with Poison Needle. The Poison Needle can be bought
+          in Bloomingdale. Equip your whole party with it if you can.
+  Reward: Pruning Knife; same for repeat
+ Pre-req: DLC, access to high level Volcano grottos
+  Repeat: Yes
+   Notes: Available for download on Jul 1, 2011.
+
+Quest #184 - Bleats Me
+Location: Lonley Coast, east of Zere Rocks; Sheep inside the cave
+ Request: Bring it a Venus's Tear.
+Solution: You can get one by completing Quest 59.
+  Reward: Nocturnus Map
+ Pre-req: DLC
+  Repeat: No
+   Notes: Available for download on Jul 8, 2011.
