@@ -1,5 +1,4 @@
-index.html
-<click><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -35,19 +34,17 @@ index.html
             overflow-x: hidden;
         }
 
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: 
-                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,.03) 2px, rgba(0,0,0,.03) 4px),
-                repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,.03) 2px, rgba(0,0,0,.03) 4px);
-            pointer-events: none;
-            z-index: 1;
-        }
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,.03) 2px, rgba(0,0,0,.03) 4px), repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,.03) 2px, rgba(0,0,0,.03) 4px);
+                pointer-events: none;
+                z-index: 1;
+            }
 
         .container {
             max-width: 1200px;
@@ -67,9 +64,7 @@ index.html
             font-family: 'Press Start 2P', cursive;
             color: var(--secondary);
             font-size: clamp(1.5rem, 4vw, 2.5rem);
-            text-shadow: 
-                3px 3px 0 var(--primary),
-                6px 6px 0 rgba(0,0,0,0.2);
+            text-shadow: 3px 3px 0 var(--primary), 6px 6px 0 rgba(0,0,0,0.2);
             margin-bottom: 0.5rem;
             letter-spacing: 2px;
         }
@@ -105,9 +100,7 @@ index.html
             background: var(--card-bg);
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 
-                0 5px 15px rgba(0,0,0,0.1),
-                0 0 0 3px rgba(255,255,255,0.5);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1), 0 0 0 3px rgba(255,255,255,0.5);
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             cursor: pointer;
             text-decoration: none;
@@ -115,12 +108,10 @@ index.html
             display: block;
         }
 
-        .guide-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: 
-                0 20px 40px rgba(0,0,0,0.2),
-                0 0 0 3px var(--secondary);
-        }
+            .guide-card:hover {
+                transform: translateY(-10px) scale(1.02);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.2), 0 0 0 3px var(--secondary);
+            }
 
         .card-header {
             background: linear-gradient(135deg, var(--primary) 0%, #3d5a8c 100%);
@@ -134,16 +125,16 @@ index.html
             justify-content: center;
         }
 
-        .card-header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
-            animation: shimmer 3s infinite;
-        }
+            .card-header::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+                animation: shimmer 3s infinite;
+            }
 
         .card-icon {
             font-size: 3rem;
@@ -176,22 +167,22 @@ index.html
             padding: 0;
         }
 
-        .card-features li {
-            padding: 0.5rem 0;
-            border-bottom: 1px solid var(--border);
-            display: flex;
-            align-items: center;
-            font-size: 0.9rem;
-        }
+            .card-features li {
+                padding: 0.5rem 0;
+                border-bottom: 1px solid var(--border);
+                display: flex;
+                align-items: center;
+                font-size: 0.9rem;
+            }
 
-        .card-features li:last-child {
-            border-bottom: none;
-        }
+                .card-features li:last-child {
+                    border-bottom: none;
+                }
 
-        .card-features li::before {
-            content: '⚔️';
-            margin-right: 0.5rem;
-        }
+                .card-features li::before {
+                    content: '⚔️';
+                    margin-right: 0.5rem;
+                }
 
         .cta-button {
             display: inline-block;
@@ -207,12 +198,12 @@ index.html
             margin-top: 1rem;
         }
 
-        .cta-button:hover {
-            background: var(--accent);
-            color: var(--text-light);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-        }
+            .cta-button:hover {
+                background: var(--accent);
+                color: var(--text-light);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+            }
 
         footer {
             text-align: center;
@@ -224,17 +215,18 @@ index.html
             box-shadow: 0 10px 40px rgba(0,0,0,0.2);
         }
 
-        footer p {
-            font-family: 'VT323', monospace;
-            font-size: 1.2rem;
-            color: var(--text-dark);
-        }
+            footer p {
+                font-family: 'VT323', monospace;
+                font-size: 1.2rem;
+                color: var(--text-dark);
+            }
 
         @keyframes fadeInDown {
             from {
                 opacity: 0;
                 transform: translateY(-30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -242,13 +234,23 @@ index.html
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
 
         @keyframes shimmer {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(200%); }
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(200%);
+            }
         }
 
         @media (max-width: 768px) {
@@ -274,9 +276,11 @@ index.html
         </header>
 
         <div class="intro">
-            <p>Bienvenido a la colección completa de guías para <strong>Dragon Quest IX: Sentinels of the Starry Skies</strong>. 
-            Aquí encontrarás toda la información necesaria para dominar cada aspecto del juego, desde el bestiario completo 
-            hasta guías detalladas de objetos, alquimia y mucho más.</p>
+            <p>
+                Bienvenido a la colección completa de guías para <strong>Dragon Quest IX: Sentinels of the Starry Skies</strong>.
+                Aquí encontrarás toda la información necesaria para dominar cada aspecto del juego, desde el bestiario completo
+                hasta guías detalladas de objetos, alquimia y mucho más.
+            </p>
         </div>
 
         <div class="guides-grid">
@@ -376,8 +380,8 @@ index.html
                 </div>
             </a>
 
-            <!-- Mapas Card -->
-            <div class="guide-card" style="opacity: 0.7; cursor: not-allowed;">
+            <!-- Mapas Card - NOW ACTIVE! -->
+            <a href="mapas.html" class="guide-card">
                 <div class="card-header">
                     <div class="card-title">
                         <div class="card-icon">🗺️</div>
@@ -395,10 +399,10 @@ index.html
                         <li>Rutas recomendadas</li>
                     </ul>
                     <div style="text-align: center;">
-                        <span class="cta-button" style="background: #95a5a6;">Próximamente</span>
+                        <span class="cta-button">Ver Mapas →</span>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <!-- Clases Card -->
             <div class="guide-card" style="opacity: 0.7; cursor: not-allowed;">

@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Quest IX - Mapa del Mundo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .map-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            animation: fadeIn 1s ease-out;
+            margin-top: 2rem;
+        }
+
+        .map-controls {
+            background: #f8f9fa;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .zoom-controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .zoom-btn {
+            background: linear-gradient(135deg, var(--primary) 0%, #3d5a8c 100%);
+            color: var(--text-light);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .zoom-btn:hover {
+                transform: scale(1.1);
+                box-shadow: 0 5px 15px rgba(45, 74, 124, 0.4);
+            }
+
+        .zoom-info {
+            font-family: 'VT323', monospace;
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            min-width: 80px;
+        }
+
+        .reset-btn {
+            background: linear-gradient(135deg, var(--secondary) 0%, #f1c40f 100%);
+            color: var(--text-dark);
+            border: none;
+            border-radius: 8px;
+            padding: 0.5rem 1rem;
+            font-family: 'VT323', monospace;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+            .reset-btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+
+        .map-viewer {
+            position: relative;
+            width: 100%;
+            height: 70vh;
+            overflow: hidden;
+            background: #f0f0f0;
+            cursor: grab;
+        }
+
+            .map-viewer:active {
+                cursor: grabbing;
+            }
+
+        .map-image-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease;
+            transform-origin: center center;
+        }
+
+        .map-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+
+        .map-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: repeating-conic-gradient( #f0f0f0 0% 25%, #e0e0e0 25% 50% );
+            background-size: 20px 20px;
+            font-family: 'VT323', monospace;
+            font-size: 2rem;
+            color: var(--text-dark);
+            text-align: center;
+        }
+
+        .instructions {
+            background: linear-gradient(135deg, #fff9e6 0%, #fff4d4 100%);
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--warning);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+            .instructions h4 {
+                font-family: 'VT323', monospace;
+                font-size: 1.2rem;
+                color: var(--primary);
+                margin-bottom: 0.5rem;
+            }
+
+        .back-button {
+            display: block;
+            margin: 2rem auto 0;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, var(--secondary) 0%, #f1c40f 100%);
+            color: var(--text-dark);
+            text-decoration: none;
+            border-radius: 10px;
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: fit-content;
+        }
+
+            .back-button:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            }
+
+        @media (max-width: 768px) {
+            .map-viewer {
+                height: 60vh;
+            }
+
+            .zoom-controls {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🗺️ MAPA DEL MUNDO 🗺️</h1>
+            <p>~ Explora Dragon Quest IX ~</p>
+        </header>
+
+        <div class="map-container">
+            <div class="card-header">
+                <h2 class="map-title" style="font-family: 'Press Start 2P', cursive; font-size: 1.8rem; margin-bottom: 0.5rem; position: relative; z-index: 1;">🌍 MAPA INTERACTIVO</h2>
+                <p style="font-family: 'VT323', monospace; font-size: 1.3rem; opacity: 0.9; position: relative; z-index: 1;">Navega por todo el mundo del juego</p>
+            </div>
+
+            <div class="map-controls">
+                <div class="zoom-controls">
+                    <button class="zoom-btn" id="zoomOut">−</button>
+                    <span class="zoom-info" id="zoomLevel">100%</span>
+                    <button class="zoom-btn" id="zoomIn">+</button>
+                    <button class="reset-btn" id="resetZoom">Reset</button>
+                </div>
+            </div>
+
+            <div class="map-viewer" id="mapViewer">
+                <div class="map-image-container" id="mapContainer">
+                    <!-- Replace this placeholder with your actual map image -->
+                   <img src="map.webp" alt="Dragon Quest IX World Map" class="map-image" id="mapImage"> 
+                    <div class="map-placeholder">
+                        🗺️ MAPA DEL MUNDO<br>
+                        <span style="font-size: 1rem; opacity: 0.7; margin-top: 1rem;">
+                            Reemplaza este placeholder con tu imagen del mapa<br>
+                            Descomenta la línea del img y agrega la ruta de tu imagen
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="instructions">
+                <h4>📖 Instrucciones de Navegación:</h4>
+                <ul style="margin: 0; padding-left: 1.5rem;">
+                    <li><strong>Zoom:</strong> Usa los botones + y - o la rueda del mouse</li>
+                    <li><strong>Arrastrar:</strong> Haz clic y arrastra para moverte por el mapa</li>
+                    <li><strong>Reset:</strong> Botón "Reset" para volver a la vista inicial</li>
+                    <li><strong>Móvil:</strong> Pellizca para hacer zoom, arrastra con el dedo</li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-button">
+            ← Volver al Menú Principal
+        </a>
+    </div>
+
+    <script>class MapViewer {
+            constructor() {
+                this.scale = 1;
+                this.minScale = 0.5;
+                this.maxScale = 3;
+                this.isDragging = false;
+                this.startX = 0;
+                this.startY = 0;
+                this.translateX = 0;
+                this.translateY = 0;
+
+                this.mapViewer = document.getElementById('mapViewer');
+                this.mapContainer = document.getElementById('mapContainer');
+                this.zoomInBtn = document.getElementById('zoomIn');
+                this.zoomOutBtn = document.getElementById('zoomOut');
+                this.resetBtn = document.getElementById('resetZoom');
+                this.zoomLevel = document.getElementById('zoomLevel');
+
+                this.init();
+            }
+
+            init() {
+                // Zoom button events
+                this.zoomInBtn.addEventListener('click', () => this.zoomIn());
+                this.zoomOutBtn.addEventListener('click', () => this.zoomOut());
+                this.resetBtn.addEventListener('click', () => this.reset());
+
+                // Mouse events
+                this.mapViewer.addEventListener('mousedown', (e) => this.startDrag(e));
+                this.mapViewer.addEventListener('mousemove', (e) => this.drag(e));
+                this.mapViewer.addEventListener('mouseup', () => this.stopDrag());
+                this.mapViewer.addEventListener('mouseleave', () => this.stopDrag());
+                this.mapViewer.addEventListener('wheel', (e) => this.handleWheel(e));
+
+                // Touch events for mobile
+                this.mapViewer.addEventListener('touchstart', (e) => this.handleTouchStart(e));
+                this.mapViewer.addEventListener('touchmove', (e) => this.handleTouchMove(e));
+                this.mapViewer.addEventListener('touchend', () => this.stopDrag());
+
+                // Prevent context menu
+                this.mapViewer.addEventListener('contextmenu', (e) => e.preventDefault());
+
+                this.updateTransform();
+            }
+
+            zoomIn() {
+                if (this.scale < this.maxScale) {
+                    this.scale = Math.min(this.scale * 1.2, this.maxScale);
+                    this.updateTransform();
+                }
+            }
+
+            zoomOut() {
+                if (this.scale > this.minScale) {
+                    this.scale = Math.max(this.scale / 1.2, this.minScale);
+                    this.updateTransform();
+                }
+            }
+
+            reset() {
+                this.scale = 1;
+                this.translateX = 0;
+                this.translateY = 0;
+                this.updateTransform();
+            }
+
+            handleWheel(e) {
+                e.preventDefault();
+                const delta = e.deltaY > 0 ? -1 : 1;
+                const zoomIntensity = 0.1;
+                const newScale = this.scale + delta * zoomIntensity;
+
+                if (newScale >= this.minScale && newScale <= this.maxScale) {
+                    this.scale = newScale;
+                    this.updateTransform();
+                }
+            }
+
+            startDrag(e) {
+                this.isDragging = true;
+                this.startX = e.clientX - this.translateX;
+                this.startY = e.clientY - this.translateY;
+                this.mapViewer.style.cursor = 'grabbing';
+            }
+
+            drag(e) {
+                if (!this.isDragging) return;
+                e.preventDefault();
+
+                this.translateX = e.clientX - this.startX;
+                this.translateY = e.clientY - this.startY;
+                this.updateTransform();
+            }
+
+            stopDrag() {
+                this.isDragging = false;
+                this.mapViewer.style.cursor = 'grab';
+            }
+
+            handleTouchStart(e) {
+                if (e.touches.length === 1) {
+                    const touch = e.touches[0];
+                    this.isDragging = true;
+                    this.startX = touch.clientX - this.translateX;
+                    this.startY = touch.clientY - this.translateY;
+                }
+            }
+
+            handleTouchMove(e) {
+                e.preventDefault();
+
+                if (e.touches.length === 1 && this.isDragging) {
+                    const touch = e.touches[0];
+                    this.translateX = touch.clientX - this.startX;
+                    this.translateY = touch.clientY - this.startY;
+                    this.updateTransform();
+                }
+            }
+
+            updateTransform() {
+                const transform = `translate(${this.translateX}px, ${this.translateY}px) scale(${this.scale})`;
+                this.mapContainer.style.transform = transform;
+                this.zoomLevel.textContent = Math.round(this.scale * 100) + '%';
+            }
+        }
+
+        // Initialize the map viewer when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new MapViewer();
+        });</script>
+</body>
+</html>
