@@ -2,6 +2,7 @@
   {
     "id": 1,
     "result": "Warrior's sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Soldier's Sword",
@@ -20,6 +21,7 @@
   {
     "id": 2,
     "result": "Fizzle foil",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Rapier",
@@ -38,6 +40,7 @@
   {
     "id": 3,
     "result": "Steel broadsword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Iron broadsword",
@@ -56,6 +59,7 @@
   {
     "id": 4,
     "result": "Gigasteel broadsword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Steel broadsword",
@@ -74,6 +78,7 @@
   {
     "id": 5,
     "result": "Aurora Blade",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Cautery sword",
@@ -92,6 +97,7 @@
   {
     "id": 6,
     "result": "Platinum sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Iron broadsword",
@@ -110,6 +116,7 @@
   {
     "id": 7,
     "result": "Dragon slayer",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Dragonsbane",
@@ -124,6 +131,7 @@
   {
     "id": 8,
     "result": "Über falcon blade",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Falcon blade",
@@ -138,6 +146,7 @@
   {
     "id": 9,
     "result": "Über miracle sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Miracle sword",
@@ -152,6 +161,7 @@
   {
     "id": 10,
     "result": "Fire blade",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Valkyrie sword",
@@ -170,6 +180,7 @@
   {
     "id": 11,
     "result": "Inferno blade",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Fire blade",
@@ -188,6 +199,7 @@
   {
     "id": 12,
     "result": "Liquid metal sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Metal slime sword",
@@ -206,6 +218,7 @@
   {
     "id": 13,
     "result": "Metal king sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Liquid metal sword",
@@ -224,6 +237,7 @@
   {
     "id": 14,
     "result": "Erdrick's sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Rusty sword",
@@ -242,6 +256,7 @@
   {
     "id": 15,
     "result": "Stardust sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Supernova sword",
@@ -256,6 +271,7 @@
   {
     "id": 15,
     "result": "Nebula sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Stardust sword",
@@ -274,6 +290,7 @@
   {
     "id": 16,
     "result": "Supernova sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Nebula sword",
@@ -292,6 +309,7 @@
   {
     "id": 17,
     "result": "Hypernova sword",
+    "category": "Swords",
     "ingredients": [
       {
         "name": "Nebula sword",
@@ -310,6 +328,7 @@
   {
     "id": 1,
     "result": "Steel lance",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Iron lance",
@@ -328,6 +347,7 @@
   {
     "id": 2,
     "result": "Gigasteel lance",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Steel lance",
@@ -346,6 +366,7 @@
   {
     "id": 3,
     "result": "Celestial spear",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Long spear",
@@ -364,6 +385,7 @@
   {
     "id": 4,
     "result": "Holy lance",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Iron Spear",
@@ -378,6 +400,7 @@
   {
     "id": 5,
     "result": "Trident",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Battle fork",
@@ -396,6 +419,7 @@
   {
     "id": 6,
     "result": "Graco's trident",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Trident",
@@ -414,6 +438,7 @@
   {
     "id": 7,
     "result": "Sandstorm spear",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Holy lance",
@@ -432,6 +457,7 @@
   {
     "id": 8,
     "result": "Halberd",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Partisan",
@@ -446,6 +472,7 @@
   {
     "id": 9,
     "result": "Lightning lance",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Celestial spear",
@@ -464,6 +491,7 @@
   {
     "id": 10,
     "result": "Storm spear",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Lightning spear",
@@ -482,6 +510,7 @@
   {
     "id": 11,
     "result": "Demon spear",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Celestial spear",
@@ -500,6 +529,7 @@
   {
     "id": 12,
     "result": "Liquid slime spear",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Metal slime spear",
@@ -518,6 +548,7 @@
   {
     "id": 13,
     "result": "Metal king spear",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Liquid slime spear",
@@ -536,6 +567,7 @@
   {
     "id": 14,
     "result": "Poker",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Split-pot poker",
@@ -550,6 +582,7 @@
   {
     "id": 14,
     "result": "Stud poker",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Poker",
@@ -568,6 +601,7 @@
   {
     "id": 15,
     "result": "Split-pot poker",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Stud poker",
@@ -586,6 +620,7 @@
   {
     "id": 16,
     "result": "Red-hot poker",
+    "category": "Spears",
     "ingredients": [
       {
         "name": "Stud poker",
@@ -604,6 +639,7 @@
   {
     "id": 1,
     "result": "Divine dagger",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Bronze knife",
@@ -618,6 +654,7 @@
   {
     "id": 2,
     "result": "Poison moth knife",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Divine dagger",
@@ -636,6 +673,7 @@
   {
     "id": 3,
     "result": "Batterfly knife",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Poison moth knife",
@@ -654,6 +692,7 @@
   {
     "id": 4,
     "result": "Dread dagger",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Batterfly knife",
@@ -672,6 +711,7 @@
   {
     "id": 5,
     "result": "Poison needle",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Magic beast horn",
@@ -686,6 +726,7 @@
   {
     "id": 6,
     "result": "Falcon knife earring",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Deadly nightblade",
@@ -704,6 +745,7 @@
   {
     "id": 7,
     "result": "Assassin's dagger",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Deadly nightblade",
@@ -722,6 +764,7 @@
   {
     "id": 8,
     "result": "Icicle dirk",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Divine dagger",
@@ -740,6 +783,7 @@
   {
     "id": 9,
     "result": "Fenrir fang",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Icicle dirk",
@@ -758,6 +802,7 @@
   {
     "id": 10,
     "result": "Soul breaker",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Sword breaker",
@@ -776,6 +821,7 @@
   {
     "id": 11,
     "result": "Gladius",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Flame tang",
@@ -790,6 +836,7 @@
   {
     "id": 12,
     "result": "Flame tang",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Gladius",
@@ -808,6 +855,7 @@
   {
     "id": 13,
     "result": "Deft dagger",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Dashing dagger",
@@ -822,6 +870,7 @@
   {
     "id": 14,
     "result": "Darting dagger",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Deft dagger",
@@ -840,6 +889,7 @@
   {
     "id": 15,
     "result": "Dashing dagger",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Darting dagger",
@@ -858,6 +908,7 @@
   {
     "id": 16,
     "result": "Dynamo dagger",
+    "category": "Knives",
     "ingredients": [
       {
         "name": "Darting dagger",
@@ -876,6 +927,7 @@
   {
     "id": 1,
     "result": "Staff of sentencing",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Wizard's staff",
@@ -894,6 +946,7 @@
   {
     "id": 2,
     "result": "Staff of divine wrath",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Staff of sentencing",
@@ -912,6 +965,7 @@
   {
     "id": 3,
     "result": "Watermaul wand",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Stolos' staff",
@@ -930,6 +984,7 @@
   {
     "id": 4,
     "result": "Tsunami staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Watermaul wand",
@@ -948,6 +1003,7 @@
   {
     "id": 5,
     "result": "Lightning staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Stolos' staff",
@@ -966,6 +1022,7 @@
   {
     "id": 6,
     "result": "Lightning conductor",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Lightning staff",
@@ -984,6 +1041,7 @@
   {
     "id": 7,
     "result": "Magma staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Stolos' staff",
@@ -1002,6 +1060,7 @@
   {
     "id": 8,
     "result": "Rune staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Stolos' staff",
@@ -1020,6 +1079,7 @@
   {
     "id": 9,
     "result": "Hieroglyph staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Rune staff",
@@ -1038,6 +1098,7 @@
   {
     "id": 10,
     "result": "Mega-magical mace",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Magical mace",
@@ -1056,6 +1117,7 @@
   {
     "id": 11,
     "result": "Savant's staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Sage's staff",
@@ -1074,6 +1136,7 @@
   {
     "id": 12,
     "result": "Bright staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Brilliant staff",
@@ -1088,6 +1151,7 @@
   {
     "id": 13,
     "result": "Shining staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Bright staff",
@@ -1106,6 +1170,7 @@
   {
     "id": 14,
     "result": "Brillant staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Shining staff",
@@ -1124,6 +1189,7 @@
   {
     "id": 15,
     "result": "Aurora staff",
+    "category": "Wands",
     "ingredients": [
       {
         "name": "Shining staff",
@@ -1142,6 +1208,7 @@
   {
     "id": 1,
     "result": "Snakeskin whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Leather whip",
@@ -1156,6 +1223,7 @@
   {
     "id": 2,
     "result": "Serpentine whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Snakeskin whip",
@@ -1174,6 +1242,7 @@
   {
     "id": 3,
     "result": "Sidewinder",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Serpentine whip",
@@ -1192,6 +1261,7 @@
   {
     "id": 4,
     "result": "Spiked steel whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Iron whip",
@@ -1210,6 +1280,7 @@
   {
     "id": 5,
     "result": "Gigaspike whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Spiked steel whip",
@@ -1228,6 +1299,7 @@
   {
     "id": 6,
     "result": "Dragontail whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Iron whip",
@@ -1246,6 +1318,7 @@
   {
     "id": 7,
     "result": "Demon whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Iron whip",
@@ -1264,6 +1337,7 @@
   {
     "id": 8,
     "result": "Archdemon whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Demon whip",
@@ -1282,6 +1356,7 @@
   {
     "id": 9,
     "result": "Scourge whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Archdemon whip",
@@ -1296,6 +1371,7 @@
   {
     "id": 10,
     "result": "Empress's whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Queen's whip",
@@ -1314,6 +1390,7 @@
   {
     "id": 11,
     "result": "Goddess whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Empress's whip",
@@ -1332,6 +1409,7 @@
   {
     "id": 12,
     "result": "Gringham whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Giga Gringham whip",
@@ -1346,6 +1424,7 @@
   {
     "id": 13,
     "result": "Mega Gringham whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Gringham whip",
@@ -1364,6 +1443,7 @@
   {
     "id": 14,
     "result": "Giga Gringham whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Mega Gringham whip",
@@ -1382,6 +1462,7 @@
   {
     "id": 15,
     "result": "Über Gringham whip",
+    "category": "Whips",
     "ingredients": [
       {
         "name": "Mega Gringham whip",
@@ -1400,6 +1481,7 @@
   {
     "id": 1,
     "result": "Steel bar",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Iron bar",
@@ -1418,6 +1500,7 @@
   {
     "id": 2,
     "result": "Gigasteel bar",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Steel bar",
@@ -1436,6 +1519,7 @@
   {
     "id": 3,
     "result": "Pillar of strength",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Oaken pole",
@@ -1450,6 +1534,7 @@
   {
     "id": 4,
     "result": "Killer pillar",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Driller pillar",
@@ -1464,6 +1549,7 @@
   {
     "id": 5,
     "result": "Slumber stick",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Sleepy stick",
@@ -1482,6 +1568,7 @@
   {
     "id": 6,
     "result": "Mistick",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Driller pillar",
@@ -1500,6 +1587,7 @@
   {
     "id": 7,
     "result": "Optimistick",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Mistick",
@@ -1518,6 +1606,7 @@
   {
     "id": 8,
     "result": "Ballistick",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Optimistick",
@@ -1536,6 +1625,7 @@
   {
     "id": 9,
     "result": "Xenlon rod",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Dragon rod",
@@ -1554,6 +1644,7 @@
   {
     "id": 10,
     "result": "Orichalcudgel",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Orichalcum",
@@ -1568,6 +1659,7 @@
   {
     "id": 11,
     "result": "Knockout rod",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Catatonic cosh",
@@ -1582,6 +1674,7 @@
   {
     "id": 12,
     "result": "Senseless stick",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Knockout rod",
@@ -1600,6 +1693,7 @@
   {
     "id": 13,
     "result": "Catatonic cosh",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Senseless stick",
@@ -1618,6 +1712,7 @@
   {
     "id": 14,
     "result": "Coma cudgel",
+    "category": "Staves",
     "ingredients": [
       {
         "name": "Senseless stick",
@@ -1636,6 +1731,7 @@
   {
     "id": 1,
     "result": "Steel claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Iron claws",
@@ -1654,6 +1750,7 @@
   {
     "id": 2,
     "result": "Gigasteel claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Steel claws",
@@ -1672,6 +1769,7 @@
   {
     "id": 3,
     "result": "Sacred claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Iron claws",
@@ -1686,6 +1784,7 @@
   {
     "id": 4,
     "result": "Kestrel claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Crow's claws",
@@ -1700,6 +1799,7 @@
   {
     "id": 5,
     "result": "Kite claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Krestrel claws",
@@ -1714,6 +1814,7 @@
   {
     "id": 6,
     "result": "Hammer handrills",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Handrills",
@@ -1732,6 +1833,7 @@
   {
     "id": 7,
     "result": "Fire claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Dragon claws",
@@ -1750,6 +1852,7 @@
   {
     "id": 8,
     "result": "Combusticlaws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Fire claws",
@@ -1768,6 +1871,7 @@
   {
     "id": 9,
     "result": "King cobra claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Cobra claws",
@@ -1786,6 +1890,7 @@
   {
     "id": 10,
     "result": "Beastmaster claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Beast claws",
@@ -1804,6 +1909,7 @@
   {
     "id": 11,
     "result": "Orichalcum claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Combusticlaws",
@@ -1822,6 +1928,7 @@
   {
     "id": 12,
     "result": "Dragonlord claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Dragovian lord clas",
@@ -1836,6 +1943,7 @@
   {
     "id": 13,
     "result": "Dragovian claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Dragonlord claws",
@@ -1854,6 +1962,7 @@
   {
     "id": 14,
     "result": "Dragovian lord claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Dragovian claws",
@@ -1872,6 +1981,7 @@
   {
     "id": 15,
     "result": "Xenlon claws",
+    "category": "Claws",
     "ingredients": [
       {
         "name": "Dragovian claws",
@@ -1890,6 +2000,7 @@
   {
     "id": 1,
     "result": "Steel fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Iron fan",
@@ -1908,6 +2019,7 @@
   {
     "id": 2,
     "result": "Gigasteel fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Steel fan",
@@ -1926,6 +2038,7 @@
   {
     "id": 3,
     "result": "Foehn fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Feather fan",
@@ -1944,6 +2057,7 @@
   {
     "id": 4,
     "result": "Gale force fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Foehn fan",
@@ -1962,6 +2076,7 @@
   {
     "id": 5,
     "result": "Cobra fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "War fan",
@@ -1980,6 +2095,7 @@
   {
     "id": 6,
     "result": "Azure Dragon fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Cobra fan",
@@ -1998,6 +2114,7 @@
   {
     "id": 7,
     "result": "Fowl fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "War fan",
@@ -2016,6 +2133,7 @@
   {
     "id": 8,
     "result": "Vermillion Bird fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Fowl fan",
@@ -2034,6 +2152,7 @@
   {
     "id": 9,
     "result": "Feline fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "War fan",
@@ -2052,6 +2171,7 @@
   {
     "id": 10,
     "result": "White Tiger fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Feline fan",
@@ -2070,6 +2190,7 @@
   {
     "id": 11,
     "result": "Tortoiseshell fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "War fan",
@@ -2088,6 +2209,7 @@
   {
     "id": 12,
     "result": "Black Tortoise fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Tortoiseshell fan",
@@ -2106,6 +2228,7 @@
   {
     "id": 13,
     "result": "Lunar fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Stellar fan",
@@ -2124,6 +2247,7 @@
   {
     "id": 14,
     "result": "Solar fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Lunar fan",
@@ -2142,6 +2266,7 @@
   {
     "id": 15,
     "result": "Friendly fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Solar fan",
@@ -2160,6 +2285,7 @@
   {
     "id": 16,
     "result": "Critical fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Hypercritical fan",
@@ -2174,6 +2300,7 @@
   {
     "id": 17,
     "result": "Overcritical fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Critical fan",
@@ -2192,6 +2319,7 @@
   {
     "id": 18,
     "result": "Hypercritical fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Overcritical fan",
@@ -2210,6 +2338,7 @@
   {
     "id": 19,
     "result": "Dire critical fan",
+    "category": "Fans",
     "ingredients": [
       {
         "name": "Overcritical fan",
@@ -2228,6 +2357,7 @@
   {
     "id": 1,
     "result": "Steel axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Iron axe",
@@ -2246,6 +2376,7 @@
   {
     "id": 2,
     "result": "Gigasteel axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Steel axe",
@@ -2264,6 +2395,7 @@
   {
     "id": 3,
     "result": "Golden axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Iron axe",
@@ -2278,6 +2410,7 @@
   {
     "id": 4,
     "result": "Moon axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Battle-axe",
@@ -2296,6 +2429,7 @@
   {
     "id": 5,
     "result": "Full moon axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Moon axe",
@@ -2314,6 +2448,7 @@
   {
     "id": 6,
     "result": "King axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Golden axe",
@@ -2328,6 +2463,7 @@
   {
     "id": 7,
     "result": "Kaiser axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "King axe",
@@ -2346,6 +2482,7 @@
   {
     "id": 8,
     "result": "Executioner's axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Headsman's axe",
@@ -2364,6 +2501,7 @@
   {
     "id": 9,
     "result": "Ice axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Kaiser axe",
@@ -2382,6 +2520,7 @@
   {
     "id": 10,
     "result": "Avalanche axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Ice axe",
@@ -2400,6 +2539,7 @@
   {
     "id": 11,
     "result": "Bad axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Climaxe",
@@ -2414,6 +2554,7 @@
   {
     "id": 12,
     "result": "Maxi axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Bad axe",
@@ -2432,6 +2573,7 @@
   {
     "id": 13,
     "result": "Climaxe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Maxi axe",
@@ -2450,6 +2592,7 @@
   {
     "id": 14,
     "result": "Galaxy axe",
+    "category": "Axes",
     "ingredients": [
       {
         "name": "Maxi axe",
@@ -2468,6 +2611,7 @@
   {
     "id": 1,
     "result": "Ace of clubs",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Oaken club",
@@ -2482,6 +2626,7 @@
   {
     "id": 2,
     "result": "Über war hammer",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "War hammer",
@@ -2496,6 +2641,7 @@
   {
     "id": 3,
     "result": "Terra tamper",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Über war hammer",
@@ -2514,6 +2660,7 @@
   {
     "id": 4,
     "result": "Terra firmer",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Terra tamper",
@@ -2532,6 +2679,7 @@
   {
     "id": 5,
     "result": "Terra hammer",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Terra firmer",
@@ -2550,6 +2698,7 @@
   {
     "id": 6,
     "result": "Titan's hammer",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Giant's hammer",
@@ -2568,6 +2717,7 @@
   {
     "id": 7,
     "result": "Megaton hammer",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Hela's hammer",
@@ -2586,6 +2736,7 @@
   {
     "id": 8,
     "result": "Warlord's hammer",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Megaton hammer",
@@ -2604,6 +2755,7 @@
   {
     "id": 9,
     "result": "Groundbreaker",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Moonmasher",
@@ -2618,6 +2770,7 @@
   {
     "id": 10,
     "result": "Earthsplitter",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Groundbreaker",
@@ -2636,6 +2789,7 @@
   {
     "id": 11,
     "result": "Moonmasher",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Earthsplitter",
@@ -2654,6 +2808,7 @@
   {
     "id": 12,
     "result": "Starsmasher",
+    "category": "Hammers",
     "ingredients": [
       {
         "name": "Earthsplitter",
@@ -2672,6 +2827,7 @@
   {
     "id": 1,
     "result": "Reinforced boomerang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Boomerang",
@@ -2686,6 +2842,7 @@
   {
     "id": 2,
     "result": "Cutting-edge boomerang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Edged boomerang",
@@ -2704,6 +2861,7 @@
   {
     "id": 3,
     "result": "Crucerang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Reinforced boomerang",
@@ -2722,6 +2880,7 @@
   {
     "id": 4,
     "result": "Razer-wing boomerang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Razor-wing boomerang",
@@ -2736,6 +2895,7 @@
   {
     "id": 5,
     "result": "Erazor-wing boomerang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Razer-wing boomerang",
@@ -2754,6 +2914,7 @@
   {
     "id": 6,
     "result": "Eaglewing",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Swallowtail",
@@ -2772,6 +2933,7 @@
   {
     "id": 7,
     "result": "Gusterang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Swallowtail",
@@ -2790,6 +2952,7 @@
   {
     "id": 8,
     "result": "Blusterang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Gusterang",
@@ -2808,6 +2971,7 @@
   {
     "id": 9,
     "result": "Flametang boomerang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Gusterang",
@@ -2826,6 +2990,7 @@
   {
     "id": 10,
     "result": "Banefire boomerang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Flametang boomerang",
@@ -2844,6 +3009,7 @@
   {
     "id": 11,
     "result": "Pentarang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Hexarang",
@@ -2858,6 +3024,7 @@
   {
     "id": 12,
     "result": "Hexarang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Pentarang",
@@ -2876,6 +3043,7 @@
   {
     "id": 13,
     "result": "Meteorang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Stellarang",
@@ -2890,6 +3058,7 @@
   {
     "id": 14,
     "result": "Asterang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Meteorang",
@@ -2908,6 +3077,7 @@
   {
     "id": 15,
     "result": "Stellarang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Asterang",
@@ -2926,6 +3096,7 @@
   {
     "id": 16,
     "result": "Galaxrang",
+    "category": "Boomerangs",
     "ingredients": [
       {
         "name": "Asterang",
@@ -2944,6 +3115,7 @@
   {
     "id": 1,
     "result": "Longbow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Short bow",
@@ -2958,6 +3130,7 @@
   {
     "id": 2,
     "result": "Hunter's bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Longbow",
@@ -2972,6 +3145,7 @@
   {
     "id": 3,
     "result": "Hotshot bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Potshot bow",
@@ -2990,6 +3164,7 @@
   {
     "id": 4,
     "result": "Blowy bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Potshot bow",
@@ -3008,6 +3183,7 @@
   {
     "id": 5,
     "result": "Billowing bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Blowy bow",
@@ -3026,6 +3202,7 @@
   {
     "id": 6,
     "result": "Blustery bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Billowing bow",
@@ -3044,6 +3221,7 @@
   {
     "id": 7,
     "result": "Purblind bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Great bow",
@@ -3062,6 +3240,7 @@
   {
     "id": 8,
     "result": "Blinding bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Purblind bow",
@@ -3080,6 +3259,7 @@
   {
     "id": 9,
     "result": "Oh-no bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Odin's bow",
@@ -3094,6 +3274,7 @@
   {
     "id": 10,
     "result": "Odin's bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Oh-no bow",
@@ -3108,6 +3289,7 @@
   {
     "id": 11,
     "result": "Angel's bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Aeon's bow",
@@ -3122,6 +3304,7 @@
   {
     "id": 12,
     "result": "Archangel's bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Angel's bow",
@@ -3140,6 +3323,7 @@
   {
     "id": 13,
     "result": "Aeon's bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Archangel's bow",
@@ -3158,6 +3342,7 @@
   {
     "id": 14,
     "result": "Seraph's bow",
+    "category": "Bows",
     "ingredients": [
       {
         "name": "Archangel's bow",
@@ -3176,6 +3361,7 @@
   {
     "id": 1,
     "result": "Gold platter",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Silver platter",
@@ -3190,6 +3376,7 @@
   {
     "id": 2,
     "result": "Platinum platter",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Gold platter",
@@ -3204,6 +3391,7 @@
   {
     "id": 3,
     "result": "Shell shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Scale shield",
@@ -3218,6 +3406,7 @@
   {
     "id": 4,
     "result": "Steel shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Iron shield",
@@ -3236,6 +3425,7 @@
   {
     "id": 5,
     "result": "Gigasteel shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Steel shield",
@@ -3254,6 +3444,7 @@
   {
     "id": 6,
     "result": "Kitty shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Light shield",
@@ -3268,6 +3459,7 @@
   {
     "id": 7,
     "result": "Catty shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Kitty shield",
@@ -3282,6 +3474,7 @@
   {
     "id": 8,
     "result": "White shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Light shield",
@@ -3300,6 +3493,7 @@
   {
     "id": 9,
     "result": "Enchanted shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Magic shield",
@@ -3314,6 +3508,7 @@
   {
     "id": 10,
     "result": "Ethereal shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Enchanted shield",
@@ -3328,6 +3523,7 @@
   {
     "id": 11,
     "result": "Flame shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Magic shield",
@@ -3346,6 +3542,7 @@
   {
     "id": 12,
     "result": "Ice Shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Magic shield",
@@ -3364,6 +3561,7 @@
   {
     "id": 13,
     "result": "Platinum shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Light shield",
@@ -3382,6 +3580,7 @@
   {
     "id": 14,
     "result": "Dragon shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Magic shield",
@@ -3400,6 +3599,7 @@
   {
     "id": 15,
     "result": "Tempest shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Magic shield",
@@ -3418,6 +3618,7 @@
   {
     "id": 16,
     "result": "Power shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Warrior's shield",
@@ -3436,6 +3637,7 @@
   {
     "id": 17,
     "result": "Empowered shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Power shield",
@@ -3450,6 +3652,7 @@
   {
     "id": 18,
     "result": "White knight's shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "White shield",
@@ -3468,6 +3671,7 @@
   {
     "id": 19,
     "result": "Ogre shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Dark shield",
@@ -3486,6 +3690,7 @@
   {
     "id": 20,
     "result": "Silver shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "White knight's shield",
@@ -3504,6 +3709,7 @@
   {
     "id": 21,
     "result": "Big boss shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Boss shield",
@@ -3522,6 +3728,7 @@
   {
     "id": 22,
     "result": "Saintess shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Ruinous shield",
@@ -3536,6 +3743,7 @@
   {
     "id": 23,
     "result": "Goddess shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Saintess shield",
@@ -3554,6 +3762,7 @@
   {
     "id": 24,
     "result": "Liquid metal shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Metal slime shield",
@@ -3572,6 +3781,7 @@
   {
     "id": 25,
     "result": "Metal king shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Liquid metal shield",
@@ -3590,6 +3800,7 @@
   {
     "id": 26,
     "result": "Erdrick's shield",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Rusty shield",
@@ -3608,6 +3819,7 @@
   {
     "id": 27,
     "result": "Brain drainer",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Devilry drinker",
@@ -3622,6 +3834,7 @@
   {
     "id": 28,
     "result": "Psyche swiper",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Brain drainer",
@@ -3640,6 +3853,7 @@
   {
     "id": 29,
     "result": "Devilry drinker",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Psyche swiper",
@@ -3658,6 +3872,7 @@
   {
     "id": 30,
     "result": "Soul sucker",
+    "category": "Shields",
     "ingredients": [
       {
         "name": "Psyche swiper",
@@ -3676,6 +3891,7 @@
   {
     "id": 1,
     "result": "Steel helmet",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Iron helmet",
@@ -3694,6 +3910,7 @@
   {
     "id": 2,
     "result": "Gigasteel helmet",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Steel helmet",
@@ -3712,6 +3929,7 @@
   {
     "id": 3,
     "result": "Filigree mask",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Iron mask",
@@ -3730,6 +3948,7 @@
   {
     "id": 4,
     "result": "Platinum headgear",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Iron mask",
@@ -3748,6 +3967,7 @@
   {
     "id": 5,
     "result": "Mythril coif",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Mail coif",
@@ -3762,6 +3982,7 @@
   {
     "id": 6,
     "result": "Thinking cap",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Steel helmet",
@@ -3780,6 +4001,7 @@
   {
     "id": 7,
     "result": "Scholar's circlet",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Thinking cap",
@@ -3798,6 +4020,7 @@
   {
     "id": 8,
     "result": "Raging bull helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Gigasteel helmet",
@@ -3816,6 +4039,7 @@
   {
     "id": 9,
     "result": "Minotaur helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Raging bull helm",
@@ -3834,6 +4058,7 @@
   {
     "id": 10,
     "result": "Hades' helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Great helm",
@@ -3848,6 +4073,7 @@
   {
     "id": 11,
     "result": "Mythril helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Platinum headgear",
@@ -3862,6 +4088,7 @@
   {
     "id": 12,
     "result": "Great helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Hades' helm",
@@ -3876,6 +4103,7 @@
   {
     "id": 13,
     "result": "Crown of clarity",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Thinking cap",
@@ -3894,6 +4122,7 @@
   {
     "id": 14,
     "result": "Skull helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Apollo's crown",
@@ -3908,6 +4137,7 @@
   {
     "id": 15,
     "result": "Sun crown",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Skull helm",
@@ -3922,6 +4152,7 @@
   {
     "id": 16,
     "result": "Apollo's crown",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Sun crown",
@@ -3940,6 +4171,7 @@
   {
     "id": 17,
     "result": "Liquid metal helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Metal slime helm",
@@ -3958,6 +4190,7 @@
   {
     "id": 18,
     "result": "Metal king helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Liquid metal helm",
@@ -3976,6 +4209,7 @@
   {
     "id": 19,
     "result": "Erdrick's helmet",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Rusty helmet",
@@ -3994,6 +4228,7 @@
   {
     "id": 20,
     "result": "Hallowed helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Wonder helm",
@@ -4008,6 +4243,7 @@
   {
     "id": 21,
     "result": "Blessed helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Hallowed helm",
@@ -4026,6 +4262,7 @@
   {
     "id": 22,
     "result": "Wonder helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Blessed helm",
@@ -4044,6 +4281,7 @@
   {
     "id": 23,
     "result": "Heavenly helm",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Blessed helm",
@@ -4062,6 +4300,7 @@
   {
     "id": 24,
     "result": "Trailblazing bandana",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Bandana",
@@ -4076,6 +4315,7 @@
   {
     "id": 25,
     "result": "Mercury's bandana",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Trailblazing bandana",
@@ -4090,6 +4330,7 @@
   {
     "id": 26,
     "result": "Feathered cap",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Leather hat",
@@ -4104,6 +4345,7 @@
   {
     "id": 27,
     "result": "Bunny ears",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Hairband",
@@ -4118,6 +4360,7 @@
   {
     "id": 28,
     "result": "Cat ears",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Hairband",
@@ -4132,6 +4375,7 @@
   {
     "id": 29,
     "result": "Fur hood",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Leather hat",
@@ -4150,6 +4394,7 @@
   {
     "id": 30,
     "result": "Pointy hat",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Leather hat",
@@ -4164,6 +4409,7 @@
   {
     "id": 31,
     "result": "Golden tiara",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Silver tiara",
@@ -4182,6 +4428,7 @@
   {
     "id": 32,
     "result": "Slood",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Pointy hat",
@@ -4196,6 +4443,7 @@
   {
     "id": 33,
     "result": "Feather headband",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Hairband",
@@ -4210,6 +4458,7 @@
   {
     "id": 34,
     "result": "Hunter's hat",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Pointy hat",
@@ -4228,6 +4477,7 @@
   {
     "id": 35,
     "result": "Ear cosy",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Fur hood",
@@ -4246,6 +4496,7 @@
   {
     "id": 36,
     "result": "Gold circlet",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Circlet",
@@ -4264,6 +4515,7 @@
   {
     "id": 37,
     "result": "Star circlet",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Gold circlet",
@@ -4278,6 +4530,7 @@
   {
     "id": 38,
     "result": "Tricky turban",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Turban",
@@ -4296,6 +4549,7 @@
   {
     "id": 39,
     "result": "Thief's turban",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Turban",
@@ -4310,6 +4564,7 @@
   {
     "id": 40,
     "result": "Malleable mask",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Circlet",
@@ -4328,6 +4583,7 @@
   {
     "id": 41,
     "result": "Papillon mask",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Malleable mask",
@@ -4346,6 +4602,7 @@
   {
     "id": 42,
     "result": "Canny cap",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Feathered cap",
@@ -4360,6 +4617,7 @@
   {
     "id": 43,
     "result": "Musketeer hat",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Feathered cap",
@@ -4378,6 +4636,7 @@
   {
     "id": 44,
     "result": "Mega-magical hat",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Magical hat",
@@ -4396,6 +4655,7 @@
   {
     "id": 45,
     "result": "Happy hat",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Unhappy hat",
@@ -4410,6 +4670,7 @@
   {
     "id": 46,
     "result": "Spellward circlet",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Gold circlet",
@@ -4428,6 +4689,7 @@
   {
     "id": 47,
     "result": "Phantom mask",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Papillon mask",
@@ -4446,6 +4708,7 @@
   {
     "id": 48,
     "result": "Spring breeze hat",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Winter sky hat",
@@ -4464,6 +4727,7 @@
   {
     "id": 49,
     "result": "Summer cloud hat",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Spring breeze hat",
@@ -4482,6 +4746,7 @@
   {
     "id": 50,
     "result": "Autumn shower hat",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Summer cloud hat",
@@ -4500,6 +4765,7 @@
   {
     "id": 51,
     "result": "Winter sky hat",
+    "category": "Head",
     "ingredients": [
       {
         "name": "Autumn shower hat",
@@ -4518,6 +4784,7 @@
   {
     "id": 1,
     "result": "Large-scale armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Scale armour",
@@ -4536,6 +4803,7 @@
   {
     "id": 2,
     "result": "Silver cuirass",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Iron cuirass",
@@ -4550,6 +4818,7 @@
   {
     "id": 3,
     "result": "Full plate armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Iron armour",
@@ -4568,6 +4837,7 @@
   {
     "id": 4,
     "result": "Gigasteel armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Full plate armour",
@@ -4586,6 +4856,7 @@
   {
     "id": 5,
     "result": "Tortoise shell",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Iron cuirass",
@@ -4604,6 +4875,7 @@
   {
     "id": 6,
     "result": "Tortoiseshell armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Tortoise shell",
@@ -4622,6 +4894,7 @@
   {
     "id": 7,
     "result": "Gold mail",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Silver mail",
@@ -4640,6 +4913,7 @@
   {
     "id": 8,
     "result": "Platinum mail",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Gold mail",
@@ -4658,6 +4932,7 @@
   {
     "id": 9,
     "result": "Enchanted armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Magic armour",
@@ -4672,6 +4947,7 @@
   {
     "id": 10,
     "result": "Ethereal armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Enchanted armour",
@@ -4686,6 +4962,7 @@
   {
     "id": 11,
     "result": "Dragon mail",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Magic armour",
@@ -4704,6 +4981,7 @@
   {
     "id": 12,
     "result": "Spiked armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Magic armour",
@@ -4722,6 +5000,7 @@
   {
     "id": 13,
     "result": "Holy mail",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Chain mail",
@@ -4740,6 +5019,7 @@
   {
     "id": 14,
     "result": "Sacrosanct armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Sacred armour",
@@ -4758,6 +5038,7 @@
   {
     "id": 15,
     "result": "Mirror armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Magic armour",
@@ -4776,6 +5057,7 @@
   {
     "id": 16,
     "result": "Catoptric armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Mirror armour",
@@ -4794,6 +5076,7 @@
   {
     "id": 17,
     "result": "Liquid metal armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Metal slime armour",
@@ -4812,6 +5095,7 @@
   {
     "id": 18,
     "result": "Metal king armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Liquid metal armour",
@@ -4830,6 +5114,7 @@
   {
     "id": 19,
     "result": "Erdrick's armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Rusty armour",
@@ -4848,6 +5133,7 @@
   {
     "id": 20,
     "result": "Victorious armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Mythical armour",
@@ -4862,6 +5148,7 @@
   {
     "id": 21,
     "result": "Glorious armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Victorious armour",
@@ -4880,6 +5167,7 @@
   {
     "id": 22,
     "result": "Mythical armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Glorious armour",
@@ -4898,6 +5186,7 @@
   {
     "id": 23,
     "result": "Legendary armour",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Glorious armour",
@@ -4916,6 +5205,7 @@
   {
     "id": 24,
     "result": "Tracksuit top",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Training top",
@@ -4930,6 +5220,7 @@
   {
     "id": 25,
     "result": "Fur poncho",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Leather cape",
@@ -4944,6 +5235,7 @@
   {
     "id": 26,
     "result": "Cloak of concealment",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Cloak of evasion",
@@ -4962,6 +5254,7 @@
   {
     "id": 27,
     "result": "Gooey gear",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Garish garb",
@@ -4976,6 +5269,7 @@
   {
     "id": 28,
     "result": "Majestic mantle",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Velvet cape",
@@ -4994,6 +5288,7 @@
   {
     "id": 29,
     "result": "Tussler's top",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Tracksuit top",
@@ -5012,6 +5307,7 @@
   {
     "id": 30,
     "result": "Dragon dress",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Strongsam",
@@ -5030,6 +5326,7 @@
   {
     "id": 31,
     "result": "Flamenco shirt",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Garish garb",
@@ -5048,6 +5345,7 @@
   {
     "id": 32,
     "result": "Dancer's dress",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Dancers costume",
@@ -5066,6 +5364,7 @@
   {
     "id": 33,
     "result": "Fur vest",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Fur poncho",
@@ -5080,6 +5379,7 @@
   {
     "id": 34,
     "result": "Superstar's suit",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Star's suit",
@@ -5094,6 +5394,7 @@
   {
     "id": 35,
     "result": "Technicolour tutu",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Tint-tastic tutu",
@@ -5108,6 +5409,7 @@
   {
     "id": 36,
     "result": "Hot bikini top",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Dangerous bikini top",
@@ -5126,6 +5428,7 @@
   {
     "id": 37,
     "result": "Sizzling bikini top",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Hot bikini top",
@@ -5144,6 +5447,7 @@
   {
     "id": 38,
     "result": "Dragon top",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Tussler's top",
@@ -5162,6 +5466,7 @@
   {
     "id": 39,
     "result": "Dark robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Velvet cape",
@@ -5180,6 +5485,7 @@
   {
     "id": 40,
     "result": "Macabre mantle",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Dark robe",
@@ -5198,6 +5504,7 @@
   {
     "id": 41,
     "result": "Twinkling tuxedo",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Smart suit",
@@ -5216,6 +5523,7 @@
   {
     "id": 42,
     "result": "Shimmering dress",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Spangled dress",
@@ -5234,6 +5542,7 @@
   {
     "id": 43,
     "result": "Dangerous bustier",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Divine bustier",
@@ -5248,6 +5557,7 @@
   {
     "id": 44,
     "result": "Silk bustier",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Dangerous bustier",
@@ -5266,6 +5576,7 @@
   {
     "id": 45,
     "result": "Divine bustier",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Silk bustier",
@@ -5284,6 +5595,7 @@
   {
     "id": 46,
     "result": "Tropotoga",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Mesotoga",
@@ -5298,6 +5610,7 @@
   {
     "id": 47,
     "result": "Stratotoga",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Tropotoga",
@@ -5316,6 +5629,7 @@
   {
     "id": 48,
     "result": "Mesotoga",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Stratotoga",
@@ -5334,6 +5648,7 @@
   {
     "id": 49,
     "result": "Exotoga",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Stratotoga",
@@ -5352,6 +5667,7 @@
   {
     "id": 50,
     "result": "Robe of sweet dreams",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Rober of serenity",
@@ -5370,6 +5686,7 @@
   {
     "id": 51,
     "result": "Enchanted robes",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Magical robes",
@@ -5384,6 +5701,7 @@
   {
     "id": 52,
     "result": "Ethereal robes",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Enchanted robes",
@@ -5398,6 +5716,7 @@
   {
     "id": 53,
     "result": "Saintly robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Ascetic robe",
@@ -5416,6 +5735,7 @@
   {
     "id": 54,
     "result": "Fizzle-proof suit",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Fizzle-retardant suit",
@@ -5434,6 +5754,7 @@
   {
     "id": 55,
     "result": "Sage's robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Saintly robe",
@@ -5452,6 +5773,7 @@
   {
     "id": 56,
     "result": "Flowing dress",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Enchanted robes",
@@ -5466,6 +5788,7 @@
   {
     "id": 57,
     "result": "Cape of good karma",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Majestic mantle",
@@ -5484,6 +5807,7 @@
   {
     "id": 58,
     "result": "Princess's robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Shimmering dress",
@@ -5498,6 +5822,7 @@
   {
     "id": 59,
     "result": "Queen's robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Princess's robe",
@@ -5516,6 +5841,7 @@
   {
     "id": 60,
     "result": "Empress's robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Queen's robe",
@@ -5534,6 +5860,7 @@
   {
     "id": 61,
     "result": "Prince's pea coat",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Twinkling tuxedo",
@@ -5548,6 +5875,7 @@
   {
     "id": 62,
     "result": "King's coat",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Prince's pea coat",
@@ -5566,6 +5894,7 @@
   {
     "id": 63,
     "result": "Emperor's attire",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "King's coat",
@@ -5584,6 +5913,7 @@
   {
     "id": 64,
     "result": "Celestria's gown",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Nightmare gown",
@@ -5598,6 +5928,7 @@
   {
     "id": 65,
     "result": "Celestria's raiment",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Celestria's gown",
@@ -5616,6 +5947,7 @@
   {
     "id": 66,
     "result": "Xenlon robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Dragon robe",
@@ -5634,6 +5966,7 @@
   {
     "id": 67,
     "result": "Angel's robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Aeon's robe",
@@ -5648,6 +5981,7 @@
   {
     "id": 68,
     "result": "Archangel's robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Angel's robe",
@@ -5666,6 +6000,7 @@
   {
     "id": 69,
     "result": "Aeon's robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Archangel's robe",
@@ -5684,6 +6019,7 @@
   {
     "id": 70,
     "result": "Seraph's robe",
+    "category": "Torso",
     "ingredients": [
       {
         "name": "Archangel's robe",
@@ -5702,6 +6038,7 @@
   {
     "id": 1,
     "result": "Steel gauntlets",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Iron gauntlets",
@@ -5720,6 +6057,7 @@
   {
     "id": 2,
     "result": "Gigasteel gauntlets",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Steel gauntlets",
@@ -5738,6 +6076,7 @@
   {
     "id": 3,
     "result": "Enchanted gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Magic mittens",
@@ -5752,6 +6091,7 @@
   {
     "id": 4,
     "result": "Ethereal gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Enchanted gloves",
@@ -5766,6 +6106,7 @@
   {
     "id": 5,
     "result": "Sturdy gauntlets",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Light gauntlets",
@@ -5784,6 +6125,7 @@
   {
     "id": 6,
     "result": "Heavy gauntlets",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Sturdy gauntlets",
@@ -5802,6 +6144,7 @@
   {
     "id": 7,
     "result": "Blessed bindings",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Bruiser's bracers",
@@ -5820,6 +6163,7 @@
   {
     "id": 8,
     "result": "Liquid metal slime gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Metal slime gauntlets",
@@ -5838,6 +6182,7 @@
   {
     "id": 9,
     "result": "Metal king slime gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Liquid metal slime gloves",
@@ -5856,6 +6201,7 @@
   {
     "id": 10,
     "result": "Erdrick's gauntlets",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Rusty gauntlets",
@@ -5874,6 +6220,7 @@
   {
     "id": 11,
     "result": "Vesta gauntlets",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Tempestes gauntlets",
@@ -5888,6 +6235,7 @@
   {
     "id": 12,
     "result": "Diana gauntlets",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Vesta gauntlets",
@@ -5906,6 +6254,7 @@
   {
     "id": 13,
     "result": "Tempestes gauntlets",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Diana gauntlets",
@@ -5924,6 +6273,7 @@
   {
     "id": 14,
     "result": "Sol Invictus gauntlets",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Diana gauntlets",
@@ -5942,6 +6292,7 @@
   {
     "id": 15,
     "result": "Leather gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Cotton gloves",
@@ -5956,6 +6307,7 @@
   {
     "id": 16,
     "result": "Marquess's mittens",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Mayoress's mittens",
@@ -5970,6 +6322,7 @@
   {
     "id": 17,
     "result": "Monarch's mittens",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Marquess's mittens",
@@ -5984,6 +6337,7 @@
   {
     "id": 18,
     "result": "Guru's gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Heavy handwear",
@@ -6002,6 +6356,7 @@
   {
     "id": 19,
     "result": "Gloomy gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Heavy handwear",
@@ -6016,6 +6371,7 @@
   {
     "id": 20,
     "result": "Murky mittens",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Gloomy gloves",
@@ -6034,6 +6390,7 @@
   {
     "id": 21,
     "result": "Matador's gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Mental mittens",
@@ -6052,6 +6409,7 @@
   {
     "id": 22,
     "result": "Apprentice's gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Grandmaster's gloves",
@@ -6066,6 +6424,7 @@
   {
     "id": 23,
     "result": "Master's gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Apprentice's gloves",
@@ -6084,6 +6443,7 @@
   {
     "id": 24,
     "result": "Grandmaster's gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Master's glove",
@@ -6102,6 +6462,7 @@
   {
     "id": 25,
     "result": "Godly gloves",
+    "category": "Arms",
     "ingredients": [
       {
         "name": "Master's glove",
@@ -6120,6 +6481,7 @@
   {
     "id": 1,
     "result": "Leather kilt",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Boxer shorts",
@@ -6134,6 +6496,7 @@
   {
     "id": 2,
     "result": "Tracky bottoms",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Training trousers",
@@ -6148,6 +6511,7 @@
   {
     "id": 3,
     "result": "Boomer briefs",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Boxer shorts",
@@ -6162,6 +6526,7 @@
   {
     "id": 4,
     "result": "Wonder pants",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Boomer briefs",
@@ -6176,6 +6541,7 @@
   {
     "id": 5,
     "result": "Steel kneecaps",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Iron kneecaps",
@@ -6194,6 +6560,7 @@
   {
     "id": 6,
     "result": "Gigasteel kneecaps",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Steel kneecaps",
@@ -6212,6 +6579,7 @@
   {
     "id": 7,
     "result": "Hot bikini bottoms",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Dangerous midriff wrap",
@@ -6230,6 +6598,7 @@
   {
     "id": 8,
     "result": "Sizzling bikini bottoms",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Hot bikinibottom",
@@ -6248,6 +6617,7 @@
   {
     "id": 9,
     "result": "Blessed bottoms",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Wizard's trousers",
@@ -6266,6 +6636,7 @@
   {
     "id": 10,
     "result": "Tussler's torousers",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Tracky bottoms",
@@ -6284,6 +6655,7 @@
   {
     "id": 11,
     "result": "Fancy pants",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Loud trousers",
@@ -6302,6 +6674,7 @@
   {
     "id": 12,
     "result": "Chainmail socks",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Pop socks",
@@ -6320,6 +6693,7 @@
   {
     "id": 13,
     "result": "Red tights",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Pop socks",
@@ -6334,6 +6708,7 @@
   {
     "id": 14,
     "result": "Green tights",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Pop socks",
@@ -6348,6 +6723,7 @@
   {
     "id": 15,
     "result": "White tights",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Pop socks",
@@ -6362,6 +6738,7 @@
   {
     "id": 16,
     "result": "Transparent tights",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Red tights",
@@ -6380,6 +6757,7 @@
   {
     "id": 17,
     "result": "Dragon trousers",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Tussler's trousers",
@@ -6398,6 +6776,7 @@
   {
     "id": 18,
     "result": "Tantric trousers",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Dragon trousers",
@@ -6416,6 +6795,7 @@
   {
     "id": 19,
     "result": "Impregnable leggings",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Sturdy slacks",
@@ -6434,6 +6814,7 @@
   {
     "id": 20,
     "result": "Invincible trousers",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Eternity trousers",
@@ -6448,6 +6829,7 @@
   {
     "id": 20,
     "result": "Immortal trousers",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Invincible trousers",
@@ -6466,6 +6848,7 @@
   {
     "id": 21,
     "result": "Eternity trousers",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Immortal trousers",
@@ -6484,6 +6867,7 @@
   {
     "id": 22,
     "result": "Infinity trousers",
+    "category": "Legs",
     "ingredients": [
       {
         "name": "Immortal trousers",
@@ -6502,6 +6886,7 @@
   {
     "id": 1,
     "result": "Hobnail boots",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Leather boots",
@@ -6516,6 +6901,7 @@
   {
     "id": 2,
     "result": "Steel sabatons",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Iron sabatons",
@@ -6534,6 +6920,7 @@
   {
     "id": 3,
     "result": "Gigasteel sabatons",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Steel sabatons",
@@ -6552,6 +6939,7 @@
   {
     "id": 4,
     "result": "Payback pumps",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Steel sabatons",
@@ -6570,6 +6958,7 @@
   {
     "id": 5,
     "result": "Brahman boots",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Clever clogs",
@@ -6588,6 +6977,7 @@
   {
     "id": 6,
     "result": "Liquid metal slime boots",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Metal slime sollerets",
@@ -6606,6 +6996,7 @@
   {
     "id": 7,
     "result": "Metal king slime boots",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Liquid metal slime boots",
@@ -6624,6 +7015,7 @@
   {
     "id": 8,
     "result": "Hero's boots",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Emperor's boots",
@@ -6638,6 +7030,7 @@
   {
     "id": 9,
     "result": "Basilic boots",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Hero's boots",
@@ -6656,6 +7049,7 @@
   {
     "id": 10,
     "result": "Emperor's boots",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Basilic boots",
@@ -6674,6 +7068,7 @@
   {
     "id": 11,
     "result": "Boots of beatitude",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Basilic boots",
@@ -6692,6 +7087,7 @@
   {
     "id": 12,
     "result": "Classy clogs",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Clogs",
@@ -6706,6 +7102,7 @@
   {
     "id": 13,
     "result": "Stiletto heels",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "High heels",
@@ -6720,6 +7117,7 @@
   {
     "id": 14,
     "result": "Highness heels",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Stiletto heels",
@@ -6734,6 +7132,7 @@
   {
     "id": 15,
     "result": "Sorceress sandals",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Siren sandals",
@@ -6752,6 +7151,7 @@
   {
     "id": 16,
     "result": "Wu shoes",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Kung fu shoes",
@@ -6766,6 +7166,7 @@
   {
     "id": 17,
     "result": "Safer shoes",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Safety shoes",
@@ -6784,6 +7185,7 @@
   {
     "id": 18,
     "result": "Safest shoes",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Safer shoes",
@@ -6802,6 +7204,7 @@
   {
     "id": 19,
     "result": "Elevating shoes",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Depressing shoes",
@@ -6816,6 +7219,7 @@
   {
     "id": 20,
     "result": "Pixie boots",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Elevating shoes",
@@ -6830,6 +7234,7 @@
   {
     "id": 21,
     "result": "Tricksie boots",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Pixie boots",
@@ -6844,6 +7249,7 @@
   {
     "id": 22,
     "result": "Sensible sandals",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Sapient sandals",
@@ -6858,6 +7264,7 @@
   {
     "id": 23,
     "result": "Sagacious sandals",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Sensible sandals",
@@ -6876,6 +7283,7 @@
   {
     "id": 24,
     "result": "Sapient sandals",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Sagacious sandals",
@@ -6894,6 +7302,7 @@
   {
     "id": 25,
     "result": "Sentient sandals",
+    "category": "Feet",
     "ingredients": [
       {
         "name": "Sagacious sandals",
@@ -6912,6 +7321,7 @@
   {
     "id": 1,
     "result": "Strength ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold ring",
@@ -6926,6 +7336,7 @@
   {
     "id": 2,
     "result": "Tough guy tattoo",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Terrible tattoo",
@@ -6940,6 +7351,7 @@
   {
     "id": 3,
     "result": "Raging ruby",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Strength ring",
@@ -6954,6 +7366,7 @@
   {
     "id": 4,
     "result": "Might armlet",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold bracer",
@@ -6972,6 +7385,7 @@
   {
     "id": 5,
     "result": "Slime earrings",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Slimedrop",
@@ -6986,6 +7400,7 @@
   {
     "id": 6,
     "result": "Ruby of protection",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Dragon scale",
@@ -7000,6 +7415,7 @@
   {
     "id": 7,
     "result": "Bow tie",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Butterfly wing",
@@ -7014,6 +7430,7 @@
   {
     "id": 8,
     "result": "Utility belt",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Leather kilt",
@@ -7032,6 +7449,7 @@
   {
     "id": 9,
     "result": "Agility ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Prayer ring",
@@ -7046,6 +7464,7 @@
   {
     "id": 10,
     "result": "Meteorite bracer",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold bar",
@@ -7064,6 +7483,7 @@
   {
     "id": 11,
     "result": "Sorcerer's ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Skull ring",
@@ -7078,6 +7498,7 @@
   {
     "id": 12,
     "result": "Rosary",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Pink pearl",
@@ -7096,6 +7517,7 @@
   {
     "id": 13,
     "result": "Brainy bracer",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold bracer",
@@ -7110,6 +7532,7 @@
   {
     "id": 14,
     "result": "Life bracer",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold bracer",
@@ -7124,6 +7547,7 @@
   {
     "id": 15,
     "result": "Spirit bracer",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold bracer",
@@ -7142,6 +7566,7 @@
   {
     "id": 16,
     "result": "Monarchic mark",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Lucky pendant",
@@ -7160,6 +7585,7 @@
   {
     "id": 17,
     "result": "Prayer ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold ring",
@@ -7174,6 +7600,7 @@
   {
     "id": 18,
     "result": "Holy talisman",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold rosary",
@@ -7192,6 +7619,7 @@
   {
     "id": 19,
     "result": "Sober ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold ring",
@@ -7210,6 +7638,7 @@
   {
     "id": 20,
     "result": "Contra band",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold ring",
@@ -7228,6 +7657,7 @@
   {
     "id": 21,
     "result": "Full moon ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold ring",
@@ -7246,6 +7676,7 @@
   {
     "id": 22,
     "result": "Rousing ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold ring",
@@ -7264,6 +7695,7 @@
   {
     "id": 23,
     "result": "Ring of clarity",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Gold ring",
@@ -7282,6 +7714,7 @@
   {
     "id": 24,
     "result": "Catholicon ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Rousing ring",
@@ -7300,6 +7733,7 @@
   {
     "id": 25,
     "result": "Sull ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Sorcerer's ring",
@@ -7314,6 +7748,7 @@
   {
     "id": 26,
     "result": "Elfin charm",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Holy talisman",
@@ -7332,6 +7767,7 @@
   {
     "id": 27,
     "result": "Life ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Prayer ring",
@@ -7346,6 +7782,7 @@
   {
     "id": 28,
     "result": "Goddess ring",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Life ring",
@@ -7364,6 +7801,7 @@
   {
     "id": 29,
     "result": "Reckless necklace",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Lucky pendant",
@@ -7378,6 +7816,7 @@
   {
     "id": 30,
     "result": "Lucky pendant",
+    "category": "Accessories",
     "ingredients": [
       {
         "name": "Reckless necklace",
@@ -7392,6 +7831,7 @@
   {
     "id": 1,
     "result": "Strong medicine",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Medicinal herb",
@@ -7402,6 +7842,7 @@
   {
     "id": 2,
     "result": "Special medicine",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Strong medicine",
@@ -7412,6 +7853,7 @@
   {
     "id": 3,
     "result": "Superior medicine",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Medicinal herb",
@@ -7426,6 +7868,7 @@
   {
     "id": 4,
     "result": "Strong antidote",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Antidotal herb",
@@ -7440,6 +7883,7 @@
   {
     "id": 5,
     "result": "Special antidote",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Strong antidote",
@@ -7450,6 +7894,7 @@
   {
     "id": 6,
     "result": "Softwort",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Strong medicine",
@@ -7464,6 +7909,7 @@
   {
     "id": 7,
     "result": "Lunaria",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Moonwort bulb",
@@ -7474,6 +7920,7 @@
   {
     "id": 8,
     "result": "Birdsong nectar",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Nectar",
@@ -7492,6 +7939,7 @@
   {
     "id": 9,
     "result": "Panacea",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Special medicine",
@@ -7510,6 +7958,7 @@
   {
     "id": 10,
     "result": "Perfect panacea",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Panacea",
@@ -7528,6 +7977,7 @@
   {
     "id": 11,
     "result": "Yggdrasil dew",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Yggdrasil leaf",
@@ -7542,6 +7992,7 @@
   {
     "id": 12,
     "result": "Magic water",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Holy water",
@@ -7560,6 +8011,7 @@
   {
     "id": 13,
     "result": "Sage's elixir",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Magic water",
@@ -7578,6 +8030,7 @@
   {
     "id": 14,
     "result": "Elfin elixir",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Yggdrasil leaf",
@@ -7596,6 +8049,7 @@
   {
     "id": 15,
     "result": "Mystifying mixture",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Belle cap",
@@ -7614,6 +8068,7 @@
   {
     "id": 16,
     "result": "Sage's stone",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Orichalcum",
@@ -7632,6 +8087,7 @@
   {
     "id": 17,
     "result": "Densinium",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Flintstone",
@@ -7646,6 +8102,7 @@
   {
     "id": 18,
     "result": "Gold bar",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Sainted soma",
@@ -7664,6 +8121,7 @@
   {
     "id": 19,
     "result": "Hephaestus' flame",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Lava lump",
@@ -7682,6 +8140,7 @@
   {
     "id": 20,
     "result": "Enchanted stone",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Thunderball",
@@ -7700,6 +8159,7 @@
   {
     "id": 21,
     "result": "Ethereal stone",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Enchanted stone",
@@ -7718,6 +8178,7 @@
   {
     "id": 22,
     "result": "Astral plume",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Flurry feather",
@@ -7736,6 +8197,7 @@
   {
     "id": 23,
     "result": "Celestial skein",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Fresh water",
@@ -7750,6 +8212,7 @@
   {
     "id": 24,
     "result": "Technicolour dreamcloth",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Grubby bandage",
@@ -7768,6 +8231,7 @@
   {
     "id": 25,
     "result": "Sainted soma",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Lucida shard",
@@ -7786,6 +8250,7 @@
   {
     "id": 26,
     "result": "Lucida shard",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Brighten rock",
@@ -7800,6 +8265,7 @@
   {
     "id": 27,
     "result": "Agate of evolution",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Sainted soma",
@@ -7818,6 +8284,7 @@
   {
     "id": 28,
     "result": "Sunstone",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Lucida shard",
@@ -7836,6 +8303,7 @@
   {
     "id": 29,
     "result": "Malicite",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Pink pearl",
@@ -7854,6 +8322,7 @@
   {
     "id": 30,
     "result": "Finessence",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Fisticup",
@@ -7872,6 +8341,7 @@
   {
     "id": 31,
     "result": "Aggressence",
+    "category": "Items",
     "ingredients": [
       {
         "name": "Fisticup",

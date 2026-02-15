@@ -17,9 +17,33 @@
             <div class="search-box">
                 <input type="text" id="searchInput" placeholder="Search recipes by name...">
                 <input type="text" id="ingredientSearch" placeholder="Search by ingredient...">
+                <select id="categoryFilter">
+                    <option value="">All Categories</option>
+                    <option value="Swords">⚔️ Swords</option>
+                    <option value="Spears">🔱 Spears</option>
+                    <option value="Knives">🗡️ Knives</option>
+                    <option value="Wands">🪄 Wands</option>
+                    <option value="Whips">🪢 Whips</option>
+                    <option value="Staves">🏑 Staves</option>
+                    <option value="Claws">🦅 Claws</option>
+                    <option value="Fans">🪭 Fans</option>
+                    <option value="Axes">🪓 Axes</option>
+                    <option value="Hammers">🔨 Hammers</option>
+                    <option value="Boomerangs">🪃 Boomerangs</option>
+                    <option value="Bows">🏹 Bows</option>
+                    <option value="Shields">🛡️ Shields</option>
+                    <option value="Head">👑 Head</option>
+                    <option value="Torso">👕 Torso</option>
+                    <option value="Arms">🧤 Arms</option>
+                    <option value="Legs">👖 Legs</option>
+                    <option value="Feet">👞 Feet</option>
+                    <option value="Accessories">💍 Accessories</option>
+                    <option value="Items">🎒 Items</option>
+                </select>
                 <select id="sortBy">
                     <option value="number">Sort by Number</option>
                     <option value="name">Sort by Name</option>
+                    <option value="category">Sort by Category</option>
                     <option value="ingredients">Sort by Ingredient Count</option>
                 </select>
             </div>
@@ -34,6 +58,32 @@
 
     <script>
         let recipes = [];
+
+        function getCategoryIcon(category) {
+            const icons = {
+                'Swords': '⚔️',
+                'Spears': '🔱',
+                'Knives': '🗡️',
+                'Wands': '🪄',
+                'Whips': '🪢',
+                'Staves': '🏑',
+                'Claws': '🦅',
+                'Fans': '🪭',
+                'Axes': '🪓',
+                'Hammers': '🔨',
+                'Boomerangs': '🪃',
+                'Bows': '🏹',
+                'Shields': '🛡️',
+                'Head': '👑',
+                'Torso': '👕',
+                'Arms': '🧤',
+                'Legs': '👖',
+                'Feet': '👞',
+                'Accessories': '💍',
+                'Items': '🎒'
+            };
+            return icons[category] || '📦';
+        }
 
         // Load recipes from JSON file
         async function loadRecipes() {
@@ -71,6 +121,7 @@
                         <span class="recipe-number">#${recipe.id}</span>
                         <span class="ingredient-count">${recipe.ingredients.length} items</span>
                     </div>
+                    <div class="recipe-category">${getCategoryIcon(recipe.category)} ${recipe.category}</div>
                     <h3 class="recipe-title">${recipe.result}</h3>
                     
                     <div class="recipe-details">
@@ -103,6 +154,7 @@
         function filterRecipes() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const ingredientTerm = document.getElementById('ingredientSearch').value.toLowerCase();
+            const categoryFilter = document.getElementById('categoryFilter').value;
             const sortBy = document.getElementById('sortBy').value;
 
             let filtered = recipes.filter(recipe => {
@@ -114,7 +166,9 @@
                         ing.name.toLowerCase().includes(ingredientTerm)
                     );
 
-                return matchesSearch && matchesIngredient;
+                const matchesCategory = !categoryFilter || recipe.category === categoryFilter;
+
+                return matchesSearch && matchesIngredient && matchesCategory;
             });
 
             // Sort the filtered results
@@ -124,6 +178,8 @@
                         return a.id - b.id;
                     case 'name':
                         return a.result.localeCompare(b.result);
+                    case 'category':
+                        return a.category.localeCompare(b.category) || a.id - b.id;
                     case 'ingredients':
                         return a.ingredients.length - b.ingredients.length;
                     default:
@@ -137,6 +193,7 @@
         function resetFilters() {
             document.getElementById('searchInput').value = '';
             document.getElementById('ingredientSearch').value = '';
+            document.getElementById('categoryFilter').value = '';
             document.getElementById('sortBy').value = 'number';
             displayRecipes(recipes);
         }
@@ -144,6 +201,7 @@
         // Event listeners
         document.getElementById('searchInput').addEventListener('input', filterRecipes);
         document.getElementById('ingredientSearch').addEventListener('input', filterRecipes);
+        document.getElementById('categoryFilter').addEventListener('change', filterRecipes);
         document.getElementById('sortBy').addEventListener('change', filterRecipes);
 
         // Initialize the page
@@ -309,6 +367,18 @@
             font-size: 1.3em;
             font-family: 'Press Start 2P', monospace;
             line-height: 1.4;
+        }
+
+        .recipe-category {
+            color: #b8b8d1;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            padding: 6px 10px;
+            background: rgba(0,122,204,0.2);
+            border-radius: 6px;
+            font-family: 'VT323', monospace;
+            border-left: 3px solid #007acc;
+            display: inline-block;
         }
 
         .recipe-details {
