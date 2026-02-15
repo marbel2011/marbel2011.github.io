@@ -1,111 +1,134 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragon Quest IX - Guía de Alquimia</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Dragon Quest IX - Alchemy Recipes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>⚗️ Dragon Quest IX</h1>
-            <h1>Guía Completa de Alquimia</h1>
-            <p>Encuentra las recetas para crear tus equipos más poderosos</p>
-        </div>
-        <div class="search-section">
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Busca por nombre de receta o ingrediente..." autocomplete="off">
-                <select id="categoryFilter">
-                    <option value="">Todas las categorías</option>
-                    <option value="Espadas">Espadas</option>
-                    <option value="Lanzas">Lanzas</option>
-                    <option value="Cuchillos">Cuchillos</option>
-                    <option value="Varas">Varas</option>
-                    <option value="Látigos">Látigos</option>
-                    <option value="Bastones">Bastones</option>
-                    <option value="Garras">Garras</option>
-                    <option value="Abanicos">Abanicos</option>
-                    <option value="Hachas">Hachas</option>
-                    <option value="Martillos">Martillos</option>
-                    <option value="Bumeranes">Bumeranes</option>
-                    <option value="Arcos">Arcos</option>
-                    <option value="Escudos">Escudos</option>
-                    <option value="Cabeza">Cabeza</option>
-                    <option value="Torso">Torso</option>
-                    <option value="Brazos">Brazos</option>
-                    <option value="Piernas">Piernas</option>
-                    <option value="Pies">Pies</option>
-                    <option value="Accesorios">Accesorios</option>
-                    <option value="Objetos">Objetos</option>
+        <header>
+            <h1>DRAGON QUEST IX</h1>
+            <p class="subtitle">~ Complete Alchemy Recipe Guide ~</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search recipes by name...">
+                <input type="text" id="ingredientSearch" placeholder="Search by ingredient...">
+                <select id="sortBy">
+                    <option value="number">Sort by Number</option>
+                    <option value="name">Sort by Name</option>
+                    <option value="ingredients">Sort by Ingredient Count</option>
                 </select>
-                <button onclick="resetFilters()">Limpiar filtros</button>
             </div>
-            <div class="filters-info">
-                <p id="resultsCount">Cargando recetas...</p>
-            </div>
+            <div class="stats" id="recipeStats"></div>
         </div>
-        <div class="recipes-section">
-            <div class="recipes-grid" id="recipesContainer">
-                <div class="no-results">Cargando recetas...</div>
-            </div>
+
+        <div class="recipe-grid" id="recipeGrid"></div>
+        <div class="no-results" id="noResults" style="display: none;">
+            No recipes found! Try a different search.
         </div>
     </div>
+
     <script>
         let recipes = [];
 
-        // Load recipes from external JSON file
+        // Load recipes from JSON file
         async function loadRecipes() {
             try {
-                const response = await fetch('recipes.json');
+                const response = await fetch('recetas_alquimia.json');
                 if (!response.ok) {
-                    throw new Error('Network response was not ok');
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 recipes = await response.json();
+                console.log(`Loaded ${recipes.length} recipes successfully`);
                 displayRecipes(recipes);
             } catch (error) {
                 console.error('Error loading recipes:', error);
-                document.getElementById('recipesContainer').innerHTML =
-                    '<div class="no-results"><h2>Error</h2><p>No se pudieron cargar las recetas. Por favor, recarga la página.</p></div>';
+                document.getElementById('recipeGrid').innerHTML =
+                    '<div class="no-results">Error loading recipes. Please check the console for details.</div>';
             }
         }
 
         function displayRecipes(recipesToDisplay) {
-            const container = document.getElementById('recipesContainer');
-            const resultsCount = document.getElementById('resultsCount');
+            const container = document.getElementById('recipeGrid');
+            const noResults = document.getElementById('noResults');
 
             if (recipesToDisplay.length === 0) {
-                container.innerHTML = '<div class="no-results"><h2>Sin resultados</h2><p>No se encontraron recetas que coincidan con tu búsqueda.</p></div>';
-                resultsCount.textContent = 'No se encontraron recetas';
+                container.style.display = 'none';
+                noResults.style.display = 'block';
                 return;
             }
 
-            container.innerHTML = recipesToDisplay.map(recipe => `
-                    <div class="recipe-card">
-                        <div class="recipe-title">${recipe.name}</div>
-                        <span class="recipe-category">${recipe.category}</span>
-                        <div class="recipe-ingredients">
-                            <strong>Ingredientes:</strong>
-                            ${recipe.ingredients.map(i => `<div class="ingredient-item"><span class="ingredient-name">${i.name}</span> x <span class="ingredient-quantity">${i.qty}</span></div>`).join('')}
-                        </div>
-                        <div class="stats"><strong>${recipe.ingredients.length}</strong> ingredientes necesarios</div>
-                    </div>
-                `).join('');
+            container.style.display = 'grid';
+            noResults.style.display = 'none';
 
-            resultsCount.textContent = `Mostrando ${recipesToDisplay.length} receta${recipesToDisplay.length !== 1 ? 's' : ''} de ${recipes.length} totales`;
+            container.innerHTML = recipesToDisplay.map(recipe => `
+                <div class="recipe-card">
+                    <div class="recipe-header">
+                        <span class="recipe-number">#${recipe.id}</span>
+                        <span class="ingredient-count">${recipe.ingredients.length} items</span>
+                    </div>
+                    <h3 class="recipe-title">${recipe.result}</h3>
+                    
+                    <div class="recipe-details">
+                        <div class="recipe-section">
+                            <strong>Ingredients:</strong>
+                            <div class="ingredients-list">
+                                ${recipe.ingredients.map(ing => `
+                                    <div class="ingredient-item">
+                                        <span class="ingredient-name">${ing.name}</span>
+                                        <span class="ingredient-quantity">×${ing.quantity}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            // Update stats
+            updateStats(recipesToDisplay.length, recipes.length);
+        }
+
+        function updateStats(shown, total) {
+            const statsEl = document.getElementById('recipeStats');
+            if (statsEl) {
+                statsEl.textContent = `Showing ${shown} of ${total} recipes`;
+            }
         }
 
         function filterRecipes() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-            const categoryFilter = document.getElementById('categoryFilter').value;
+            const ingredientTerm = document.getElementById('ingredientSearch').value.toLowerCase();
+            const sortBy = document.getElementById('sortBy').value;
 
-            const filtered = recipes.filter(recipe => {
+            let filtered = recipes.filter(recipe => {
                 const matchesSearch = !searchTerm ||
-                    recipe.name.toLowerCase().includes(searchTerm) ||
-                    recipe.ingredients.some(ing => ing.name.toLowerCase().includes(searchTerm));
-                const matchesCategory = !categoryFilter || recipe.category === categoryFilter;
-                return matchesSearch && matchesCategory;
+                    recipe.result.toLowerCase().includes(searchTerm);
+
+                const matchesIngredient = !ingredientTerm ||
+                    recipe.ingredients.some(ing => 
+                        ing.name.toLowerCase().includes(ingredientTerm)
+                    );
+
+                return matchesSearch && matchesIngredient;
+            });
+
+            // Sort the filtered results
+            filtered.sort((a, b) => {
+                switch (sortBy) {
+                    case 'number':
+                        return a.id - b.id;
+                    case 'name':
+                        return a.result.localeCompare(b.result);
+                    case 'ingredients':
+                        return a.ingredients.length - b.ingredients.length;
+                    default:
+                        return a.id - b.id;
+                }
             });
 
             displayRecipes(filtered);
@@ -113,16 +136,279 @@
 
         function resetFilters() {
             document.getElementById('searchInput').value = '';
-            document.getElementById('categoryFilter').value = '';
+            document.getElementById('ingredientSearch').value = '';
+            document.getElementById('sortBy').value = 'number';
             displayRecipes(recipes);
         }
 
-        document.getElementById('searchInput').addEventListener('keyup', filterRecipes);
+        // Event listeners
         document.getElementById('searchInput').addEventListener('input', filterRecipes);
-        document.getElementById('categoryFilter').addEventListener('change', filterRecipes);
+        document.getElementById('ingredientSearch').addEventListener('input', filterRecipes);
+        document.getElementById('sortBy').addEventListener('change', filterRecipes);
 
         // Initialize the page
         window.addEventListener('load', loadRecipes);
     </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #fff;
+            font-family: 'Merriweather', serif;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 3px solid #007acc;
+            box-shadow: 0 8px 32px rgba(0,122,204,0.4);
+        }
+
+        h1 {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 2.5em;
+            color: #fff;
+            text-shadow: 3px 3px 0 #007acc, 6px 6px 0 #005c99;
+            margin-bottom: 15px;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 3px 3px 0 #007acc, 6px 6px 0 #005c99, 0 0 20px rgba(0,122,204,0.5);
+            }
+            to {
+                text-shadow: 3px 3px 0 #007acc, 6px 6px 0 #005c99, 0 0 40px rgba(0,122,204,0.8);
+            }
+        }
+
+        .subtitle {
+            font-family: 'VT323', monospace;
+            font-size: 1.5em;
+            color: #b8b8d1;
+            letter-spacing: 2px;
+        }
+
+        .controls {
+            background: linear-gradient(135deg, #2a2a3a, #1a1a2a);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 2px solid #444;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .search-box input,
+        .search-box select {
+            padding: 12px;
+            border-radius: 8px;
+            border: 2px solid #444;
+            background: #2a2a3a;
+            color: #fff;
+            font-size: 14px;
+            min-width: 200px;
+            font-family: 'VT323', monospace;
+            transition: all 0.3s ease;
+        }
+
+        .search-box input:focus,
+        .search-box select:focus {
+            outline: none;
+            border-color: #007acc;
+            box-shadow: 0 0 10px rgba(0,122,204,0.3);
+        }
+
+        .search-box input::placeholder {
+            color: #888;
+        }
+
+        .stats {
+            text-align: center;
+            color: #b8b8d1;
+            font-family: 'VT323', monospace;
+            font-size: 1.2em;
+            padding-top: 10px;
+        }
+
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .recipe-card {
+            background: linear-gradient(145deg, #2a2a3a, #1a1a2a);
+            border-radius: 12px;
+            padding: 20px;
+            border: 2px solid #444;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-3px);
+            border-color: #007acc;
+            box-shadow: 0 6px 20px rgba(0,122,204,0.3);
+        }
+
+        .recipe-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .recipe-number {
+            background: linear-gradient(135deg, #007acc, #005c99);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            font-family: 'Press Start 2P', monospace;
+        }
+
+        .ingredient-count {
+            background: #ffc107;
+            color: #000;
+            padding: 4px 8px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: bold;
+            font-family: 'VT323', monospace;
+        }
+
+        .recipe-title {
+            color: #fff;
+            margin: 0 0 15px 0;
+            font-size: 1.3em;
+            font-family: 'Press Start 2P', monospace;
+            line-height: 1.4;
+        }
+
+        .recipe-details {
+            font-family: 'Merriweather', serif;
+        }
+
+        .recipe-section {
+            margin-bottom: 12px;
+        }
+
+        .recipe-section strong {
+            color: #fff;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .ingredients-list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .ingredient-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255,255,255,0.05);
+            padding: 8px 12px;
+            border-radius: 6px;
+            border-left: 3px solid #007acc;
+        }
+
+        .ingredient-name {
+            color: #d0d0e0;
+            font-size: 0.9em;
+            font-family: 'VT323', monospace;
+        }
+
+        .ingredient-quantity {
+            color: #ffd700;
+            font-weight: bold;
+            font-size: 0.95em;
+            font-family: 'Press Start 2P', monospace;
+            padding: 2px 8px;
+            background: rgba(255,215,0,0.1);
+            border-radius: 4px;
+        }
+
+        .no-results {
+            text-align: center;
+            color: #888;
+            font-size: 1.2em;
+            padding: 40px;
+            background: #2a2a3a;
+            border-radius: 12px;
+            margin: 20px;
+            font-family: 'VT323', monospace;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .subtitle {
+                font-size: 1.2em;
+            }
+
+            .recipe-grid {
+                grid-template-columns: 1fr;
+                padding: 10px;
+            }
+
+            .search-box {
+                flex-direction: column;
+            }
+
+            .search-box input,
+            .search-box select {
+                width: 100%;
+                min-width: unset;
+            }
+
+            .recipe-title {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.2em;
+            }
+
+            .recipe-number {
+                font-size: 0.7em;
+            }
+        }
+    </style>
 </body>
 </html>
