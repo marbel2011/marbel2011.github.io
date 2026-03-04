@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Quest IX - Item Locations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .item-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .item-card {
+            background: linear-gradient(145deg, #2a2a3a, #1a1a2a);
+            border-radius: 12px;
+            padding: 20px;
+            border: 2px solid #444;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .item-card:hover {
+            transform: translateY(-3px);
+            border-color: #c9a84c;
+            box-shadow: 0 6px 20px rgba(201,168,76,0.3);
+        }
+
+        .item-name {
+            color: #f4d03f;
+            margin: 0 0 12px 0;
+            font-size: 1.1em;
+            font-family: 'Press Start 2P', monospace;
+            line-height: 1.5;
+        }
+
+        .item-locations {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .item-locations li {
+            padding: 5px 8px;
+            margin-bottom: 5px;
+            border-radius: 6px;
+            font-family: 'VT323', monospace;
+            font-size: 1.1em;
+            line-height: 1.3;
+        }
+
+        .loc-alchemise {
+            background: rgba(155, 89, 182, 0.25);
+            border-left: 3px solid #9b59b6;
+            color: #d7b8f3;
+        }
+
+        .loc-buy {
+            background: rgba(39, 174, 96, 0.2);
+            border-left: 3px solid #27ae60;
+            color: #a9dfbf;
+        }
+
+        .loc-monster {
+            background: rgba(231, 76, 60, 0.2);
+            border-left: 3px solid #e74c3c;
+            color: #f1948a;
+        }
+
+        .loc-grotto {
+            background: rgba(52, 152, 219, 0.2);
+            border-left: 3px solid #3498db;
+            color: #85c1e9;
+        }
+
+        .loc-gather {
+            background: rgba(243, 156, 18, 0.2);
+            border-left: 3px solid #f39c12;
+            color: #f9e4b7;
+        }
+
+        .loc-trade {
+            background: rgba(22, 160, 133, 0.2);
+            border-left: 3px solid #16a085;
+            color: #a2d9ce;
+        }
+
+        .loc-other {
+            background: rgba(127, 140, 141, 0.2);
+            border-left: 3px solid #7f8c8d;
+            color: #d5d8dc;
+        }
+
+        .loc-icon {
+            margin-right: 5px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .search-box input,
+        .search-box select {
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: 2px solid #444;
+            background: #1a1a2a;
+            color: #fff;
+            font-family: 'VT323', monospace;
+            font-size: 1.1em;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .search-box input:focus,
+        .search-box select:focus {
+            border-color: #c9a84c;
+        }
+
+        .search-box input {
+            min-width: 260px;
+        }
+
+        .reset-btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: 2px solid #c9a84c;
+            background: transparent;
+            color: #c9a84c;
+            font-family: 'VT323', monospace;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .reset-btn:hover {
+            background: #c9a84c;
+            color: #000;
+        }
+
+        .stats-bar {
+            text-align: center;
+            font-family: 'VT323', monospace;
+            font-size: 1.3em;
+            color: #b8b8d1;
+            margin-bottom: 10px;
+        }
+
+        .no-results {
+            text-align: center;
+            font-family: 'VT323', monospace;
+            font-size: 1.5em;
+            color: #b8b8d1;
+            padding: 40px;
+        }
+
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+            padding: 0 20px;
+        }
+
+        .legend-item {
+            font-family: 'VT323', monospace;
+            font-size: 1em;
+            padding: 3px 10px;
+            border-radius: 4px;
+        }
+
+        .back-link {
+            display: inline-block;
+            font-family: 'VT323', monospace;
+            font-size: 1.2em;
+            color: #c9a84c;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 2px solid #c9a84c;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            transition: all 0.3s;
+        }
+
+        .back-link:hover {
+            background: #c9a84c;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DRAGON QUEST IX</h1>
+            <p class="subtitle">~ Item Locations ~</p>
+        </header>
+
+        <div style="text-align:center; margin-bottom: 10px;">
+            <a href="index.html" class="back-link">← Back to Main Menu</a>
+        </div>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search items by name...">
+                <input type="text" id="locationSearch" placeholder="Search by location / monster...">
+                <select id="sourceFilter">
+                    <option value="">All Sources</option>
+                    <option value="alchemise">Alchemy</option>
+                    <option value="buy">Buy (Shop)</option>
+                    <option value="monster">Monster Drop</option>
+                    <option value="grotto">Grotto Chest</option>
+                    <option value="gather">Gather</option>
+                    <option value="trade">Trade (Medals)</option>
+                </select>
+                <select id="sortBy">
+                    <option value="name">Sort by Name</option>
+                    <option value="sources">Sort by Source Count</option>
+                </select>
+                <button class="reset-btn" onclick="resetFilters()">Reset</button>
+            </div>
+        </div>
+
+        <div class="legend">
+            <span class="legend-item loc-alchemise">⚗️ Alchemy</span>
+            <span class="legend-item loc-buy">🛒 Buy</span>
+            <span class="legend-item loc-monster">⚔️ Monster</span>
+            <span class="legend-item loc-grotto">🗺️ Grotto</span>
+            <span class="legend-item loc-gather">🌿 Gather</span>
+            <span class="legend-item loc-trade">🏅 Trade</span>
+        </div>
+
+        <div class="stats-bar" id="itemStats">Loading items...</div>
+
+        <div class="item-grid" id="itemGrid"></div>
+        <div class="no-results" id="noResults" style="display: none;">
+            No items found! Try a different search.
+        </div>
+    </div>
+
+    <script>
+        let allItems = [];
+
+        function classifyLocation(loc) {
+            const l = loc.toLowerCase();
+            if (l === '(alchemise)') return 'alchemise';
+            if (l === '(gather)') return 'gather';
+            if (l.includes('(trade,') || l.includes("cap'n max")) return 'trade';
+            if (l.startsWith('grotto')) return 'grotto';
+            if (l.includes('(buy,') || l.includes('(post-game)') || l.includes('(secret shop)')) return 'buy';
+            if (l.includes('steal') || l.includes('win,') || l.includes('#')) return 'monster';
+            return 'other';
+        }
+
+        function locIcon(type) {
+            switch (type) {
+                case 'alchemise': return '⚗️';
+                case 'gather':    return '🌿';
+                case 'trade':     return '🏅';
+                case 'grotto':    return '🗺️';
+                case 'buy':       return '🛒';
+                case 'monster':   return '⚔️';
+                default:          return '📦';
+            }
+        }
+
+        function parseItemsTxt(text) {
+            const lines = text.split('\n');
+            const items = [];
+            let current = null;
+            const skipPatterns = [/^-+$/, /^item locations$/i, /^\s*$/];
+
+            for (const rawLine of lines) {
+                const line = rawLine.replace(/\r$/, '');
+                if (/^\S/.test(line)) {
+                    const trimmed = line.trim();
+                    if (skipPatterns.some(p => p.test(trimmed))) continue;
+                    if (current) items.push(current);
+                    current = { name: trimmed, locations: [] };
+                } else if (/^\s+/.test(line) && current) {
+                    const loc = line.trim();
+                    if (loc) current.locations.push(loc);
+                }
+            }
+            if (current) items.push(current);
+            return items;
+        }
+
+        async function loadItems() {
+            // Try items.json first, fall back to parsing Items.txt
+            let items = null;
+            try {
+                const r = await fetch('items.json');
+                if (r.ok) {
+                    items = await r.json();
+                }
+            } catch (_) {}
+
+            if (!items) {
+                try {
+                    const r = await fetch('Items.txt');
+                    if (!r.ok) throw new Error('Could not load Items.txt');
+                    const text = await r.text();
+                    items = parseItemsTxt(text);
+                } catch (err) {
+                    console.error(err);
+                    document.getElementById('itemStats').textContent = 'Error loading items.';
+                    return;
+                }
+            }
+
+            allItems = items;
+            console.log(`Loaded ${allItems.length} items`);
+            displayItems(allItems);
+        }
+
+        function displayItems(itemsToDisplay) {
+            const container = document.getElementById('itemGrid');
+            const noResults = document.getElementById('noResults');
+            const stats = document.getElementById('itemStats');
+
+            if (itemsToDisplay.length === 0) {
+                container.style.display = 'none';
+                noResults.style.display = 'block';
+                stats.textContent = 'No items found.';
+                return;
+            }
+
+            container.style.display = 'grid';
+            noResults.style.display = 'none';
+            stats.textContent = `Showing ${itemsToDisplay.length} of ${allItems.length} items`;
+
+            container.innerHTML = itemsToDisplay.map(item => {
+                const locs = item.locations.map(loc => {
+                    const type = classifyLocation(loc);
+                    return `<li class="loc-${type}"><span class="loc-icon">${locIcon(type)}</span>${escapeHtml(loc)}</li>`;
+                }).join('');
+
+                return `
+                    <div class="item-card">
+                        <h3 class="item-name">${escapeHtml(item.name)}</h3>
+                        <ul class="item-locations">
+                            ${locs || '<li class="loc-other">No locations listed.</li>'}
+                        </ul>
+                    </div>`;
+            }).join('');
+        }
+
+        function escapeHtml(str) {
+            return str
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+
+        function filterItems() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const locationTerm = document.getElementById('locationSearch').value.toLowerCase();
+            const sourceFilter = document.getElementById('sourceFilter').value;
+            const sortBy = document.getElementById('sortBy').value;
+
+            let filtered = allItems.filter(item => {
+                const matchesName = !searchTerm || item.name.toLowerCase().includes(searchTerm);
+
+                const matchesLocation = !locationTerm ||
+                    item.locations.some(l => l.toLowerCase().includes(locationTerm));
+
+                const matchesSource = !sourceFilter ||
+                    item.locations.some(l => classifyLocation(l) === sourceFilter);
+
+                return matchesName && matchesLocation && matchesSource;
+            });
+
+            filtered.sort((a, b) => {
+                if (sortBy === 'sources') return b.locations.length - a.locations.length;
+                return a.name.localeCompare(b.name);
+            });
+
+            displayItems(filtered);
+        }
+
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('locationSearch').value = '';
+            document.getElementById('sourceFilter').value = '';
+            document.getElementById('sortBy').value = 'name';
+            displayItems(allItems);
+        }
+
+        document.getElementById('searchInput').addEventListener('input', filterItems);
+        document.getElementById('locationSearch').addEventListener('input', filterItems);
+        document.getElementById('sourceFilter').addEventListener('change', filterItems);
+        document.getElementById('sortBy').addEventListener('change', filterItems);
+
+        window.addEventListener('load', loadItems);
+    </script>
+</body>
+</html>

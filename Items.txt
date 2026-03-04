@@ -1,0 +1,3796 @@
+--------------
+Item Locations
+--------------
+
+Ace of clubs
+    (alchemise)
+    Gigantes (#192) (steal/win, rare, 1/128)
+
+Acroboots
+    Bloomingdale (buy, 1600g)
+
+Aeon's bow
+    (alchemise)
+
+Aeon's robe
+    (alchemise)
+
+Agate of evolution
+    (alchemise)
+
+Aggressence
+    (alchemise)
+    Hammibal (#290) (steal, common)
+    grotto (find, rank 5 chest, 10%)
+
+Agiliboots
+    Batsureg (buy, 3100g)
+
+Agility ring
+    (alchemise)
+    Whirly girly (#142) (steal/win, common, 1/32)
+    Liquid metal slime (#153) (steal/win, common, 1/32)
+    Cyclown (#049) (steal/win, rare, 1/128)
+    grotto (find, rank 3 chest, 2%)
+
+Alefgard Armour
+    Dragonlord (#295) (steal, rare, level 9-15)
+    Dragonlord (#295) (win, common, level 9-15, 15%)
+    Nokturnus (#304) (steal, rare, level 57-80)
+    Nokturnus (#304) (win, common, level 57-68, 20%)
+    Nokturnus (#304) (win, common, level 69-80, 25%)
+
+Alefgard Boots
+    Dragonlord (#295) (steal, rare, level 1-3)
+    Dragonlord (#295) (win, common, level 1-3, 15%)
+    Nokturnus (#304) (steal, rare, level 16-40)
+    Nokturnus (#304) (win, common, level 16-25, 20%)
+    Nokturnus (#304) (win, common, level 26-40, 25%)
+
+Alefgard Gloves
+    Rhapthorne (#307) (steal, rare, level 1-8)
+    Rhapthorne (#307) (win, common, level 1-3, 20%)
+    Rhapthorne (#307) (win, common, level 4-8, 25%)
+
+Alefgard Helm
+    Dragonlord (#295) (steal, rare, level 4-8)
+    Dragonlord (#295) (win, common, level 4-8, 15%)
+    Nokturnus (#304) (steal, rare, level 81-99)
+    Nokturnus (#304) (win, common, level 81-90, 20%)
+    Nokturnus (#304) (win, common, level 91-99, 25%)
+
+Alefgard Trousers
+    Nokturnus (#304) (steal, rare, level 1-15)
+    Nokturnus (#304) (win, common, level 1-3, 15%)
+    Nokturnus (#304) (win, common, level 4-8, 20%)
+    Nokturnus (#304) (win, common, level 9-15, 25%)
+
+Aliahan Boots
+    Baramos (#297) (steal, rare, level 1-8)
+    Baramos (#297) (win, common, level 1-3, 20%)
+    Baramos (#297) (win, common, level 4-8, 25%)
+
+Aliahan Clothes
+    Baramos (#297) (steal, rare, level 9-15)
+    Baramos (#297) (win, common, level 9-15, 20%)
+    Zoma (#298) (steal, rare, level 57-68)
+    Zoma (#298) (win, common, level 57-68, 25%)
+
+Aliahan Gloves
+    Zoma (#298) (steal, rare, level 1-15)
+    Zoma (#298) (win, common, level 1-3, 15%)
+    Zoma (#298) (win, common, level 4-8, 20%)
+    Zoma (#298) (win, common, level 9-15, 25%)
+
+Aliahan Headpiece
+    Zoma (#298) (steal, rare, level 69-99)
+    Zoma (#298) (win, common, level 69-80, 15%)
+    Zoma (#298) (win, common, level 81-90, 20%)
+    Zoma (#298) (win, common, level 91-99, 25%)
+
+Aliahan Trousers
+    Zoma (#298) (steal, rare, level 16-56)
+    Zoma (#298) (win, common, level 16-25, 15%)
+    Zoma (#298) (win, common, level 26-40, 20%)
+    Zoma (#298) (win, common, level 41-56, 25%)
+
+Angel bell
+    Batsureg (buy, 90g)
+    Bloomingdale (buy, 90g)
+    Gleeba (buy, 90g)
+    Gortress (buy, 90g)
+    Porth Llaffan (buy, 90g)
+    Upover (buy, 90g)
+    Wormwood Creek (buy, 90g)
+    Dourbridge (buy, 450g)
+    Chariot chappie (#036) (steal/win, common, 1/32)
+    Lost soul (#038) (steal/win, rare, 1/64)
+    grotto (find, rank 2 chest, 10%)
+
+Angel's bow
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Angel's robe
+    (alchemise)
+    Tyrannosaurus Wrecks (#293) (win, rare, 2%)
+
+Antidotal herb
+    Alltrades Abbey (buy, 10g)
+    Angel Falls (buy, 10g)
+    Batsureg (buy, 10g)
+    Bloomingdale (buy, 10g)
+    Coffinwell (buy, 10g)
+    Gleeba (buy, 10g)
+    Gortress (buy, 10g)
+    Porth Llaffan (buy, 10g)
+    Slurry Quay (buy, 10g)
+    Stornway (buy, 10g)
+    Swinedimples Academy (buy, 10g)
+    Upover (buy, 10g)
+    Wormwood Creek (buy, 10g)
+    Dourbridge (buy, 50g)
+    (gather)
+    Cruelcumber (#002) (steal/win, common, 1/8)
+    Bubble slime (#016) (steal/win, common, 1/8)
+    Bodkin fletcher (#025) (steal/win, common, 1/8)
+    Gastropog (#021) (steal/win, common, 1/16)
+    Sacksquatch (#004) (steal/win, common, 1/32)
+    grotto (find, rank 1 chest, 8%)
+
+Apollo's crown
+    (alchemise)
+
+Apprentice's gloves
+    (alchemise)
+    Shogum (#285) (win, rare, 2%)
+
+Archangel's bow
+    (alchemise)
+
+Archangel's robe
+    (alchemise)
+
+Archdemon whip
+    (alchemise)
+
+Archer's armguard
+    Batsureg (buy, 770g)
+
+Ascetic robe
+    Wight priest (#135) (steal/win, rare, 1/128)
+
+Assassin's dagger
+    Batsureg (buy, 7000g)
+    Gleeba (buy, 7000g)
+    (alchemise)
+    Apeckalypse (#128) (steal/win, rare, 1/128)
+    Raving reaper (#134) (steal/win, rare, 1/128)
+
+Asterang
+    (alchemise)
+
+Astral plume
+    (alchemise)
+    grotto (find, rank 6 chest, 10%)
+    grotto (find, rank 9 chest, 10%)
+
+Attribeauty
+    grotto (find, rank 8 chest, 1%)
+
+Aurora blade
+    (alchemise)
+
+Aurora staff
+    (alchemise)
+
+Autumn shower hat
+    (alchemise)
+
+Avalanche axe
+    (alchemise)
+
+Azure dragon fan
+    (alchemise)
+
+Bad axe
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Ballistick
+    (alchemise)
+
+Bamboo lance
+    Stornway (buy, 85g)
+
+Bandana
+    Angel Falls (buy, 45g)
+    Stornway (buy, 45g)
+
+Bandit blade
+    Batsureg (buy, 6300g)
+    Gleeba (buy, 6300g)
+    Mandrake marauder (#166) (steal/win, rare, 1/128)
+
+Bandit boots
+    Dourbridge (buy, 1200g)
+
+Banefire boomerang
+    (alchemise)
+
+Bardic boots
+    Stornway (post-game) (buy, 4500g)
+    Sluggerslaught (#208) (steal/win, rare, 1/128)
+
+Basilic boots
+    (alchemise)
+
+Batterfly knife
+    (alchemise)
+
+Battle-axe
+    Batsureg (buy, 3900g)
+    Gleeba (buy, 3900g)
+    Wormwood Creek (buy, 3900g)
+
+Battle britches
+    Upover (buy, 3120g)
+
+Battle fork
+    Bloomingdale (buy, 3900g)
+    Gleeba (buy, 3900g)
+    Deadcurion (#122) (steal/win, rare, 1/128)
+
+Battler's band
+    Batsureg (buy, 4050g)
+
+Battler's bracers
+    Upover (buy, 3300g)
+
+Battle whip
+    Alltrades Abbey (buy, 960g)
+    Coffinwell (buy, 960g)
+
+Beast claws
+    Vermil lion (#246) (steal/win, common, 1/128)
+    grotto (find, rank 8 chest, 1%)
+
+Beastmaster claws
+    (alchemise)
+
+Belle cap
+    (gather)
+    Mushroom mage (#053) (steal/win, common, 1/8)
+    Morphean mushroom (#037) (steal/win, common, 1/16)
+
+Best vest
+    Bloomingdale (buy, 2000g)
+
+Big boss shield
+    (alchemise)
+
+Billowing bow
+    (alchemise)
+
+Birdsong nectar
+    (alchemise)
+
+Black knickers
+    Swinedimples Academy (buy, 2880g)
+
+Black tortoise fan
+    (alchemise)
+
+Blessed bindings
+    (alchemise)
+
+Blessed boots
+    Grim reaper (#231) (steal/win, rare, 1/128)
+    grotto (find, rank 6 chest, 1%)
+
+Blessed bottoms
+    (alchemise)
+
+Blessed helm
+    (alchemise)
+
+Blinding bow
+    (alchemise)
+
+Blowy bow
+    Upover (buy, 12000g)
+    Wormwood Creek (buy, 12000g)
+    (alchemise)
+
+Blue jeans
+    Dourbridge (buy, 1350g)
+
+Blue knickers
+    Zere (buy, 260g)
+
+Blue Orb
+    Nimzo (#301) (win, rare, level 1-8, 5%)
+    Nimzo (#301) (win, rare, level 9-25, 6%)
+    Nimzo (#301) (win, rare, level 26-56, 7%)
+    Nimzo (#301) (win, rare, level 57-80, 8%)
+    Nimzo (#301) (win, rare, level 81-90, 9%)
+    Nimzo (#301) (win, rare, level 91-99, 10%)
+    Nokturnus (#304) (win, rare, level 4-8, 10%)
+    Nokturnus (#304) (win, rare, level 57-68, 15%)
+    Orgodemir (#305) (win, rare, level 1-8, 10%)
+    Orgodemir (#305) (win, rare, level 9-25, 11%)
+    Orgodemir (#305) (win, rare, level 26-56, 12%)
+    Orgodemir (#305) (win, rare, level 69-80, 13%)
+    Orgodemir (#305) (win, rare, level 81-90, 14%)
+    Orgodemir (#305) (win, rare, level 91-99, 15%)
+
+Blue skirt
+    Batsureg (buy, 1750g)
+
+Blusterang
+    (alchemise)
+
+Blustery bow
+    (alchemise)
+
+Boomerang
+    Porth Llaffan (buy, 750g)
+
+Boomer briefs
+    Slurry Quay (buy, 420g)
+    (alchemise)
+    Toxic zombie (#074) (steal/win, rare, 1/64)
+    Boss troll (#179) (steal/win, rare, 1/64)
+
+Boots of beautitude
+    (alchemise)
+
+Boss shield
+    Dourbridge (secret shop) (buy, 27000g)
+    Freaky tiki (#221) (steal/win, rare, 1/128)
+
+Bow tie
+    Gleeba (buy, 1600g)
+    Slurry Quay (buy, 1600g)
+    Dourbridge (buy, 8000g)
+    (alchemise)
+    Expload (#097) (steal/win, rare, 1/64)
+
+Boxer shorts
+    Angel Falls (buy, 30g)
+    Sacksquatch (#004) (steal/win, rare, 1/64)
+
+Brahman boots
+    (alchemise)
+
+Brain drainer
+    (alchemise)
+    Sir Sanguinus (#288) (win, rare, 2%)
+
+Brainy bracer
+    (alchemise)
+
+Brawling byrnie
+    Void droid (#228) (steal/win, rare, 1/128)
+
+Brighten rock
+    (gather)
+    Cosmic chimaera (#210) (steal/win, common, 1/8)
+    Goodybag (#151) (steal/win, common, 1/16)
+    Rashaverak (#244) (steal/win, rare, 1/64)
+
+Bright staff
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Brilliant staff
+    (alchemise)
+
+Bronze armour
+    Coffinwell (buy, 720g)
+
+Bronze knife
+    Coffinwell (buy, 200g)
+    Stornway (buy, 200g)
+
+Bronze shield
+    Coffinwell (buy, 370g)
+    Zere (buy, 370g)
+    Leery lout (#031) (steal/win, rare, 1/128)
+
+Brouhaha boomstick
+    grotto (find, rank 5 chest, 1%)
+
+Bruiser's bracers
+    Wormwood Creek (buy, 2250g)
+
+Bunny ears
+    Dourbridge (secret shop) (buy, 1120g)
+    (alchemise)
+
+Bunny suit
+    Dourbridge (secret shop) (buy, 3550g)
+
+Bunny tail
+    Porth Llaffan (buy, 240g)
+    Zere (buy, 240g)
+    grotto (find, rank 1 chest, 2%)
+
+Butterfly wing
+    Dread admiral (#063) (steal/win, common, 1/8)
+    Betterfly (#018) (steal/win, rare, 1/16)
+    Batterfly (#005) (steal/win, rare, 1/64)
+
+Canny cap
+    Stornway (post-game) (buy, 12600g)
+    (alchemise)
+
+Cape of good karma
+    (alchemise)
+
+Carrying pole
+    Coffinwell (buy, 530g)
+    Stornway (buy, 530g)
+
+Catatonic cosh
+    (alchemise)
+
+Cat ears
+    Bloomingdale (buy, 1150g)
+    Dourbridge (secret shop) (buy, 1150g)
+    (alchemise)
+
+Catholicon ring
+    (alchemise)
+
+Catoptric armour
+    (alchemise)
+
+Catty shield
+    (alchemise)
+
+Cautery sword
+    Bloomingdale (buy, 3000g)
+    Dourbridge (buy, 3000g)
+    Infernal armour (#123) (steal/win, common, 1/64)
+    Grim grinner (#139) (steal/win, common, 1/64)
+    Axolhotl (#093) (steal/win, rare, 1/64)
+
+Cavalier hat
+    Wormwood Creek (buy, 7100g)
+
+Celestial skein
+    (alchemise)
+
+Celestial spear
+    (alchemise)
+
+Celestria's gown
+    (alchemise)
+
+Celestria's raiment
+    (alchemise)
+
+Chain mail
+    Coffinwell (buy, 540g)
+    Stornway (buy, 540g)
+    Skeleton soldier (#144) (steal/win, common, 1/32)
+
+Chainmail socks
+    Batsureg (buy, 2900g)
+    (alchemise)
+
+Chain whip
+    Bloomingdale (buy, 3700g)
+    Gleeba (buy, 3700g)
+
+Cheiron's bow
+    Dourbridge (secret shop) (buy, 22400g)
+
+Chimaera wing
+    Alltrades Abbey (buy, 25g)
+    Angel Falls (buy, 25g)
+    Batsureg (buy, 25g)
+    Bloomingdale (buy, 25g)
+    Coffinwell (buy, 25g)
+    Gleeba (buy, 25g)
+    Gortress (buy, 25g)
+    Porth Llaffan (buy, 25g)
+    Slurry Quay (buy, 25g)
+    Stornway (buy, 25g)
+    Swinedimples Academy (buy, 25g)
+    Upover (buy, 25g)
+    Wormwood Creek (buy, 25g)
+    Zere (buy, 25g)
+    Dourbridge (buy, 125g)
+    (gather)
+    Chimaera (#059) (steal/win, common, 1/8)
+    Drackmage (#024) (steal/win, common, 1/16)
+    Beakon (#070) (steal/win, common, 1/16)
+    Hocus chimaera (#076) (steal/win, common, 1/16)
+    Mecha-mynah (#009) (steal/win, common, 1/32)
+    Clockwork cuckoo (#034) (steal/win, common, 1/32)
+    Dracky (#006) (steal/win, rare, 1/64)
+    grotto (find, rank 1 chest, 10%)
+
+Chronocrystal
+    Lonely Coast Cave (buy, 50000g)
+
+Circlet
+    Bloomingdale (buy, 980g)
+
+Classy clogs
+    (alchemise)
+
+Clever clogs
+    Stornway (post-game) (buy, 3900g)
+
+Climaxe
+    (alchemise)
+
+Cloak of concealment
+    (alchemise)
+
+Cloak of evasion
+    Porth Llaffan (buy, 1000g)
+    Sluggernaut (#140) (steal/win, common, 1/32)
+    Tearwolf (#126) (steal/win, rare, 1/64)
+
+Clogs
+    Coffinwell (buy, 160g)
+    Zere (buy, 160g)
+    Beakon (#070) (steal/win, rare, 1/32)
+
+Coagulant
+    Batsureg (buy, 90g)
+    Upover (buy, 90g)
+    Wormwood Creek (buy, 90g)
+    (gather)
+    Betterfly (#018) (steal/win, common, 1/8)
+    Hell niÃ±o (Hell nino) (#163) (steal/win, common, 1/32)
+    Cumaulus (#027) (steal/win, rare, 1/64)
+    Dread admiral (#063) (steal/win, rare, 1/64)
+    Treevil (#110) (steal/win, rare, 1/64)
+
+Cobra claws
+    Stornway (post-game) (buy, 29000g)
+    Hammer horror (#253) (steal/win, rare, 1/128)
+
+Cobra fan
+    Batsureg (buy, 5200g)
+    (alchemise)
+    Seavern (#256) (steal/win, rare, 1/64)
+
+Coma cudgel
+    (alchemise)
+
+Combat boots
+    grotto (find, rank 7 chest, 1%)
+
+Combat costume
+    Stornway (post-game) (buy, 27500g)
+
+Combat top
+    Stornway (post-game) (buy, 27000g)
+
+Combat trousers
+    Stornway (post-game) (buy, 9500g)
+
+Combusticlaws
+    (alchemise)
+
+Contra band
+    (alchemise)
+
+Copper sword
+    Angel Falls (buy, 150g)
+    Stornway (buy, 150g)
+    Skeleton (#028) (steal/win, rare, 1/128)
+
+Corundum
+    (gather)
+    Admirer (#099) (steal/win, rare, 1/64)
+    grotto (find, rank 3 chest, 10%)
+
+Cotton gloves
+    Angel Falls (buy, 50g)
+    Stornway (buy, 50g)
+    Skeleton (#028) (steal/win, common, 1/32)
+
+Cotton trousers
+    Angel Falls (buy, 80g)
+    Stornway (buy, 80g)
+    Winkster (#012) (steal/win, common, 1/32)
+
+Cowboy boots
+    Bloomingdale (buy, 2150g)
+
+Cowpat
+    (gather)
+    Bag o' laughs (#008) (steal/win, common, 1/8)
+    Mudraker (#052) (steal/win, common, 1/16)
+    Swinoceros (#113) (steal/win, rare, 1/32)
+
+Crimson boots
+    Stornway (post-game) (buy, 3400g)
+    Sir Sanguinus (#288) (steal, common)
+
+Crimson coral
+    (gather)
+    Belisha beakon (#193) (steal/win, common, 1/32)
+    Knocktopus (#058) (steal/win, rare, 1/32)
+    Spinchilla (#066) (steal/win, rare, 1/32)
+    Crabid (#041) (steal/win, rare, 1/64)
+
+Crimson gauntlets
+    Stornway (post-game) (buy, 4250g)
+
+Critical fan
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Crown of clarity
+    (alchemise)
+
+Crow's claws
+    Bloomingdale (buy, 4800g)
+    Gleeba (buy, 4800g)
+    Icikiller (#132) (steal/win, rare, 1/64)
+    Weaken beakon (#085) (steal/win, rare, 1/128)
+
+Crucerang
+    Batsureg (buy, 4300g)
+    Gleeba (buy, 4300g)
+    (alchemise)
+
+Cutting-edge boomerang
+    (alchemise)
+
+Dancer's costume
+    Porth Llaffan (buy, 740g)
+
+Dancer's dress
+    (alchemise)
+
+Dangerous bikini top
+    Dourbridge (secret shop) (buy, 13800g)
+
+Dangerous bustier
+    (alchemise)
+    grotto (find, rank 5 chest, 1%)
+
+Dangerous midriff wrap
+    Dourbridge (secret shop) (buy, 11400g)
+
+Dark robe
+    Upover (buy, 13500g)
+    (alchemise)
+
+Dark shield
+    Night knight (#199) (steal/win, common, 1/64)
+    Fright knight (#181) (steal/win, rare, 1/256)
+
+Darting dagger
+    (alchemise)
+
+Dashing dagger
+    (alchemise)
+
+Deadly nightblade
+    Bloomingdale (buy, 2900g)
+    Handsome crab (#137) (steal/win, rare, 1/128)
+
+Deft dagger
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Demon spear
+    Stornway (post-game) (buy, 34500g)
+    (alchemise)
+
+Demon whip
+    (alchemise)
+    Alphyn (#225) (steal/win, rare, 1/64)
+    grotto (find, rank 6 chest, 1%)
+
+Denim skirt
+    Dourbridge (buy, 1380g)
+
+Densinium
+    (alchemise)
+    Wishmaster (#211) (steal/win, common, 1/32)
+    Drakulard (#200) (steal/win, rare, 1/128)
+    grotto (find, rank 7 chest, 10%)
+    grotto (find, rank 6 chest, 6%)
+
+Depressing shoes
+    Liquid metal slime (#153) (steal/win, rare, 1/128)
+    grotto (find, rank 7 chest, 2%)
+
+Devilry drinker
+    (alchemise)
+
+Diana gauntlets
+    (alchemise)
+
+Dire critical fan
+    (alchemise)
+
+Disturbin' turban
+    Gleeba (buy, 2900g)
+
+Divine bustier
+    (alchemise)
+
+Divine dagger
+    Coffinwell (buy, 640g)
+    Stornway (buy, 640g)
+    (alchemise)
+
+Divine dress
+    Vermil lion (#246) (steal/win, rare, 1/128)
+    grotto (find, rank 7 chest, 1%)
+
+Dragon claws
+    Upover (buy, 14500g)
+    Wormwood Creek (buy, 14500g)
+    Drakulord (#254) (steal/win, rare, 1/64)
+    Red dragon (#191) (steal/win, rare, 1/128)
+
+Dragon dress
+    (alchemise)
+
+Dragonlord claws
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Dragon mail
+    Upover (buy, 11500g)
+    Wormwood Creek (buy, 11500g)
+    (alchemise)
+    Claws (#183) (steal/win, rare, 1/128)
+
+Dragon rod
+    Stornway (post-game) (buy, 39800g)
+
+Dragonsbane
+    Wormwood Creek (buy, 10000g)
+    Mandrake marshal (#185) (steal/win, rare, 1/128)
+
+Dragon scale
+    Rashaverak (#244) (steal/win, common, 1/8)
+    Drakulord (#254) (steal/win, common, 1/8)
+    Mandrake major (#104) (steal/win, common, 1/16)
+    Drakularge (#152) (steal/win, common, 1/16)
+    Seasaur (#162) (steal/win, common, 1/16)
+    Mandrake marauder (#166) (steal/win, common, 1/16)
+    Red dragon (#191) (steal/win, common, 1/16)
+    Drakulard (#200) (steal/win, common, 1/16)
+    Mandrake monarch (#250) (steal/win, common, 1/16)
+    Riptide (#088) (steal/win, common, 1/32)
+    Abyss diver (#170) (steal/win, common, 1/32)
+    Mandrake marshal (#185) (steal/win, common, 1/64)
+    Wyrtle (#106) (steal/win, rare, 1/16)
+    Green dragon (#169) (steal/win, rare, 1/16)
+    Wyrtoise (#187) (steal/win, rare, 1/32)
+    Equinox (#283) (steal, common)
+
+Dragon shield
+    Upover (buy, 9800g)
+    Wormwood Creek (buy, 9800g)
+    (alchemise)
+    Wonder wyrtle (#217) (steal/win, rare, 1/64)
+
+Dragon slayer
+    (alchemise)
+
+Dragontail whip
+    Upover (buy, 14000g)
+    Wormwood Creek (buy, 14000g)
+    (alchemise)
+    Equinox (#283) (steal, rare)
+    Equinox (#283) (win, common, 10%)
+
+Dragon top
+    Wormwood Creek (buy, 11200g)
+    (alchemise)
+
+Dragon trousers
+    Wormwood Creek (buy, 5600g)
+    (alchemise)
+
+Dragovian claws
+    (alchemise)
+
+Dragovian lord claws
+    (alchemise)
+
+Dread dagger
+    (alchemise)
+
+Driller pillar
+    Batsureg (buy, 5300g)
+    Gleeba (buy, 5300g)
+
+Dynamo dagger
+    (alchemise)
+
+Eaglewing
+    (alchemise)
+
+Ear cosy
+    Batsureg (buy, 2400g)
+    (alchemise)
+
+Earthsplitter
+    (alchemise)
+
+Edged boomerang
+    Batsureg (buy, 2750g)
+    Bloomingdale (buy, 2750g)
+
+Elevating shoes
+    (alchemise)
+
+Elfin charm
+    (alchemise)
+
+Elfin elixir
+    Dourbridge (Cap'n Max) (trade, 5 medals)
+    (alchemise)
+    Cobra cardinal (#197) (steal/win, rare, 1/256)
+
+Emerald moss
+    (gather)
+    Salamarauder (#060) (steal/win, common, 1/16)
+    Green dragon (#169) (steal/win, common, 1/16)
+
+Emperor's attire
+    (alchemise)
+
+Emperor's boots
+    (alchemise)
+
+Empowered shield
+    (alchemise)
+
+Empress's robe
+    (alchemise)
+
+Empress's whip
+    (alchemise)
+
+Enchanted armour
+    (alchemise)
+
+Enchanted gloves
+    (alchemise)
+
+Enchanted robes
+    (alchemise)
+
+Enchanted shield
+    (alchemise)
+
+Enchanted stone
+    (alchemise)
+    grotto (find, rank 8 chest, 13%)
+
+Erazor-wing boomerang
+    (alchemise)
+
+Erdrick's armour
+    (alchemise)
+
+Erdrick's gauntlets
+    (alchemise)
+
+Erdrick's helmet
+    (alchemise)
+
+Erdrick's shield
+    (alchemise)
+
+Erdrick's sword
+    (alchemise)
+
+Estard Clothes
+    Orgodemir (#305) (steal, rare, level 81-99)
+    Orgodemir (#305) (win, common, level 81-90, 20%)
+    Orgodemir (#305) (win, common, level 91-99, 25%)
+
+Estard Hood
+    Orgodemir (#305) (steal, rare, level 57-80)
+    Orgodemir (#305) (win, common, level 57-68, 20%)
+    Orgodemir (#305) (win, common, level 69-80, 25%)
+
+Estard Shoes
+    Orgodemir (#305) (steal, rare, level 1-15)
+    Orgodemir (#305) (win, common, level 1-3, 15%)
+    Orgodemir (#305) (win, common, level 4-8, 20%)
+    Orgodemir (#305) (win, common, level 9-15, 25%)
+
+Estard Trousers
+    Orgodemir (#305) (steal, rare, level 16-56)
+    Orgodemir (#305) (win, common, level 16-25, 15%)
+    Orgodemir (#305) (win, common, level 26-40, 20%)
+    Orgodemir (#305) (win, common, level 41-56, 25%)
+
+Eternity trousers
+    (alchemise)
+
+Ethereal armour
+    (alchemise)
+
+Ethereal gloves
+    (alchemise)
+
+Ethereal robes
+    (alchemise)
+
+Ethereal shield
+    (alchemise)
+
+Ethereal stone
+    (alchemise)
+    grotto (find, rank 9 chest, 10%)
+
+Evac-u-bell
+    Batsureg (buy, 28g)
+    Bloomingdale (buy, 28g)
+    Coffinwell (buy, 28g)
+    Gleeba (buy, 28g)
+    Porth Llaffan (buy, 28g)
+    Slurry Quay (buy, 28g)
+    Stornway (buy, 28g)
+    Upover (buy, 28g)
+    Wormwood Creek (buy, 28g)
+    grotto (find, rank 1 chest, 10%)
+    grotto (find, rank 10 chest, 10%)
+
+Evencloth
+    (gather)
+    Ragged reaper (#020) (steal/win, common, 1/16)
+    Dark skeleton (#173) (steal/win, common, 1/32)
+    Geothaum (#236) (steal/win, rare, 1/32)
+
+Executioner's axe
+    (alchemise)
+
+Exotoga
+    (alchemise)
+
+Falcon blade
+    Stornway (post-game) (buy, 14800g)
+    Slionheart (#215) (steal/win, common, 1/128)
+    Prime slime (#252) (steal/win, rare, 1/128)
+
+Falcon knife earrings
+    Bloomingdale (buy, 15800g)
+    Gleeba (buy, 15800g)
+    (alchemise)
+
+Fancy pants
+    (alchemise)
+
+Feathered cap
+    Porth Llaffan (buy, 620g)
+    (alchemise)
+
+Feather fan
+    Angel Falls (buy, 110g)
+    Stornway (buy, 110g)
+    Mecha-mynah (#009) (steal/win, rare, 1/64)
+
+Feather headband
+    Bloomingdale (buy, 1450g)
+    (alchemise)
+
+Feline fan
+    Swinedimples Academy (buy, 5100g)
+    (alchemise)
+
+Femiscyran bottoms
+    Batsureg (buy, 1450g)
+
+Femiscyran fingerwear
+    Batsureg (buy, 1900g)
+
+Femiscyran footwear
+    Bloomingdale (buy, 1400g)
+
+Femiscyran mail
+    Batsureg (buy, 6100g)
+
+Fencing frock
+    Cannibelle (#230) (steal/win, rare, 1/128)
+
+Fencing jacket
+    Excalipurr (#292) (steal, common)
+
+Fenrir fang
+    (alchemise)
+
+Filigree mask
+    (alchemise)
+
+Finessence
+    (alchemise)
+    grotto (find, rank 5 chest, 10%)
+
+Fingerless gauntlets
+    Gleeba (buy, 1050g)
+
+Fingerless gloves
+    grotto (find, rank 6 chest, 1%)
+
+Fire blade
+    Upover (buy, 21500g)
+    (alchemise)
+    Scarlet fever (#242) (steal/win, rare, 1/128)
+
+Fire claws
+    Upover (buy, 21000g)
+    (alchemise)
+    Nemean (#284) (steal, rare)
+    Nemean (#284) (win, common, 10%)
+
+Fishnet stockings
+    Dourbridge (secret shop) (buy, 800g)
+    Slurry Quay (buy, 800g)
+
+Fisticup
+    (gather)
+    Mushroom mage (#053) (steal/win, rare, 1/8)
+    Morphean mushroom (#037) (steal/win, rare, 1/16)
+    grotto (find, rank 2 chest, 10%)
+    grotto (find, rank 3 chest, 10%)
+
+Fizzle foil
+    (alchemise)
+
+Fizzle-proof suit
+    (alchemise)
+
+Fizzle-retardant blouse
+    Cobra cardinal (#197) (steal/win, common, 1/128)
+
+Fizzle-retardant suit
+    Python priest (#148) (steal/win, rare, 1/128)
+
+Flamenco shirt
+    (alchemise)
+
+Flame shield
+    Batsureg (buy, 5200g)
+    (alchemise)
+    Hell niÃ±o (Hell nino) (#163) (steal/win, rare, 1/128)
+    Bird of terrordise (#241) (steal/win, rare, 1/128)
+
+Flame tang
+    (alchemise)
+
+Flametang boomerang
+    Stornway (post-game) (buy, 19500g)
+    (alchemise)
+
+Flintstone
+    (gather)
+    Stone golem (#078) (steal/win, common, 1/16)
+    Living statue (#150) (steal/win, common, 1/16)
+    Golem (#161) (steal/win, common, 1/16)
+    Geothaum (#236) (steal/win, common, 1/16)
+    Grinade (#073) (steal/win, rare, 1/64)
+    Mad moai (#071) (steal/win, rare, 1/128)
+    grotto (find, rank 4 chest, 5%)
+
+Flowing dress
+    Upover (buy, 18000g)
+    Wormwood Creek (buy, 18000g)
+    (alchemise)
+    Cumulus hex (#212) (steal/win, rare, 1/64)
+
+Flurry feather
+    (gather)
+    Weaken beakon (#085) (steal/win, common, 1/16)
+    Chimaera (#059) (steal/win, rare, 1/32)
+
+Foehn fan
+    Bloomingdale (buy, 3200g)
+    Dourbridge (buy, 3200g)
+    (alchemise)
+
+Fowl fan
+    Gleeba (buy, 5000g)
+    (alchemise)
+    Bird of terrordise (#241) (steal/win, common, 1/64)
+    Terrorhawk (#156) (steal/win, rare, 1/64)
+
+Fresh water
+    (gather)
+    Cheeky tiki (#121) (steal/win, common, 1/16)
+
+Friendly fan
+    Stornway (post-game) (buy, 45000g)
+    (alchemise)
+    Godsteed (#216) (steal/win, rare, 1/256)
+    Tantamount (#239) (steal/win, rare, 1/256)
+
+Frugal footwear
+    Bloomingdale (buy, 1500g)
+
+Fuddle bow
+    grotto (find, rank 4 chest, 1%)
+
+Full moon axe
+    (alchemise)
+
+Full moon ring
+    (alchemise)
+
+Full plate armour
+    (alchemise)
+
+Fur hood
+    Slurry Quay (buy, 550g)
+    (alchemise)
+
+Fur poncho
+    (alchemise)
+    Great gruffon (#129) (steal/win, rare, 1/64)
+
+Fur vest
+    Batsureg (buy, 5800g)
+    (alchemise)
+    Cyclops (#157) (steal/win, rare, 1/128)
+
+Galaxarang
+    (alchemise)
+
+Galaxy axe
+    (alchemise)
+
+Gale force fan
+    (alchemise)
+
+Galvanised geta
+    Slurry Quay (buy, 560g)
+    Sculptrice (#136) (steal/win, common, 1/64)
+
+Garish garb
+    Coffinwell (buy, 660g)
+    Slugger (#035) (steal/win, rare, 1/128)
+
+Giant's hammer
+    Stornway (post-game) (buy, 35500g)
+    Atlas (#289) (steal, rare)
+    Atlas (#289) (win, common, 5%)
+
+Giant wrench
+    Upover (buy, 7900g)
+    Wormwood Creek (buy, 7900g)
+
+Giga gringham whip
+    (alchemise)
+
+Gigant armour
+    Stornway (post-game) (buy, 36000g)
+
+Gigaspike whip
+    (alchemise)
+
+Gigasteel armour
+    (alchemise)
+
+Gigasteel axe
+    (alchemise)
+
+Gigasteel bar
+    (alchemise)
+
+Gigasteel broadsword
+    (alchemise)
+
+Gigasteel claws
+    (alchemise)
+
+Gigasteel fan
+    (alchemise)
+
+Gigasteel gauntlets
+    (alchemise)
+
+Gigasteel helmet
+    (alchemise)
+
+Gigasteel kneecaps
+    (alchemise)
+
+Gigasteel lance
+    (alchemise)
+
+Gigasteel sabatons
+    (alchemise)
+
+Gigasteel shield
+    (alchemise)
+
+Gladius
+    Stornway (post-game) (buy, 31200g)
+    (alchemise)
+
+Glass frit
+    (gather)
+    Stale whale (#213) (steal/win, common, 1/16)
+    Cyclown (#049) (steal/win, common, 1/32)
+    Power hammer (#095) (steal/win, common, 1/32)
+    Parched peckerel (#094) (steal/win, rare, 1/64)
+
+Gleeban gold piece
+    Gem jamboree (#207) (steal/win, common, 1/16)
+    Gold golem (#096) (steal/win, rare, 1/256)
+    grotto (find, rank 8 chest, 15%)
+    grotto (find, rank 9 chest, 10%)
+    grotto (find, rank 10 chest, 10%)
+
+Gleeban groat
+    (gather)
+    grotto (find, rank 1 chest, 10%)
+    grotto (find, rank 3 chest, 10%)
+    grotto (find, rank 2 chest, 8%)
+
+Gleeban guinea
+    (gather)
+    grotto (find, rank 6 chest, 15%)
+    grotto (find, rank 4 chest, 10%)
+    grotto (find, rank 3 chest, 5%)
+
+Glombolero
+    grotto (find, rank 4 chest, 1%)
+
+Glommer's gloves
+    Upover (buy, 3400g)
+
+Gloomy gloves
+    (alchemise)
+
+Glorious armour
+    (alchemise)
+
+Goddess ring
+    (alchemise)
+
+Goddess shield
+    (alchemise)
+
+Goddess whip
+    (alchemise)
+
+Godly gloves
+    (alchemise)
+
+Gold bar
+    (alchemise)
+    Gem slime (#226) (steal/win, common, 1/128)
+    Au-1000 (#227) (steal/win, common, 1/128)
+    Pandora's box (#234) (steal/win, rare, 1/128)
+    Drakularge (#152) (steal/win, rare, 1/256)
+    Gem jamboree (#207) (steal/win, rare, 1/256)
+    Tyrannosaurus Wrecks (#293) (steal, rare)
+    Tyrannosaurus Wrecks (#293) (win, common, 10%)
+    grotto (find, rank 8 chest, 5%)
+    grotto (find, rank 10 chest, 5%)
+
+Gold bracer
+    Porth Llaffan (buy, 350g)
+    Dourbridge (buy, 1750g)
+    Cannibox (#204) (steal/win, rare, 1/128)
+    grotto (find, rank 2 chest, 2%)
+
+Gold circlet
+    (alchemise)
+
+Golden axe
+    (alchemise)
+
+Golden tiara
+    (alchemise)
+
+Gold mail
+    (alchemise)
+
+Gold platter
+    (alchemise)
+
+Gold ring
+    Porth Llaffan (buy, 220g)
+    Stornway (buy, 220g)
+    Dourbridge (buy, 1100g)
+    Gold golem (#096) (steal/win, common, 1/32)
+    Aggrosculpture (#184) (steal/win, common, 1/32)
+    Drackyma (#054) (steal/win, rare, 1/64)
+    grotto (find, rank 2 chest, 2%)
+
+Gold rosary
+    Lesionnaire (#100) (steal/win, common, 1/16)
+    Wight priest (#135) (steal/win, common, 1/32)
+    Mimic (#205) (steal/win, rare, 1/64)
+
+Gooey gear
+    (alchemise)
+
+Gorgeous gloves
+    Gleeba (buy, 900g)
+
+Gothan Gumboots
+    Nimzo (#301) (steal, rare, level 41-68)
+    Nimzo (#301) (win, common, level 41-56, 20%)
+    Nimzo (#301) (win, common, level 57-68, 25%)
+
+Gothan Robe
+    Nimzo (#301) (steal, rare, level 69-99)
+    Nimzo (#301) (win, common, level 69-80, 15%)
+    Nimzo (#301) (win, common, level 81-90, 20%)
+    Nimzo (#301) (win, common, level 91-99, 25%)
+
+Gothan Turban
+    Nimzo (#301) (steal, rare, level 16-40)
+    Nimzo (#301) (win, common, level 16-25, 20%)
+    Nimzo (#301) (win, common, level 26-40, 25%)
+
+Gothan Wristbands
+    Nimzo (#301) (steal, rare, level 1-15)
+    Nimzo (#301) (win, common, level 1-3, 15%)
+    Nimzo (#301) (win, common, level 4-8, 20%)
+    Nimzo (#301) (win, common, level 9-15, 25%)
+
+Gracos's trident
+    (alchemise)
+
+Grandmaster's gloves
+    (alchemise)
+
+Great bow
+    Upover (buy, 31500g)
+
+Great helm
+    (alchemise)
+
+Green Orb
+    Estark (#300) (win, rare, level 1-8, 10%)
+    Estark (#300) (win, rare, level 9-25, 11%)
+    Estark (#300) (win, rare, level 26-56, 12%)
+    Estark (#300) (win, rare, level 57-80, 13%)
+    Estark (#300) (win, rare, level 81-90, 14%)
+    Estark (#300) (win, rare, level 91-99, 15%)
+    Nokturnus (#304) (win, rare, level 16-25, 10%)
+    Nokturnus (#304) (win, rare, level 81-90, 15%)
+    Psaro (#299) (win, rare, level 1-8, 5%)
+    Psaro (#299) (win, rare, level 9-25, 6%)
+    Psaro (#299) (win, rare, level 26-56, 7%)
+    Psaro (#299) (win, rare, level 57-80, 8%)
+    Psaro (#299) (win, rare, level 81-90, 9%)
+    Psaro (#299) (win, rare, level 91-99, 10%)
+
+Green tights
+    Batsureg (buy, 2500g)
+    (alchemise)
+
+Gringham whip
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Groundbreaker
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Grubby bandage
+    Mummy (#098) (steal/win, common, 1/8)
+    Blood mummy (#146) (steal/win, common, 1/8)
+    Mummy boy (#044) (steal/win, common, 1/16)
+
+Guru's gloves
+    (alchemise)
+
+Gusterang
+    Upover (buy, 14800g)
+    (alchemise)
+
+Hades' helm
+    (alchemise)
+    Hell's gatekeeper (#243) (steal/win, common, 1/64)
+    Bad karmour (#186) (steal/win, rare, 1/128)
+    grotto (find, rank 6 chest, 1%)
+
+Hairband
+    Stornway (buy, 60g)
+
+Halberd
+    Wormwood Creek (buy, 11200g)
+    (alchemise)
+    Charmour (#194) (steal/win, rare, 1/128)
+
+Hallowed helm
+    (alchemise)
+    Hammibal (#290) (win, rare, 2%)
+
+Hammer handrills
+    (alchemise)
+
+Handrills
+    Batsureg (buy, 7600g)
+    Gleeba (buy, 7600g)
+    Wormwood Creek (buy, 7600g)
+    Corrupt carter (#164) (steal/win, rare, 1/64)
+    Robo-robin (#112) (steal/win, rare, 1/128)
+    Cyber spider (#224) (steal/win, rare, 1/128)
+    Trauminator (#286) (steal, common)
+
+Happy hat
+    (alchemise)
+
+Hardwood headwear
+    Coffinwell (buy, 120g)
+    Zere (buy, 120g)
+    Teaky mask (#133) (steal/win, common, 1/16)
+
+Headsman's axe
+    Dourbridge (secret shop) (buy, 28800g)
+
+Heavenly helm
+    (alchemise)
+
+Heavy armour
+    Bloomingdale (buy, 3600g)
+    Dourbridge (buy, 3600g)
+    Mandrake major (#104) (steal/win, rare, 1/128)
+
+Heavy gauntlets
+    (alchemise)
+
+Heavy handwear
+    Dourbridge (secret shop) (buy, 1900g)
+    Hammer horror (#253) (steal/win, common, 1/32)
+    Sluggerslaught (#208) (steal/win, common, 1/64)
+
+Heavy hatchet
+    Au-1000 (#227) (steal/win, rare, 1/256)
+    grotto (find, rank 8 chest, 1%)
+
+Hela's hammer
+    Hell's gatekeeper (#243) (steal/win, rare, 1/128)
+    grotto (find, rank 6 chest, 1%)
+
+Hephaestus' flame
+    (alchemise)
+    Flamin' drayman (#238) (steal/win, rare, 1/64)
+    Rockbomb (#116) (steal/win, rare, 1/128)
+    Magmalice (#168) (steal/win, rare, 1/128)
+    grotto (find, rank 6 chest, 15%)
+    grotto (find, rank 5 chest, 10%)
+
+Hermetic hat
+    Wormwood Creek (buy, 4000g)
+
+Hero's boots
+    (alchemise)
+    Trauminator (#286) (win, rare, 2%)
+
+Hero spear
+    grotto (find, rank 8 chest, 1%)
+
+Hexarang
+    (alchemise)
+
+Hieroglyph staff
+    (alchemise)
+
+High heels
+    Dourbridge (secret shop) (buy, 220g)
+    Stornway (buy, 220g)
+
+Highness heels
+    (alchemise)
+
+Hiking boots
+    Upover (buy, 4600g)
+
+Hip boots
+    Bloomingdale (buy, 2300g)
+
+Hobnail boots
+    (alchemise)
+
+Hocus hat
+    Batsureg (buy, 2800g)
+
+Holy femail
+    Wishmaster (#211) (steal/win, rare, 1/128)
+
+Holy hat
+    Gleeba (buy, 2600g)
+
+Holy lance
+    Bloomingdale (buy, 2700g)
+    Dourbridge (buy, 2700g)
+    (alchemise)
+    Trigertaur (#072) (steal/win, rare, 1/128)
+
+Holy mail
+    (alchemise)
+
+Holy talisman
+    (alchemise)
+
+Holy water
+    Batsureg (buy, 40g)
+    Bloomingdale (buy, 40g)
+    Coffinwell (buy, 40g)
+    Gleeba (buy, 40g)
+    Gortress (buy, 40g)
+    Porth Llaffan (buy, 40g)
+    Slurry Quay (buy, 40g)
+    Stornway (buy, 40g)
+    Swinedimples Academy (buy, 40g)
+    Upover (buy, 40g)
+    Wormwood Creek (buy, 40g)
+    Zere (buy, 40g)
+    Dourbridge (buy, 200g)
+    (gather)
+    Lost soul (#038) (steal/win, common, 1/8)
+    Firespirit (#010) (steal/win, common, 1/32)
+    Spirit (#011) (steal/win, common, 1/32)
+    Teeny sanguini (#003) (steal/win, rare, 1/64)
+    grotto (find, rank 1 chest, 10%)
+
+Horse manure
+    (gather)
+    Godsteed (#216) (steal/win, common, 1/8)
+    White trigertaur (#130) (steal/win, common, 1/16)
+    Sick trigertaur (#203) (steal/win, common, 1/16)
+    Tantamount (#239) (steal/win, common, 1/16)
+
+Hot bikini bottoms
+    (alchemise)
+
+Hot bikini top
+    (alchemise)
+
+Hotshot bow
+    (alchemise)
+
+Hunter's bow
+    Batsureg (buy, 4900g)
+    (alchemise)
+    Hunter mech (#087) (steal/win, rare, 1/64)
+
+Hunter's hat
+    Batsureg (buy, 2200g)
+    (alchemise)
+
+Hypercritical fan
+    (alchemise)
+
+Hypernova sword
+    (alchemise)
+
+Ice axe
+    Stornway (post-game) (buy, 37000g)
+    (alchemise)
+
+Ice crystal
+    (gather)
+    Freezing fog (#177) (steal/win, common, 1/16)
+    Firn fiend (#202) (steal/win, common, 1/16)
+    Shivery shrubbery (#125) (steal/win, common, 1/32)
+    Brrearthenwarrior (#127) (steal/win, common, 1/32)
+    Uncommon cold (#235) (steal/win, common, 1/32)
+
+Ice shield
+    Batsureg (buy, 5700g)
+    (alchemise)
+    Brrearthenwarrior (#127) (steal/win, rare, 1/256)
+    Teaky mask (#133) (steal/win, rare, 1/256)
+
+Icicle dirk
+    Wormwood Creek (buy, 9600g)
+    (alchemise)
+    Uncommon cold (#235) (steal/win, rare, 1/128)
+
+Immortal trousers
+    (alchemise)
+
+Impregnable leggings
+    (alchemise)
+
+Inferno blade
+    (alchemise)
+
+Infinity trousers
+    (alchemise)
+
+Invincible trousers
+    (alchemise)
+    Nemean (#284) (win, rare, 2%)
+
+Iron armour
+    Alltrades Abbey (buy, 1200g)
+    Porth Llaffan (buy, 1200g)
+    Restless armour (#057) (steal/win, rare, 1/128)
+
+Iron axe
+    Porth Llaffan (buy, 1800g)
+
+Iron bar
+    Bloomingdale (buy, 2300g)
+    Dourbridge (buy, 2300g)
+
+Iron broadsword
+    Alltrades Abbey (buy, 1000g)
+    Coffinwell (buy, 1000g)
+    Restless armour (#057) (steal/win, common, 1/64)
+    Slime knight (#048) (steal/win, rare, 1/128)
+    Gum shield (#079) (steal/win, rare, 1/128)
+
+Iron claws
+    Coffinwell (buy, 620g)
+    Stornway (buy, 620g)
+    Bewarewolf (#067) (steal/win, rare, 1/64)
+
+Iron cuirass
+    Coffinwell (buy, 1000g)
+    Lesionnaire (#100) (steal/win, rare, 1/64)
+
+Iron fan
+    Coffinwell (buy, 300g)
+    Stornway (buy, 300g)
+
+Iron gauntlets
+    Coffinwell (buy, 450g)
+
+Iron helmet
+    Alltrades Abbey (buy, 1100g)
+    Dourbridge (buy, 1100g)
+    Porth Llaffan (buy, 1100g)
+    Axolhotl (#093) (steal/win, common, 1/32)
+    Metal slime knight (#075) (steal/win, rare, 1/128)
+
+Iron kneecaps
+    Alltrades Abbey (buy, 640g)
+    Coffinwell (buy, 640g)
+
+Iron lance
+    Coffinwell (buy, 450g)
+    Stornway (buy, 450g)
+    Chariot chappie (#036) (steal/win, rare, 1/64)
+
+Iron mask
+    Bloomingdale (buy, 2100g)
+    Deadcurion (#122) (steal/win, common, 1/64)
+    Alarmour (#222) (steal/win, common, 1/64)
+    Harmour (#147) (steal/win, rare, 1/128)
+    grotto (find, rank 2 chest, 2%)
+
+Iron nails
+    Killing machine (#174) (steal/win, common, 1/16)
+    Shocktopus (#092) (steal/win, rare, 1/32)
+    Clockwork cuckoo (#034) (steal/win, rare, 1/64)
+    grotto (find, rank 2 chest, 10%)
+
+Iron ore
+    (gather)
+    Robo-robin (#112) (steal/win, common, 1/16)
+    Bad karmour (#186) (steal/win, common, 1/16)
+    Hunter mech (#087) (steal/win, common, 1/32)
+    Corrupt carter (#164) (steal/win, common, 1/32)
+    grotto (find, rank 3 chest, 10%)
+
+Iron sabatons
+    Coffinwell (buy, 580g)
+
+Iron shield
+    Alltrades Abbey (buy, 900g)
+    Porth Llaffan (buy, 900g)
+    Salamarauder (#060) (steal/win, rare, 1/64)
+
+Iron whip
+    Batsureg (buy, 6000g)
+    Gleeba (buy, 6000g)
+
+Jaguarment
+    Dourbridge (secret shop) (buy, 25500g)
+
+Kaiser axe
+    (alchemise)
+
+Kestrel claws
+    (alchemise)
+
+Killer pillar
+    (alchemise)
+
+Kiltlet
+    Wormwood Creek (buy, 4200g)
+
+King axe
+    Upover (buy, 16000g)
+    (alchemise)
+
+King cobra claws
+    (alchemise)
+
+King's coat
+    (alchemise)
+
+Kite claws
+    (alchemise)
+
+Kitty litter
+    (gather)
+    Purrestidigitator (#102) (steal/win, common, 1/8)
+    Clawcerer (#068) (steal/win, common, 1/32)
+    Parched peckerel (#094) (steal/win, common, 1/32)
+    Power hammer (#095) (steal/win, rare, 1/64)
+
+Kitty shield
+    (alchemise)
+
+Knockout rod
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Kung fu shoes
+    Bloomingdale (buy, 1550g)
+
+Lambswool
+    Batsureg (buy, 180g)
+    Rampage (#069) (steal/win, common, 1/8)
+    Battering ram (#115) (steal/win, common, 1/8)
+    Drackal (#118) (steal/win, common, 1/16)
+    Ram raider (#026) (steal/win, rare, 1/32)
+
+Large-scale armour
+    (alchemise)
+
+Laundry pole
+    Stornway (buy, 40g)
+
+Lava lump
+    (gather)
+    Bagma (#160) (steal/win, common, 1/16)
+    Live lava (#165) (steal/win, common, 1/16)
+    Magmalice (#168) (steal/win, common, 1/16)
+    Scarlet fever (#242) (steal/win, common, 1/16)
+    Admirer (#099) (steal/win, common, 1/32)
+    Terrorhawk (#156) (steal/win, common, 1/32)
+    grotto (find, rank 2 chest, 8%)
+
+Leather armour
+    Angel Falls (buy, 180g)
+    Stornway (buy, 180g)
+
+Leather boots
+    Coffinwell (buy, 70g)
+    Zere (buy, 70g)
+
+Leather cape
+    Zere (buy, 320g)
+    Bodkin bowyer (#047) (steal/win, rare, 1/64)
+
+Leather dress
+    Stornway (buy, 290g)
+    Zere (buy, 290g)
+
+Leather gauntlets
+    Coffinwell (buy, 60g)
+    Stornway (buy, 60g)
+    Zere (buy, 60g)
+    Bodkin fletcher (#025) (steal/win, rare, 1/64)
+
+Leather gloves
+    Coffinwell (buy, 190g)
+    (alchemise)
+
+Leather hat
+    Stornway (buy, 65g)
+    Zere (buy, 65g)
+    Bodkin bowyer (#047) (steal/win, common, 1/32)
+    Bodkin archer (#007) (steal/win, rare, 1/64)
+
+Leather kilt
+    Coffinwell (buy, 110g)
+    Zere (buy, 110g)
+    (alchemise)
+    Brownie (#022) (steal/win, common, 1/32)
+    Hammerhood (#013) (steal/win, common, 1/64)
+
+Leather shield
+    Angel Falls (buy, 90g)
+    Stornway (buy, 90g)
+    Leery lout (#031) (steal/win, common, 1/16)
+
+Leather shoes
+    Angel Falls (buy, 40g)
+    Stornway (buy, 40g)
+    Swinedimples Academy (buy, 40g)
+    Blinkster (#030) (steal/win, common, 1/32)
+
+Leather whip
+    Angel Falls (buy, 95g)
+    Stornway (buy, 95g)
+    Lunatick (#032) (steal/win, common, 1/32)
+
+Legendary armour
+    (alchemise)
+
+Life bracer
+    (alchemise)
+
+Life ring
+    (alchemise)
+
+Light gauntlets
+    Upover (buy, 4200g)
+
+Lightning conductor
+    (alchemise)
+
+Lightning lance
+    Upover (buy, 19800g)
+    (alchemise)
+
+Lightning staff
+    Batsureg (buy, 8100g)
+    Gleeba (buy, 8100g)
+    (alchemise)
+    Cumulus rex (#158) (steal/win, rare, 1/128)
+
+Light shield
+    Bloomingdale (buy, 1250g)
+    Dourbridge (buy, 1250g)
+    Metal slime knight (#075) (steal/win, common, 1/64)
+    Gum shield (#079) (steal/win, common, 1/64)
+
+Linen gloves
+    Zere (buy, 90g)
+    Ragged reaper (#020) (steal/win, rare, 1/32)
+
+Liquid metal armour
+    (alchemise)
+
+Liquid metal helm
+    (alchemise)
+
+Liquid metal shield
+    (alchemise)
+
+Liquid metal slime boots
+    (alchemise)
+
+Liquid metal slime gloves
+    (alchemise)
+
+Liquid metal spear
+    (alchemise)
+
+Liquid metal sword
+    (alchemise)
+
+Lockpicker's mitts
+    Dourbridge (buy, 800g)
+
+Longbow
+    (alchemise)
+
+Long spear
+    Alltrades Abbey (buy, 1400g)
+    Coffinwell (buy, 1400g)
+    Zumeanie (#064) (steal/win, rare, 1/128)
+    Scourgette (#105) (steal/win, rare, 1/128)
+
+Loud trousers
+    Bloomingdale (buy, 1480g)
+
+Lucida shard
+    (alchemise)
+    Cosmic chimaera (#210) (steal/win, rare, 1/128)
+    grotto (find, rank 7 chest, 10%)
+
+Lucky pendant
+    (alchemise)
+
+Lunar fan
+    (alchemise)
+
+Lunaria
+    (alchemise)
+    Prism peacock (#198) (steal/win, common, 1/32)
+    Boogie manguini (#249) (steal/win, rare, 1/64)
+
+Macabre mantle
+    (alchemise)
+
+Magical hat
+    Upover (buy, 6400g)
+
+Magical mace
+    Upover (buy, 17000g)
+
+Magical robes
+    Gleeba (buy, 3600g)
+    Sorcerer (#120) (steal/win, common, 1/32)
+    Shaman (#084) (steal/win, common, 1/64)
+
+Magical skirt
+    Swinedimples Academy (buy, 4600g)
+
+Magic armour
+    Gleeba (buy, 5800g)
+    Charmour (#194) (steal/win, common, 1/32)
+    Lethal armour (#176) (steal/win, common, 1/128)
+
+Magic beast hide
+    Trigertaur (#072) (steal/win, common, 1/8)
+    Scarewolf (#081) (steal/win, common, 1/8)
+    Big badboon (#082) (steal/win, common, 1/8)
+    Badja (#108) (steal/win, common, 1/8)
+    Swinoceros (#113) (steal/win, common, 1/8)
+    Tearwolf (#126) (steal/win, common, 1/8)
+    Master moosifer (#245) (steal/win, common, 1/8)
+    Bling badger (#251) (steal/win, common, 1/8)
+    Badboon (#050) (steal/win, common, 1/16)
+    Bewarewolf (#067) (steal/win, common, 1/16)
+    Claw hammer (#091) (steal/win, common, 1/16)
+    Moosifer (#154) (steal/win, common, 1/16)
+    Dreadful drackal (#175) (steal/win, common, 1/16)
+    Brainy badboon (#117) (steal/win, common, 1/32)
+    Octagoon (#219) (steal/win, common, 1/32)
+    Boppin' badger (#023) (steal/win, rare, 1/32)
+    Badger mager (#040) (steal/win, rare, 1/32)
+    Splatterhorn (#141) (steal/win, rare, 1/32)
+    Rampage (#069) (steal/win, rare, 1/64)
+
+Magic beast horn
+    Knocktopus (#058) (steal/win, common, 1/16)
+    Shocktopus (#092) (steal/win, common, 1/16)
+    Splatterhorn (#141) (steal/win, common, 1/16)
+    Battering ram (#115) (steal/win, rare, 1/32)
+    Dreadful drackal (#175) (steal/win, rare, 1/32)
+    Seasaur (#162) (steal/win, rare, 1/64)
+
+Magic mittens
+    Gleeba (buy, 2400g)
+
+Magic shield
+    Gleeba (buy, 4000g)
+    Grim grinner (#139) (steal/win, rare, 1/64)
+    Cheeky tiki (#121) (steal/win, rare, 1/128)
+
+Magic water
+    Batsureg (buy, 500g)
+    Bloomingdale (buy, 500g)
+    Gleeba (buy, 500g)
+    Gortress (buy, 500g)
+    Porth Llaffan (buy, 500g)
+    Slurry Quay (buy, 500g)
+    Swinedimples Academy (buy, 500g)
+    Upover (buy, 500g)
+    Wormwood Creek (buy, 500g)
+    Dourbridge (buy, 2500g)
+    (gather)
+    (alchemise)
+    Jinkster (#056) (steal/win, common, 1/32)
+    Lunatick (#032) (steal/win, rare, 1/64)
+    Firespirit (#010) (steal/win, rare, 1/128)
+    Magus (#043) (steal/win, rare, 1/128)
+    grotto (find, rank 4 chest, 15%)
+    grotto (find, rank 5 chest, 15%)
+    grotto (find, rank 1 chest, 5%)
+
+Magma staff
+    Swinedimples Academy (buy, 10800g)
+    (alchemise)
+    Live lava (#165) (steal/win, rare, 1/128)
+
+Maiden's mantle
+    Stornway (post-game) (buy, 23500g)
+
+Maid outfit
+    Dourbridge (secret shop) (buy, 18000g)
+    grotto (find, rank 5 chest, 1%)
+
+Maid's mop
+    Dourbridge (secret shop) (buy, 18000g)
+    grotto (find, rank 5 chest, 1%)
+
+Mail coif
+    Batsureg (buy, 4500g)
+
+Majestic mantle
+    (alchemise)
+
+Malicite
+    (alchemise)
+    Blood mummy (#146) (steal/win, rare, 1/128)
+    Mummy (#098) (steal/win, rare, 1/256)
+    Grrrgoyle (#233) (steal/win, rare, 1/256)
+    grotto (find, rank 4 chest, 1%)
+
+Malleable mask
+    (alchemise)
+
+Manky mud
+    (gather)
+    Walking corpse (#055) (steal/win, common, 1/8)
+    Stenchurion (#171) (steal/win, common, 1/8)
+    Toxic zombie (#074) (steal/win, common, 1/16)
+    Ghoul (#111) (steal/win, common, 1/16)
+    Apeckalypse (#128) (steal/win, common, 1/32)
+    Mortoad (#062) (steal/win, rare, 1/32)
+    grotto (find, rank 4 chest, 15%)
+
+Marauder's maul
+    Dourbridge (secret shop) (buy, 21500g)
+    Great troll (#196) (steal/win, rare, 1/128)
+
+Marquess's mittens
+    (alchemise)
+
+Master's gloves
+    (alchemise)
+
+Matador's gloves
+    (alchemise)
+    grotto (find, rank 7 chest, 1%)
+
+Maxi axe
+    (alchemise)
+
+Mayoress's mittens
+    Upover (buy, 2800g)
+
+Medicinal herb
+    Alltrades Abbey (buy, 8g)
+    Angel Falls (buy, 8g)
+    Batsureg (buy, 8g)
+    Bloomingdale (buy, 8g)
+    Coffinwell (buy, 8g)
+    Gleeba (buy, 8g)
+    Gortress (buy, 8g)
+    Porth Llaffan (buy, 8g)
+    Slurry Quay (buy, 8g)
+    Stornway (buy, 8g)
+    Swinedimples Academy (buy, 8g)
+    Upover (buy, 8g)
+    Wormwood Creek (buy, 8g)
+    Zere (buy, 8g)
+    Dourbridge (buy, 40g)
+    (gather)
+    Slime (#001) (steal/win, common, 1/8)
+    She-slime (#014) (steal/win, common, 1/8)
+    Funghoul (#015) (steal/win, common, 1/8)
+    Healslime (#029) (steal/win, common, 1/8)
+    Sootheslime (#131) (steal/win, common, 1/8)
+    Teeny sanguini (#003) (steal/win, common, 1/16)
+    Dracky (#006) (steal/win, common, 1/16)
+    Boppin' badger (#023) (steal/win, common, 1/16)
+    Slugger (#035) (steal/win, common, 1/16)
+    grotto (find, rank 1 chest, 10%)
+
+Mega gringham whip
+    (alchemise)
+
+Mega-magical hat
+    (alchemise)
+
+Mega-magical mace
+    (alchemise)
+
+Megaton hammer
+    (alchemise)
+    grotto (find, rank 8 chest, 1%)
+
+Mental mittens
+    Wormwood Creek (buy, 1550g)
+
+Mercury's bandana
+    (alchemise)
+
+Mesotoga
+    (alchemise)
+
+Metal king armour
+    (alchemise)
+
+Metal king helm
+    (alchemise)
+
+Metal king shield
+    (alchemise)
+
+Metal king slime boots
+    (alchemise)
+
+Metal king slime gloves
+    (alchemise)
+
+Metal king spear
+    (alchemise)
+
+Metal king sword
+    (alchemise)
+
+Metallic mitts
+    Wormwood Creek (buy, 3500g)
+
+Metal slime armour
+    grotto (find, rank 9 chest, 1%)
+
+Metal slime gauntlets
+    grotto (find, rank 9 chest, 1%)
+
+Metal slime helm
+    grotto (find, rank 9 chest, 1%)
+
+Metal slime shield
+    grotto (find, rank 9 chest, 1%)
+
+Metal slime sollerets
+    grotto (find, rank 9 chest, 1%)
+
+Metal slime spear
+    grotto (find, rank 9 chest, 1%)
+
+Metal slime sword
+    grotto (find, rank 9 chest, 1%)
+
+Meteorang
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Meteorite bracer
+    (alchemise)
+
+Midenhall Boots
+    Malroth (#296) (steal, rare, level 1-3)
+    Malroth (#296) (steal, rare, level 41-56)
+    Malroth (#296) (win, common, level 1-3, 15%)
+    Malroth (#296) (win, common, level 41-56, 20%)
+
+Midenhall Garb
+    Malroth (#296) (steal, rare, level 16-25)
+    Malroth (#296) (steal, rare, level 81-90)
+    Malroth (#296) (win, common, level 16-25, 15%)
+    Malroth (#296) (win, common, level 81-90, 20%)
+
+Midenhall Gloves
+    Malroth (#296) (steal, rare, level 9-15)
+    Malroth (#296) (steal, rare, level 69-80)
+    Malroth (#296) (win, common, level 9-15, 15%)
+    Malroth (#296) (win, common, level 69-80, 20%)
+
+Midenhall Helm
+    Malroth (#296) (steal, rare, level 26-40)
+    Malroth (#296) (steal, rare, level 91-99)
+    Malroth (#296) (win, common, level 26-40, 15%)
+    Malroth (#296) (win, common, level 91-99, 20%)
+
+Midenhall Trousers
+    Malroth (#296) (steal, rare, level 4-8)
+    Malroth (#296) (steal, rare, level 57-68)
+    Malroth (#296) (win, common, level 4-8, 15%)
+    Malroth (#296) (win, common, level 57-68, 20%)
+
+Mighty armlet
+    (alchemise)
+
+Minerva's mitre
+    Stornway (post-game) (buy, 14000g)
+    Fowleye (#291) (steal, rare)
+    Fowleye (#291) (win, common, 5%)
+
+Mini medal
+    (gather)
+    Pandora's box (#234) (steal/win, common, 1/8)
+    Cannibox (#204) (steal/win, common, 1/16)
+    Mimic (#205) (steal/win, common, 1/16)
+    Baramos (#297) (steal, common)
+    Baramos (#297) (win, 100%)
+    Dhoulmagus (#306) (steal, common)
+    Dhoulmagus (#306) (win, 100%)
+    Dragonlord (#295) (steal, common)
+    Dragonlord (#295) (win, 100%)
+    Estark (#300) (steal, common)
+    Estark (#300) (win, 100%)
+    Malroth (#296) (steal, common)
+    Malroth (#296) (win, 100%)
+    Mortamor (#303) (steal, common)
+    Mortamor (#303) (win, 100%)
+    Murdaw (#302) (steal, common)
+    Murdaw (#302) (win, 100%)
+    Nimzo (#301) (steal, common)
+    Nimzo (#301) (win, 100%)
+    Nokturnus (#304) (steal, common)
+    Nokturnus (#304) (win, 100%)
+    Orgodemir (#305) (steal, common)
+    Orgodemir (#305) (win, 100%)
+    Psaro (#299) (steal, common)
+    Psaro (#299) (win, 100%)
+    Rhapthorne (#307) (steal, common)
+    Rhapthorne (#307) (win, 100%)
+    Zoma (#298) (steal, common)
+    Zoma (#298) (win, 100%)
+    grotto (find, rank 7 chest, 15%)
+    grotto (find, rank 8 chest, 15%)
+    grotto (find, rank 9 chest, 15%)
+    grotto (find, rank 4 chest, 12%)
+    grotto (find, rank 5 chest, 12%)
+    grotto (find, rank 3 chest, 10%)
+    grotto (find, rank 6 chest, 10%)
+
+Minister's mittens
+    Grim reaper (#231) (steal/win, common, 1/64)
+
+Minotaur helm
+    (alchemise)
+
+Miracle sword
+    Shogum (#285) (steal, rare)
+    Shogum (#285) (win, common, 5%)
+
+Mirror armour
+    Upover (buy, 22500g)
+    (alchemise)
+
+Mirrorstone
+    (gather)
+    Mega moai (#167) (steal/win, common, 1/32)
+    Alphyn (#225) (steal/win, common, 1/32)
+    grotto (find, rank 4 chest, 5%)
+
+Mistick
+    Upover (buy, 16500g)
+    Wormwood Creek (buy, 16500g)
+    (alchemise)
+    Cumulus hex (#212) (steal/win, common, 1/32)
+
+Mitre
+    Wight emperor (#232) (steal/win, common, 1/64)
+
+Monarchic mark
+    (alchemise)
+
+Monarch's mittens
+    (alchemise)
+
+Moon axe
+    Upover (buy, 8800g)
+    Wormwood Creek (buy, 8800g)
+    (alchemise)
+
+Moonmasher
+    (alchemise)
+
+Moonwort bulb
+    Batsureg (buy, 30g)
+    Bloomingdale (buy, 30g)
+    Coffinwell (buy, 30g)
+    Gleeba (buy, 30g)
+    Porth Llaffan (buy, 30g)
+    Slurry Quay (buy, 30g)
+    Swinedimples Academy (buy, 30g)
+    Upover (buy, 30g)
+    Wormwood Creek (buy, 30g)
+    Zere (buy, 30g)
+    Dourbridge (buy, 150g)
+    Leafy larrikin (#033) (steal/win, common, 1/8)
+    Batterfly (#005) (steal/win, common, 1/16)
+    Badger mager (#040) (steal/win, common, 1/16)
+    Man o' war (#061) (steal/win, common, 1/16)
+    Pink sanguini (#080) (steal/win, common, 1/16)
+    Cruelcumber (#002) (steal/win, rare, 1/128)
+    grotto (find, rank 1 chest, 8%)
+
+Murky mittens
+    (alchemise)
+
+Muscle belt
+    grotto (find, rank 5 chest, 1%)
+
+Musketeer hat
+    Gleeba (buy, 4200g)
+    (alchemise)
+
+Mystifying mixture
+    (alchemise)
+    Mudraker (#052) (steal/win, rare, 1/128)
+    grotto (find, rank 6 chest, 15%)
+
+Mythical armour
+    (alchemise)
+
+Mythril coif
+    (alchemise)
+
+Mythril helm
+    Upover (buy, 16800g)
+    (alchemise)
+
+Mythril ore
+    (gather)
+    Void droid (#228) (steal/win, common, 1/32)
+    Metal medley (#089) (steal/win, rare, 1/128)
+    Golem (#161) (steal/win, rare, 1/128)
+    grotto (find, rank 8 chest, 13%)
+    grotto (find, rank 6 chest, 10%)
+
+Narspicious
+    (gather)
+    Sculpture vulture (#149) (steal/win, common, 1/32)
+    Moai minstrel (#248) (steal/win, common, 1/32)
+    Shivery shrubbery (#125) (steal/win, rare, 1/64)
+    Tyrannosaurus Wrecks (#293) (steal, common)
+    grotto (find, rank 5 chest, 15%)
+
+Nebula sword
+    (alchemise)
+
+Nectar
+    (gather)
+    Pink sanguini (#080) (steal/win, rare, 1/32)
+    grotto (find, rank 4 chest, 15%)
+
+Nicker's knickers
+    Gleeba (buy, 1820g)
+
+Nomadic deel
+    Slugly betsy (#247) (steal/win, rare, 1/128)
+
+Oaken club
+    Troll (#124) (steal/win, common, 1/8)
+    Cyclops (#157) (steal/win, common, 1/16)
+    Boss troll (#179) (steal/win, common, 1/16)
+    Hammerhood (#013) (steal/win, rare, 1/64)
+    grotto (find, rank 1 chest, 5%)
+
+Oaken pole
+    Alltrades Abbey (buy, 780g)
+    Coffinwell (buy, 780g)
+
+Oak staff
+    Coffinwell (buy, 120g)
+    Stornway (buy, 120g)
+    Meowgician (#019) (steal/win, common, 1/16)
+    Winkster (#012) (steal/win, rare, 1/64)
+
+Odin's bow
+    (alchemise)
+
+Ogre shield
+    (alchemise)
+
+Oh-no bow
+    (alchemise)
+    grotto (find, rank 6 chest, 1%)
+
+Optimistick
+    (alchemise)
+
+Orichalcudgel
+    (alchemise)
+
+Orichalcum
+    Dourbridge (Cap'n Max) (trade, 15 medals)
+    Metal king slime (#214) (steal/win, rare, 1/256)
+    Gem slime (#226) (steal/win, rare, 1/256)
+    Greygnarl (#294) (win, rare, 5%)
+    grotto (find, rank 9 chest, 8%)
+    grotto (find, rank 10 chest, 5%)
+
+Orichalcum claws
+    (alchemise)
+
+Overcritical fan
+    (alchemise)
+
+Pallium regale
+    Slionheart (#215) (steal/win, rare, 1/256)
+
+Panacea
+    (alchemise)
+    Blastoad (#180) (steal/win, rare, 1/64)
+    Cureslime (#195) (steal/win, rare, 1/64)
+    grotto (find, rank 5 chest, 15%)
+
+Papillon mask
+    (alchemise)
+
+Paring knife
+    Stornway (buy, 70g)
+
+Partisan
+    Batsureg (buy, 7100g)
+    Swinedimples Academy (buy, 7100g)
+    Stenchurion (#171) (steal/win, rare, 1/128)
+    Sick trigertaur (#203) (steal/win, rare, 1/128)
+
+Payback pumps
+    Wormwood Creek (buy, 2950g)
+    (alchemise)
+
+Pentarang
+    (alchemise)
+    grotto (find, rank 8 chest, 1%)
+
+Perfect panacea
+    (alchemise)
+    grotto (find, rank 7 chest, 6%)
+
+Phantom mask
+    (alchemise)
+
+Pillar of strength
+    Bloomingdale (buy, 3400g)
+    Gleeba (buy, 3400g)
+    (alchemise)
+
+Pink pearl
+    Gleeba (buy, 1500g)
+    Dourbridge (buy, 7500g)
+    Goodybag (#151) (steal/win, rare, 1/64)
+
+Pixie boots
+    Dourbridge (Cap'n Max) (trade, 20 medals)
+    (alchemise)
+
+Plain clothes
+    Angel Falls (buy, 30g)
+    Bodkin archer (#007) (steal/win, common, 1/16)
+
+Plain dress
+    Dourbridge (buy, 1600g)
+
+Platinum headgear
+    Gleeba (buy, 5500g)
+    (alchemise)
+    Shogum (#285) (steal, common)
+
+Platinum mail
+    (alchemise)
+
+Platinum ore
+    (gather)
+    Platinum king jewel (#229) (steal/win, common, 1/8)
+    Drackal (#118) (steal/win, rare, 1/128)
+    Octagoon (#219) (steal/win, rare, 1/128)
+
+Platinum platter
+    (alchemise)
+
+Platinum shield
+    Bloomingdale (buy, 3200g)
+    (alchemise)
+
+Platinum sword
+    Bloomingdale (buy, 4500g)
+    Gleeba (buy, 4500g)
+    (alchemise)
+    Skeleton soldier (#144) (steal/win, rare, 1/64)
+
+Pointy hat
+    Slurry Quay (buy, 840g)
+    (alchemise)
+    Jinkster (#056) (steal/win, rare, 1/64)
+    Mean spirit (#042) (steal/win, rare, 1/128)
+
+Poison moth knife
+    Alltrades Abbey (buy, 1250g)
+    Coffinwell (buy, 1250g)
+    (alchemise)
+    Crabber dabber doo (#107) (steal/win, rare, 1/64)
+    King crab (#188) (steal/win, rare, 1/128)
+
+Poison needle
+    Bloomingdale (buy, 1900g)
+    Dourbridge (buy, 1900g)
+    (alchemise)
+    Peckerel (#114) (steal/win, rare, 1/64)
+
+Poker
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Pop socks
+    Dourbridge (secret shop) (buy, 680g)
+    grotto (find, rank 1 chest, 2%)
+
+Pot lid
+    Angel Falls (buy, 40g)
+    Wooper trooper (#017) (steal/win, common, 1/16)
+
+Potshot bow
+    Batsureg (buy, 9200g)
+    Wormwood Creek (buy, 9200g)
+
+Power shield
+    Dourbridge (secret shop) (buy, 17000g)
+    Upover (buy, 17000g)
+    (alchemise)
+
+Prayer ring
+    Dourbridge (Cap'n Max) (trade, 3 medals)
+    (alchemise)
+    Genie sanguini (#189) (steal/win, common, 1/64)
+    Hocus chimaera (#076) (steal/win, rare, 1/128)
+
+Pretty betsy
+    Whirly girly (#142) (steal/win, rare, 1/256)
+
+Priestess's pinafore
+    Wight king (#182) (steal/win, common, 1/128)
+
+Prince's pea coat
+    (alchemise)
+
+Princess's robe
+    (alchemise)
+
+Pro's axe
+    Trauminator (#286) (steal, rare)
+    Trauminator (#286) (win, common, 5%)
+
+Pruning knife
+    grotto (find, rank 8 chest, 1%)
+
+Psyche swiper
+    (alchemise)
+
+Purblind bow
+    Stornway (post-game) (buy, 36000g)
+    (alchemise)
+
+Purple Orb
+    Dhoulmagus (#306) (win, rare, level 1-8, 5%)
+    Dhoulmagus (#306) (win, rare, level 9-25, 6%)
+    Dhoulmagus (#306) (win, rare, level 26-56, 7%)
+    Dhoulmagus (#306) (win, rare, level 57-80, 8%)
+    Dhoulmagus (#306) (win, rare, level 81-90, 9%)
+    Dhoulmagus (#306) (win, rare, level 91-99, 10%)
+    Nokturnus (#304) (win, rare, level 26-40, 10%)
+    Nokturnus (#304) (win, rare, level 91-99, 15%)
+    Rhapthorne (#307) (win, rare, level 1-8, 10%)
+    Rhapthorne (#307) (win, rare, level 9-25, 11%)
+    Rhapthorne (#307) (win, rare, level 26-56, 12%)
+    Rhapthorne (#307) (win, rare, level 57-80, 13%)
+    Rhapthorne (#307) (win, rare, level 81-90, 14%)
+    Rhapthorne (#307) (win, rare, level 91-99, 15%)
+
+Queen's robe
+    (alchemise)
+
+Queen's whip
+    Stornway (post-game) (buy, 41000g)
+
+Raging bull helm
+    Wormwood Creek (buy, 10400g)
+    (alchemise)
+    Barbatos (#201) (steal/win, rare, 1/128)
+
+Raging ruby
+    (alchemise)
+    Brainy badboon (#117) (steal/win, rare, 1/32)
+    Drastic drackal (#155) (steal/win, rare, 1/64)
+    Master moosifer (#245) (steal/win, rare, 1/128)
+
+Rapier
+    Coffinwell (buy, 480g)
+    Stornway (buy, 480g)
+
+Ravishing ribbon
+    Stornway (post-game) (buy, 11500g)
+
+Razer-wing boomerang
+    (alchemise)
+
+Razor claws
+    Alltrades Abbey (buy, 1750g)
+    Coffinwell (buy, 1750g)
+    Riptide (#088) (steal/win, rare, 1/64)
+
+Razor-wing boomerang
+    Batsureg (buy, 9100g)
+    Wormwood Creek (buy, 9100g)
+
+Reckless necklace
+    (alchemise)
+    grotto (find, rank 9 chest, 10%)
+
+Red-hot poker
+    (alchemise)
+
+Red Orb
+    Dragonlord (#295) (win, rare, level 1-8, 5%)
+    Dragonlord (#295) (win, rare, level 9-25, 6%)
+    Dragonlord (#295) (win, rare, level 26-56, 7%)
+    Dragonlord (#295) (win, rare, level 57-80, 8%)
+    Dragonlord (#295) (win, rare, level 81-90, 9%)
+    Dragonlord (#295) (win, rare, level 91-99, 10%)
+    Malroth (#296) (win, rare, level 1-8, 10%)
+    Malroth (#296) (win, rare, level 9-25, 11%)
+    Malroth (#296) (win, rare, level 26-56, 12%)
+    Malroth (#296) (win, rare, level 57-80, 13%)
+    Malroth (#296) (win, rare, level 81-90, 14%)
+    Malroth (#296) (win, rare, level 91-99, 15%)
+    Nokturnus (#304) (win, rare, level 1-3, 10%)
+
+Red skirt
+    Coffinwell (buy, 340g)
+
+Red tights
+    Gleeba (buy, 2400g)
+    (alchemise)
+    Belisha beakon (#193) (steal/win, rare, 1/128)
+
+Reinforced boomerang
+    (alchemise)
+
+Reset stone
+    Dourbridge (Cap'n Max) (trade, 10 medals)
+    Stone guardian (#178) (steal/win, rare, 1/256)
+    Firn fiend (#202) (steal/win, rare, 1/256)
+    grotto (find, rank 10 chest, 10%)
+
+Resurrock
+    (gather)
+    Handsome crab (#137) (steal/win, common, 1/32)
+    Grrrgoyle (#233) (steal/win, common, 1/32)
+    Stone guardian (#178) (steal/win, common, 1/64)
+    Stone golem (#078) (steal/win, rare, 1/128)
+    Sculpture vulture (#149) (steal/win, rare, 1/128)
+    Living statue (#150) (steal/win, rare, 1/128)
+    grotto (find, rank 3 chest, 10%)
+
+Ring of clarity
+    (alchemise)
+
+Riotous wristbands
+    grotto (find, rank 6 chest, 1%)
+
+Robe of serenity
+    Alltrades Abbey (buy, 950g)
+    Slurry Quay (buy, 950g)
+
+Robe of sweet dreams
+    (alchemise)
+
+Rockbomb shard
+    (gather)
+    Rockbomb (#116) (steal/win, common, 1/8)
+    Grinade (#073) (steal/win, common, 1/16)
+    Bomboulder (#159) (steal/win, common, 1/16)
+    Scourgette (#105) (steal/win, common, 1/32)
+    Flamin' drayman (#238) (steal/win, common, 1/32)
+    grotto (find, rank 2 chest, 8%)
+
+Rogue's robes
+    Widow's pique (#218) (steal/win, rare, 1/128)
+
+Roguess's robes
+    Terror troll (#209) (steal/win, rare, 1/128)
+
+Rosary
+    (alchemise)
+
+Rousing ring
+    (alchemise)
+
+Royal soil
+    (gather)
+    Mad moai (#071) (steal/win, common, 1/16)
+    Drastic drackal (#155) (steal/win, common, 1/16)
+    Terror troll (#209) (steal/win, common, 1/16)
+    Barriearthenwarrior (#240) (steal/win, common, 1/16)
+    grotto (find, rank 2 chest, 8%)
+
+Rubber gloves
+    Slurry Quay (buy, 370g)
+
+Ruby of protection
+    (alchemise)
+
+Ruinous shield
+    Alarmour (#222) (steal/win, rare, 1/256)
+    grotto (find, rank 7 chest, 1%)
+
+Rune staff
+    Wormwood Creek (buy, 12400g)
+    (alchemise)
+
+Sacred armour
+    Sir Sanguinus (#288) (steal, rare)
+    Sir Sanguinus (#288) (win, common, 5%)
+
+Sacred claws
+    Bloomingdale (buy, 3100g)
+    Dourbridge (buy, 3100g)
+    (alchemise)
+    Claws (#183) (steal/win, common, 1/64)
+    Scarewolf (#081) (steal/win, rare, 1/64)
+
+Sacrosanct armour
+    (alchemise)
+
+Sadistick
+    Upover (buy, 26500g)
+
+Safer shoes
+    (alchemise)
+
+Safest shoes
+    (alchemise)
+
+Safety shoes
+    Wormwood Creek (buy, 2700g)
+    Gramarye gruffon (#143) (steal/win, rare, 1/64)
+
+Sagacious sandals
+    (alchemise)
+
+Sage's elixir
+    (alchemise)
+    Freezing fog (#177) (steal/win, rare, 1/64)
+    Fowleye (#291) (steal, common)
+    grotto (find, rank 10 chest, 15%)
+    grotto (find, rank 7 chest, 10%)
+    grotto (find, rank 8 chest, 10%)
+    grotto (find, rank 9 chest, 10%)
+
+Sage's robe
+    (alchemise)
+
+Sage's staff
+    Stornway (post-game) (buy, 35000g)
+
+Sage's stone
+    (alchemise)
+
+Sainted soma
+    (alchemise)
+    grotto (find, rank 10 chest, 10%)
+
+Saintess shield
+    (alchemise)
+
+Saintly robe
+    (alchemise)
+
+Saintly sollerets
+    Bloomingdale (buy, 2600g)
+
+Saint's ashes
+    Dourbridge (Cap'n Max) (trade, 8 medals)
+    Seavern (#256) (steal/win, common, 1/32)
+    Sculptrice (#136) (steal/win, rare, 1/128)
+    Genie sanguini (#189) (steal/win, rare, 1/128)
+    grotto (find, rank 7 chest, 10%)
+    grotto (find, rank 4 chest, 1%)
+
+Sandals
+    Angel Falls (buy, 18g)
+
+Sandstorm spear
+    Batsureg (buy, 6600g)
+    Gleeba (buy, 6600g)
+    Wormwood Creek (buy, 6600g)
+    (alchemise)
+
+Sapient sandals
+    (alchemise)
+
+Savant's staff
+    (alchemise)
+
+Scale armour
+    Stornway (buy, 350g)
+    Icikiller (#132) (steal/win, common, 1/16)
+
+Scale shield
+    Stornway (buy, 150g)
+    Zere (buy, 150g)
+    Earthenwarrior (#045) (steal/win, common, 1/32)
+
+Scholar's circlet
+    (alchemise)
+
+Scourge whip
+    (alchemise)
+
+Seabreeze skirt
+    Upover (buy, 6800g)
+
+Seashell
+    (gather)
+    Spinchilla (#066) (steal/win, common, 1/16)
+    Crabber dabber doo (#107) (steal/win, common, 1/16)
+
+Seed of agility
+    Killing machine (#174) (steal/win, rare, 1/256)
+
+Seed of defence
+    Lethal armour (#176) (steal/win, rare, 1/256)
+
+Seed of deftness
+    White trigertaur (#130) (steal/win, rare, 1/256)
+
+Seed of life
+    Metal slime (#046) (steal/win, rare, 1/256)
+    Moosifer (#154) (steal/win, rare, 1/256)
+
+Seed of magic
+    Sorcerer (#120) (steal/win, rare, 1/256)
+
+Seed of skill
+    Platinum king jewel (#229) (steal/win, rare, 1/256)
+
+Seed of sorcery
+    Cumulus vex (#190) (steal/win, rare, 1/256)
+
+Seed of strength
+    Brownie (#022) (steal/win, rare, 1/256)
+    Troll (#124) (steal/win, rare, 1/256)
+
+Seed of therapeusis
+    Wight king (#182) (steal/win, rare, 1/256)
+
+Senseless stick
+    (alchemise)
+
+Sensible sandals
+    (alchemise)
+    Elusid (#287) (win, rare, 2%)
+
+Sentient sandals
+    (alchemise)
+
+Seraph's bow
+    (alchemise)
+
+Seraph's robe
+    (alchemise)
+
+Serpentine whip
+    (alchemise)
+
+Shaman shoes
+    Stornway (post-game) (buy, 4400g)
+
+Sheepskin shoes
+    Bloomingdale (buy, 1250g)
+
+She-fu shoes
+    Upover (buy, 2050g)
+
+Shell shield
+    Coffinwell (buy, 600g)
+    (alchemise)
+
+She-mage shoes
+    grotto (find, rank 7 chest, 1%)
+
+Shimmering dress
+    (alchemise)
+
+Shining staff
+    (alchemise)
+
+Shipmate's shirt
+    Wormwood Creek (buy, 5980g)
+
+Short bow
+    Porth Llaffan (buy, 1150g)
+
+Sidewinder
+    (alchemise)
+
+Silk bustier
+    (alchemise)
+
+Silk robe
+    Stornway (buy, 210g)
+    Zere (buy, 210g)
+    Mean spirit (#042) (steal/win, common, 1/16)
+    Meowgician (#019) (steal/win, rare, 1/32)
+    Spirit (#011) (steal/win, rare, 1/64)
+
+Silver bracelets
+    Slurry Quay (buy, 540g)
+    Giddy gastropog (#109) (steal/win, rare, 1/64)
+    grotto (find, rank 1 chest, 2%)
+
+Silver cuirass
+    (alchemise)
+
+Silver mail
+    Bloomingdale (buy, 4000g)
+    Harmour (#147) (steal/win, common, 1/64)
+    Infernal armour (#123) (steal/win, rare, 1/128)
+
+Silver Orb
+    Baramos (#297) (win, rare, level 1-8, 5%)
+    Baramos (#297) (win, rare, level 9-25, 6%)
+    Baramos (#297) (win, rare, level 26-56, 7%)
+    Baramos (#297) (win, rare, level 57-80, 8%)
+    Baramos (#297) (win, rare, level 81-90, 9%)
+    Baramos (#297) (win, rare, level 91-99, 10%)
+    Nokturnus (#304) (win, rare, level 41-56, 10%)
+    Zoma (#298) (win, rare, level 1-8, 10%)
+    Zoma (#298) (win, rare, level 9-25, 11%)
+    Zoma (#298) (win, rare, level 26-56, 12%)
+    Zoma (#298) (win, rare, level 57-80, 13%)
+    Zoma (#298) (win, rare, level 81-90, 14%)
+    Zoma (#298) (win, rare, level 91-99, 15%)
+
+Silver platter
+    grotto (find, rank 2 chest, 2%)
+
+Silver shield
+    Stornway (post-game) (buy, 30500g)
+    (alchemise)
+
+Silver tiara
+    Porth Llaffan (buy, 670g)
+
+Siren sandals
+    Bloomingdale (buy, 1300g)
+
+Sizzling bikini bottoms
+    (alchemise)
+
+Sizzling bikini top
+    (alchemise)
+
+Skull helm
+    (alchemise)
+    Blight knight (#237) (steal/win, common, 1/64)
+    Night knight (#199) (steal/win, rare, 1/256)
+    grotto (find, rank 7 chest, 1%)
+
+Skull ring
+    (alchemise)
+    Aggrosculpture (#184) (steal/win, rare, 1/256)
+    grotto (find, rank 6 chest, 1%)
+
+Sledgehammer
+    Porth Llaffan (buy, 1300g)
+
+Sleeping hibiscus
+    Bloomingdale (buy, 68g)
+    (gather)
+    Ram raider (#026) (steal/win, common, 1/16)
+    King crab (#188) (steal/win, common, 1/16)
+    Funghoul (#015) (steal/win, rare, 1/128)
+
+Sleepy stick
+    Batsureg (buy, 8200g)
+
+Slime crown
+    Metal king slime (#214) (steal/win, common, 1/128)
+    King cureslime (#206) (steal/win, rare, 1/128)
+    King slime (#090) (steal/win, rare, 1/256)
+
+Slimedrop
+    Slime stack (#051) (steal/win, common, 1/8)
+    Metal medley (#089) (steal/win, common, 1/8)
+    King slime (#090) (steal/win, common, 1/8)
+    Slime knight (#048) (steal/win, common, 1/16)
+    Cureslime (#195) (steal/win, common, 1/16)
+    Darkonium slime (#220) (steal/win, common, 1/32)
+    King cureslime (#206) (steal/win, common, 1/64)
+    She-slime (#014) (steal/win, rare, 1/8)
+    Bubble slime (#016) (steal/win, rare, 1/8)
+    Healslime (#029) (steal/win, rare, 1/8)
+    Sootheslime (#131) (steal/win, rare, 1/8)
+    Slime (#001) (steal/win, rare, 1/16)
+    Medislime (#083) (steal/win, rare, 1/32)
+
+Slime earrings
+    Porth Llaffan (buy, 400g)
+    Dourbridge (buy, 2000g)
+    (alchemise)
+    Slime stack (#051) (steal/win, rare, 1/32)
+
+Slime shield
+    grotto (find, rank 3 chest, 1%)
+
+Slipweed
+    (gather)
+
+Slood
+    (alchemise)
+
+Slumber stick
+    (alchemise)
+
+Smart suit
+    Bloomingdale (buy, 2300g)
+    Dark skeleton (#173) (steal/win, rare, 1/128)
+
+Snakeskin
+    Diethon (#101) (steal/win, common, 1/8)
+    Sail serpent (#138) (steal/win, common, 1/8)
+    Flython (#039) (steal/win, common, 1/16)
+
+Snakeskin whip
+    Bloomingdale (buy, 2500g)
+    Dourbridge (buy, 2500g)
+    (alchemise)
+    Sail serpent (#138) (steal/win, rare, 1/128)
+
+Snazzy skirt
+    Bloomingdale (buy, 1200g)
+
+Sneakers
+    Gleeba (buy, 2400g)
+
+Sober ring
+    (alchemise)
+
+Softwort
+    Bloomingdale (buy, 95g)
+    (gather)
+    (alchemise)
+    Man o' war (#061) (steal/win, rare, 1/32)
+    Bud brother (#065) (steal/win, rare, 1/64)
+    Bagma (#160) (steal/win, rare, 1/64)
+
+Solar fan
+    (alchemise)
+
+Soldier's sword
+    Angel Falls (buy, 240g)
+    Stornway (buy, 240g)
+    Wooper trooper (#017) (steal/win, rare, 1/64)
+    Earthenwarrior (#045) (steal/win, rare, 1/64)
+
+Sol invictus gauntlets
+    (alchemise)
+
+Somnia Boots
+    Murdaw (#302) (steal, rare, level 1-8)
+    Murdaw (#302) (win, common, level 1-3, 20%)
+    Murdaw (#302) (win, common, level 4-8, 25%)
+
+Somnia Clothes
+    Mortamor (#303) (steal, rare, level 9-25)
+    Mortamor (#303) (win, common, level 9-15, 20%)
+    Mortamor (#303) (win, common, level 16-25, 25%)
+    Murdaw (#302) (steal, rare, level 9-15)
+    Murdaw (#302) (win, common, level 9-15, 15%)
+
+Somnia Gloves
+    Mortamor (#303) (steal, rare, level 1-8)
+    Mortamor (#303) (win, common, level 1-3, 20%)
+    Mortamor (#303) (win, common, level 4-8, 25%)
+
+Somnia Hair
+    Mortamor (#303) (steal, rare, level 69-99)
+    Mortamor (#303) (win, common, level 69-80, 15%)
+    Mortamor (#303) (win, common, level 81-90, 20%)
+    Mortamor (#303) (win, common, level 91-99, 25%)
+
+Somnia Shorts
+    Mortamor (#303) (steal, rare, level 26-68)
+    Mortamor (#303) (win, common, level 26-40, 15%)
+    Mortamor (#303) (win, common, level 41-56, 20%)
+    Mortamor (#303) (win, common, level 57-68, 25%)
+
+Sorcerer's ring
+    (alchemise)
+
+Sorcerer's slacks
+    Wormwood Creek (buy, 2100g)
+
+Sorcerer's stone
+    grotto (find, rank 4 chest, 2%)
+
+Sorceress sandals
+    (alchemise)
+
+Soul breaker
+    (alchemise)
+
+Soul sucker
+    (alchemise)
+
+Spangled dress
+    Bloomingdale (buy, 2500g)
+    Cannibelle (#230) (steal/win, common, 1/16)
+
+Special antidote
+    (alchemise)
+
+Special medicine
+    (alchemise)
+    Great troll (#196) (steal/win, common, 1/32)
+    Badja (#108) (steal/win, rare, 1/64)
+
+Spellspadrilles
+    grotto (find, rank 7 chest, 1%)
+
+Spellward circlet
+    (alchemise)
+
+Spiked armour
+    (alchemise)
+    Gloomy gastropog (#172) (steal/win, rare, 1/256)
+
+Spiked steel whip
+    (alchemise)
+
+Spirit bracer
+    (alchemise)
+
+Split-pot poker
+    (alchemise)
+
+Spring breeze hat
+    (alchemise)
+    Fowleye (#291) (win, rare, 2%)
+
+Springtime skirt
+    Alltrades Abbey (buy, 440g)
+
+Staff of divine wrath
+    (alchemise)
+
+Staff of sentencing
+    Alltrades Abbey (buy, 1600g)
+    Coffinwell (buy, 1600g)
+    (alchemise)
+    Clawcerer (#068) (steal/win, rare, 1/128)
+
+Star circlet
+    (alchemise)
+
+Stardust sword
+    (alchemise)
+    grotto (find, rank 10 chest, 1%)
+
+Starlet sandals
+    Bloomingdale (buy, 1450g)
+    Sluggernaut (#140) (steal/win, rare, 1/128)
+
+Starsmasher
+    (alchemise)
+
+Star's suit
+    Elusid (#287) (steal, common)
+
+Steel axe
+    (alchemise)
+
+Steel bar
+    (alchemise)
+
+Steel broadsword
+    (alchemise)
+
+Steel claws
+    (alchemise)
+
+Steel fan
+    (alchemise)
+
+Steel gauntlets
+    (alchemise)
+
+Steel helmet
+    (alchemise)
+
+Steel kneecaps
+    (alchemise)
+
+Steel lance
+    (alchemise)
+
+Steel sabatons
+    (alchemise)
+
+Steel shield
+    (alchemise)
+
+Steely sweatband
+    Upover (buy, 15500g)
+
+Stellarang
+    (alchemise)
+
+Stellar fan
+    Upover (buy, 12000g)
+
+Steppe steppers
+    Batsureg (buy, 2600g)
+
+Stiletto heels
+    (alchemise)
+
+Stolos' staff
+    Bloomingdale (buy, 3150g)
+    Dourbridge (buy, 3150g)
+    Purrestidigitator (#102) (steal/win, rare, 1/256)
+
+Stone claws
+    Stornway (buy, 100g)
+
+Storm spear
+    (alchemise)
+
+Stratotoga
+    (alchemise)
+
+Strength ring
+    (alchemise)
+    Gigantes (#192) (steal/win, common, 1/64)
+    Walking corpse (#055) (steal/win, rare, 1/128)
+    Big badboon (#082) (steal/win, rare, 1/128)
+    grotto (find, rank 3 chest, 2%)
+
+Strong antidote
+    Gleeba (buy, 38g)
+    Upover (buy, 38g)
+    Wormwood Creek (buy, 38g)
+    (alchemise)
+    Peckerel (#114) (steal/win, common, 1/16)
+    Treeface (#077) (steal/win, rare, 1/64)
+    Raving lunatick (#086) (steal/win, rare, 1/64)
+    grotto (find, rank 2 chest, 10%)
+
+Strong medicine
+    Batsureg (buy, 36g)
+    Upover (buy, 36g)
+    Wormwood Creek (buy, 36g)
+    (alchemise)
+    Zumeanie (#064) (steal/win, common, 1/16)
+    Medislime (#083) (steal/win, common, 1/16)
+    Treeface (#077) (steal/win, common, 1/32)
+    Metal slime (#046) (steal/win, common, 1/64)
+    Leafy larrikin (#033) (steal/win, rare, 1/32)
+    Badboon (#050) (steal/win, rare, 1/32)
+    Bag o' laughs (#008) (steal/win, rare, 1/64)
+    grotto (find, rank 1 chest, 8%)
+
+Strongsam
+    Batsureg (buy, 4100g)
+
+Stud poker
+    (alchemise)
+
+Sturdy gauntlets
+    (alchemise)
+
+Sturdy slacks
+    Dourbridge (secret shop) (buy, 12500g)
+
+Summer cloud hat
+    (alchemise)
+
+Summer dress
+    Gleeba (buy, 4800g)
+
+Sun crown
+    (alchemise)
+
+Sunstone
+    (alchemise)
+
+Superior medicine
+    Bloomingdale (buy, 50g)
+    Gleeba (buy, 50g)
+    (gather)
+    (alchemise)
+    Treevil (#110) (steal/win, common, 1/16)
+    Pale whale (#255) (steal/win, common, 1/16)
+    Bud brother (#065) (steal/win, common, 1/32)
+    grotto (find, rank 2 chest, 10%)
+
+Supernatural specs
+    Elusid (#287) (steal, rare)
+    Elusid (#287) (win, common, 5%)
+
+Supernova sword
+    (alchemise)
+
+Superstar's suit
+    (alchemise)
+
+Surplice
+    Wight emperor (#232) (steal/win, rare, 1/128)
+
+Swallowtail
+    Upover (buy, 9600g)
+    Wormwood Creek (buy, 9600g)
+
+Swinedimples blazer
+    Swinedimples Academy (buy, 1500g)
+
+Swinedimples skirt
+    Swinedimples Academy (buy, 1100g)
+
+Swinedimples slacks
+    Swinedimples Academy (buy, 1000g)
+
+Sword breaker
+    Upover (buy, 15500g)
+    Fright knight (#181) (steal/win, common, 1/64)
+
+Swordsman's slacks
+    Gleeba (buy, 2700g)
+
+Tactical vest
+    Excalipurr (#292) (steal, rare)
+    Excalipurr (#292) (win, common, 5%)
+
+Tangleweb
+    Batsureg (buy, 35g)
+    Upover (buy, 35g)
+    Wormwood Creek (buy, 35g)
+    (gather)
+    Widow's pique (#218) (steal/win, common, 1/8)
+    Cyber spider (#224) (steal/win, common, 1/8)
+    Cumaulus (#027) (steal/win, common, 1/32)
+
+Tantric trousers
+    (alchemise)
+
+Technicolour dreamcloth
+    (alchemise)
+
+Technicolour tutu
+    (alchemise)
+
+Tempestes gauntlets
+    (alchemise)
+
+Tempest shield
+    Upover (buy, 12500g)
+    (alchemise)
+
+Terra firmer
+    (alchemise)
+
+Terra hammer
+    (alchemise)
+
+Terra tamper
+    Upover (buy, 15000g)
+    (alchemise)
+
+Terrible tattoo
+    Barbatos (#201) (steal/win, common, 1/16)
+    Freaky tiki (#221) (steal/win, common, 1/32)
+    Bloody manguini (#145) (steal/win, rare, 1/16)
+    Manguini (#103) (steal/win, rare, 1/32)
+    Gruffon (#119) (steal/win, rare, 1/32)
+
+Thief's turban
+    Dourbridge (buy, 1500g)
+    (alchemise)
+    Raving reaper (#134) (steal/win, common, 1/64)
+
+Thinkincense
+    (gather)
+
+Thinking cap
+    Swinedimples Academy (buy, 12500g)
+    Wormwood Creek (buy, 12500g)
+    (alchemise)
+    Darkonium slime (#220) (steal/win, rare, 1/128)
+
+Thorn whip
+    Coffinwell (buy, 350g)
+    Stornway (buy, 350g)
+    Raving lunatick (#086) (steal/win, common, 1/32)
+
+Thug boots
+    grotto (find, rank 5 chest, 1%)
+
+Thug's mug
+    grotto (find, rank 5 chest, 1%)
+
+Thunderball
+    (gather)
+    Cumulus rex (#158) (steal/win, common, 1/16)
+    Cumulus vex (#190) (steal/win, common, 1/16)
+
+Tint-tastic tutu
+    Stornway (post-game) (buy, 24400g)
+    Prism peacock (#198) (steal/win, rare, 1/256)
+
+Titan's hammer
+    (alchemise)
+
+Toad oil
+    Mortoad (#062) (steal/win, common, 1/8)
+    Expload (#097) (steal/win, common, 1/8)
+    Giddy gastropog (#109) (steal/win, common, 1/8)
+    Gloomy gastropog (#172) (steal/win, common, 1/8)
+    Blastoad (#180) (steal/win, common, 1/8)
+    Gastropog (#021) (steal/win, rare, 1/32)
+    grotto (find, rank 3 chest, 10%)
+
+Top hat
+    Stornway (post-game) (buy, 12600g)
+
+Tortoiseshell
+    Wyrtle (#106) (steal/win, common, 1/8)
+    Wyrtoise (#187) (steal/win, common, 1/8)
+    Wonder wyrtle (#217) (steal/win, common, 1/8)
+    Crabid (#041) (steal/win, common, 1/16)
+
+Tortoise shell
+    Porth Llaffan (buy, 1550g)
+    Slurry Quay (buy, 1550g)
+    (alchemise)
+
+Tortoiseshell armour
+    (alchemise)
+
+Tortoiseshell fan
+    Bloomingdale (buy, 4900g)
+    (alchemise)
+
+Tough guy tattoo
+    (alchemise)
+    Ghoul (#111) (steal/win, rare, 1/64)
+    Claw hammer (#091) (steal/win, rare, 1/128)
+    Mega moai (#167) (steal/win, rare, 1/128)
+    Atlas (#289) (steal, common)
+
+Toughie trousers
+    grotto (find, rank 5 chest, 1%)
+
+Tracksuit top
+    (alchemise)
+
+Tracky bottoms
+    (alchemise)
+
+Trailblazing bandana
+    (alchemise)
+
+Training top
+    Stornway (buy, 250g)
+
+Training trousers
+    Stornway (buy, 170g)
+
+Transparent tights
+    (alchemise)
+
+Tricksie boots
+    (alchemise)
+
+Tricky turban
+    Gleeba (buy, 2680g)
+    (alchemise)
+
+Trident
+    (alchemise)
+    Stale whale (#213) (steal/win, rare, 1/64)
+
+Trinity tights
+    grotto (find, rank 7 chest, 1%)
+
+Trodain Bandana
+    Dhoulmagus (#306) (steal, rare, level 9-15)
+    Dhoulmagus (#306) (win, common, level 9-15, 15%)
+    Rhapthorne (#307) (steal, rare, level 41-68)
+    Rhapthorne (#307) (win, common, level 41-56, 20%)
+    Rhapthorne (#307) (win, common, level 57-68, 25%)
+
+Trodainers
+    Dhoulmagus (#306) (steal, rare, level 1-8)
+    Dhoulmagus (#306) (win, common, level 1-3, 20%)
+    Dhoulmagus (#306) (win, common, level 4-8, 25%)
+
+Trodain Togs
+    Rhapthorne (#307) (steal, rare, level 69-99)
+    Rhapthorne (#307) (win, common, level 69-80, 15%)
+    Rhapthorne (#307) (win, common, level 81-90, 20%)
+    Rhapthorne (#307) (win, common, level 91-99, 25%)
+
+Trodain Trousers
+    Rhapthorne (#307) (steal, rare, level 9-40)
+    Rhapthorne (#307) (win, common, level 9-15, 15%)
+    Rhapthorne (#307) (win, common, level 16-25, 20%)
+    Rhapthorne (#307) (win, common, level 26-40, 25%)
+
+Tropotoga
+    (alchemise)
+    Atlas (#289) (win, rare, 2%)
+
+Tsunami staff
+    (alchemise)
+
+Turban
+    Coffinwell (buy, 310g)
+    Mummy boy (#044) (steal/win, rare, 1/64)
+
+Tussler's top
+    Bloomingdale (buy, 3400g)
+    (alchemise)
+
+Tussler's trousers
+    Bloomingdale (buy, 1500g)
+    (alchemise)
+
+Twinkling tuxedo
+    (alchemise)
+
+Ãœber falcon blade (Uber falcon blade)
+    (alchemise)
+
+Ãœber gringham whip (Uber gringham whip)
+    (alchemise)
+
+Ãœber miracle sword (Uber miracle sword)
+    (alchemise)
+
+Ãœber war hammer (Uber war hammer)
+    (alchemise)
+
+Ultramarine mittens
+    Shaman (#084) (steal/win, rare, 1/64)
+
+Unhappy hat
+    grotto (find, rank 7 chest, 2%)
+
+Utility belt
+    (alchemise)
+
+Valkyrie sword
+    Batsureg (buy, 7700g)
+    Wormwood Creek (buy, 7700g)
+    Prime slime (#252) (steal/win, common, 1/64)
+
+Velvet cape
+    Gleeba (buy, 3000g)
+
+Vermillion bird fan
+    (alchemise)
+
+Vesta gauntlets
+    (alchemise)
+    Equinox (#283) (win, rare, 2%)
+
+Veteran's armour
+    grotto (find, rank 7 chest, 1%)
+
+Veteran's boots
+    grotto (find, rank 7 chest, 1%)
+
+Veteran's gloves
+    grotto (find, rank 6 chest, 1%)
+
+Veteran's helm
+    Blight knight (#237) (steal/win, rare, 1/128)
+    Mandrake monarch (#250) (steal/win, rare, 1/128)
+
+Victorious armour
+    (alchemise)
+    Excalipurr (#292) (win, rare, 2%)
+
+Wakerobin
+    Bloomingdale (buy, 66g)
+    (gather)
+
+War fan
+    Alltrades Abbey (buy, 920g)
+    Coffinwell (buy, 920g)
+
+War hammer
+    Batsureg (buy, 4600g)
+    Gleeba (buy, 4600g)
+    Wormwood Creek (buy, 4600g)
+
+Warlord's hammer
+    (alchemise)
+
+Warrior's armour
+    Hammibal (#290) (steal, rare)
+    Hammibal (#290) (win, common, 5%)
+
+Warrior's boots
+    Bloomingdale (buy, 1300g)
+
+Warrior's gloves
+    Bloomingdale (buy, 950g)
+
+Warrior's helm
+    Bloomingdale (buy, 3000g)
+
+Warrior's shield
+    Wormwood Creek (buy, 6700g)
+
+Warrior's sword
+    (alchemise)
+    Barriearthenwarrior (#240) (steal/win, rare, 1/128)
+
+Warrior's trousers
+    Bloomingdale (buy, 1550g)
+
+Watermaul wand
+    Bloomingdale (buy, 4700g)
+    Gleeba (buy, 4700g)
+    (alchemise)
+    Python priest (#148) (steal/win, common, 1/64)
+    Slugly betsy (#247) (steal/win, common, 1/64)
+    Abyss diver (#170) (steal/win, rare, 1/128)
+
+Wayfarer's clothes
+    Angel Falls (buy, 70g)
+    Stornway (buy, 70g)
+
+Wayfarer's gloves
+    Dourbridge (buy, 660g)
+
+Wellington boots
+    Slurry Quay (buy, 330g)
+
+White knight's shield
+    (alchemise)
+
+White shield
+    (alchemise)
+
+White tiger fan
+    (alchemise)
+
+White tights
+    Swinedimples Academy (buy, 2450g)
+    (alchemise)
+    Nemean (#284) (steal, common)
+
+White t-shirt
+    Alltrades Abbey (buy, 520g)
+    Coffinwell (buy, 520g)
+
+Wing of bat
+    Drackyma (#054) (steal/win, common, 1/8)
+    Manguini (#103) (steal/win, common, 1/8)
+    Gruffon (#119) (steal/win, common, 1/8)
+    Great gruffon (#129) (steal/win, common, 1/8)
+    Bloody manguini (#145) (steal/win, common, 1/8)
+    Boogie manguini (#249) (steal/win, common, 1/8)
+    Gramarye gruffon (#143) (steal/win, common, 1/16)
+    Drackmage (#024) (steal/win, rare, 1/16)
+    Diethon (#101) (steal/win, rare, 1/16)
+    Flython (#039) (steal/win, rare, 1/32)
+
+Winter sky hat
+    (alchemise)
+
+Witch's hat
+    Moai minstrel (#248) (steal/win, rare, 1/64)
+
+Witch's robe
+    Stornway (post-game) (buy, 13000g)
+
+Wizardly whip
+    grotto (find, rank 8 chest, 1%)
+
+Wizard's hat
+    Boa bishop (#223) (steal/win, common, 1/64)
+    Pale whale (#255) (steal/win, rare, 1/128)
+
+Wizard's robe
+    Stornway (post-game) (buy, 12500g)
+    Boa bishop (#223) (steal/win, rare, 1/256)
+
+Wizard's staff
+    Coffinwell (buy, 840g)
+    Stornway (buy, 840g)
+    Magus (#043) (steal/win, common, 1/64)
+    Blinkster (#030) (steal/win, rare, 1/128)
+
+Wizard's trousers
+    Gleeba (buy, 1700g)
+
+Wizard wellies
+    Bloomingdale (buy, 1380g)
+
+Wonder helm
+    (alchemise)
+
+Wonder pants
+    (alchemise)
+
+Wu shoes
+    (alchemise)
+
+Wyrmwand
+    grotto (find, rank 8 chest, 1%)
+
+Xenlon claws
+    (alchemise)
+
+Xenlon robe
+    (alchemise)
+
+Xenlon rod
+    (alchemise)
+
+X-ray specs
+    Swinedimples Academy (buy, 3400g)
+
+Yellow Orb
+    Mortamor (#303) (win, rare, level 1-8, 10%)
+    Mortamor (#303) (win, rare, level 9-25, 11%)
+    Mortamor (#303) (win, rare, level 26-56, 12%)
+    Mortamor (#303) (win, rare, level 57-80, 13%)
+    Mortamor (#303) (win, rare, level 81-90, 14%)
+    Mortamor (#303) (win, rare, level 91-99, 15%)
+    Murdaw (#302) (win, rare, level 1-8, 5%)
+    Murdaw (#302) (win, rare, level 9-25, 6%)
+    Murdaw (#302) (win, rare, level 26-56, 7%)
+    Murdaw (#302) (win, rare, level 57-80, 8%)
+    Murdaw (#302) (win, rare, level 81-90, 9%)
+    Murdaw (#302) (win, rare, level 91-99, 10%)
+    Nokturnus (#304) (win, rare, level 9-15, 10%)
+    Nokturnus (#304) (win, rare, level 69-80, 15%)
+
+Yggdrasil dew
+    (alchemise)
+    Bomboulder (#159) (steal/win, rare, 1/128)
+
+Yggdrasil leaf
+    (gather)
+    Bling badger (#251) (steal/win, rare, 1/128)
+    Greygnarl (#294) (steal, common)
+    Greygnarl (#294) (steal, rare)
+    Greygnarl (#294) (win, common, 100%)
+    grotto (find, rank 10 chest, 8%)
+
+Zenithian Boots
+    Psaro (#299) (steal, rare, level 1-15)
+    Psaro (#299) (win, common, level 1-3, 15%)
+    Psaro (#299) (win, common, level 4-8, 20%)
+    Psaro (#299) (win, common, level 9-15, 25%)
+
+Zenithian Clothes
+    Dhoulmagus (#306) (steal, rare, level 69-99)
+    Dhoulmagus (#306) (win, common, level 69-80, 15%)
+    Dhoulmagus (#306) (win, common, level 81-90, 20%)
+    Dhoulmagus (#306) (win, common, level 91-99, 25%)
+
+Zenithian Gauntlets
+    Estark (#300) (steal, rare, level 1-15)
+    Estark (#300) (win, common, level 1-3, 15%)
+    Estark (#300) (win, common, level 4-8, 20%)
+    Estark (#300) (win, common, level 9-15, 25%)
+
+Zenithian Helm
+    Dhoulmagus (#306) (steal, rare, level 57-68)
+    Dhoulmagus (#306) (win, common, level 57-68, 15%)
+    Estark (#300) (steal, rare, level 57-68)
+    Estark (#300) (win, common, level 57-68, 25%)
+    Nokturnus (#304) (steal, rare, level 41-56)
+    Nokturnus (#304) (win, common, level 41-56, 20%)
+
+Zenithian Leggings
+    Estark (#300) (steal, rare, level 16-56)
+    Estark (#300) (win, common, level 16-25, 15%)
+    Estark (#300) (win, common, level 26-40, 20%)
+    Estark (#300) (win, common, level 41-56, 25%)
+
+Zenithian Leotard
+    Estark (#300) (steal, rare, level 69-99)
+    Estark (#300) (win, common, level 69-80, 15%)
+    Estark (#300) (win, common, level 81-90, 20%)
+    Estark (#300) (win, common, level 91-99, 25%)
+
+Zenithian Trousers
+    Dhoulmagus (#306) (steal, rare, level 16-56)
+    Dhoulmagus (#306) (win, common, level 16-25, 15%)
+    Dhoulmagus (#306) (win, common, level 26-40, 20%)
+    Dhoulmagus (#306) (win, common, level 41-56, 25%)
